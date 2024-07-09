@@ -1,0 +1,198 @@
+**Parameters** allow to shape the behavior of
+[units](Henshin/Units "wikilink"), including rules, with variable
+information. A unit can have an arbitary number of parameters.
+Parameters have a name, a description, a kind, and, optionally, a type.
+
+## Parameter kinds {#parameter_kinds}
+
+The kind specifies the time when the parameter is bound to a concrete
+value, and whether the parameter is intended to be accessed after the
+unit has been applied. There are four parameter kinds (*in*, *out*,
+*inout*, *var*) and an additional legacy parameter kind (*unknown*).
+
+  Parameter kind                              IN   OUT   INOUT   VAR   UNKOWN
+  ------------------------------------------- ---- ----- ------- ----- --------
+  must be set externally before application   x          x             \(x\)
+  must be set during application                   x             x     \(x\)
+  readable after application                       x     x       x     \(x\)
+
+  : Feature comparison
+
+Examples: [Bank Accounts](Henshin/Getting_started "wikilink") (*in*,
+*var*), [Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink") (*in*, *out*,
+*var*), [Ecore2GenModel](Henshin/Examples/Ecore2GenModel "wikilink")
+(*in*, *out*, *var*), [Grid and Comb
+Pattern](Henshin/Examples/GridAndCombPattern "wikilink") (*in*, *inout*,
+*out*), [Gossiping Girls](Henshin/Examples/GossipingGirls "wikilink")
+(*out*), [Probabilistic
+Broadcast](Henshin/Examples/ProbabilisticBroadcast "wikilink"), (*in*,
+*var*)
+
+## Parameter mappings {#parameter_mappings}
+
+Parameters that need to be set externally can be set by the user using
+the [API](#Interpreter_API "wikilink") or the [Interpreter
+Wizard](#Interpreter_Wizard "wikilink"). In addition, they can be passed
+in from another unit using a **parameter mapping**. A parameter mapping
+assigns a source parameter to a target parameter between a unit and its
+sub-unit. Parameters that need to be set automatically during unit
+application are either set during the match finding process (in the case
+of LHS elements) or after the creation of new elements (in the case of
+RHS elements). This behavior can be used to propagate values between LHS
+and RHS elements, as exemplified in the *transferMoney* rule in the
+[Bank Accounts](Henshin/Getting_started "wikilink") example.
+
+  From → / to ↓   IN   OUT   INOUT   VAR
+  --------------- ---- ----- ------- -----
+  IN              x          x       x
+  OUT                  x     x       x
+  INOUT           x    x     x       x
+  VAR             x    x     x       
+
+  : Allowed mappings
+
+The legacy parameter kind *unknown* can be mapped arbitrarily depending
+on its usage.
+
+Examples: [Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink") (*in*→*in*,
+*out*→*out*),
+[Ecore2GenModel](Henshin/Examples/Ecore2GenModel "wikilink") (*in*→*in*,
+*out*→*out*), [Grid and Comb
+Pattern](Henshin/Examples/GridAndCombPattern "wikilink") (*in*→*in*,
+*out*→*out*, *in*→*inout*, *inout*→*in*, *inout*→*out*)
+
+## Usage during definition {#usage_during_definition}
+
+Parameters can be created using the tree-based or the
+[graphical](Henshin/Graphical_Editor "wikilink") editor. They can be
+edited using the latter or the *Properties* view.
+
+Declared parameters are used inside the unit by referencing them by
+name. Parameters can be used at any place in the unit where a string
+value is expected: in rules, this is the case for node names, attribute
+values, edge indices, and attribute conditions. In [iterated
+units](Henshin/Units#Iterated_Unit "wikilink"), this is the case for the
+iterations condition.
+
+### Parameter creation and editing in graphical editor {#parameter_creation_and_editing_in_graphical_editor}
+
+![](Henshin_Parameters_GraphicalEditor.png "Henshin_Parameters_GraphicalEditor.png")
+
+To create or edit a parameter with the [graphical
+editor](Henshin/Graphical_Editor "wikilink") open the according
+*\*.henshin_diagram* file. Select the name of a unit or rule by clicking
+on it. Click a second time to edit the name. You can now - text-based -
+add, edit and remove parameters which follow the unit/rule name
+encompassed by parentheses and separated by commas. The parameter
+entries adhere to the following scheme: *`<kind>`{=html}
+`<name>`{=html}:`<type>`{=html}* . Both *kind* and *type* are optional.
+If you omit a *kind* the parameter kind will be *unknown*.
+
+### Parameter creation in tree-based editor {#parameter_creation_in_tree_based_editor}
+
+![](Henshin_Parameters_Creation_TreeEditor.png "Henshin_Parameters_Creation_TreeEditor.png"){width="600"}
+
+To create a parameter with the tree-based editor open the according
+*\*.henshin*-file. Right-click on the desired rule or unit and navigate
+to *New Child → Parameter*. You can continue with editing the parameter
+in its *Properties* view.
+
+### Parameter editing in properties view {#parameter_editing_in_properties_view}
+
+![](Henshin_Parameters_Editing_PropertiesView.png "Henshin_Parameters_Editing_PropertiesView.png"){width="350"}
+
+In the *Properties* view you can edit a parameter after selecting it in
+the tree-based editor. To edit a value click in the according row of the
+*Value* column.
+
+### Parameter mapping creation {#parameter_mapping_creation}
+
+In the graphical editor parameter mappings are maintained implicitly
+based on overlapping parameter names: each parameter of a unit is mapped
+to all parameters of the same name in all sub-units; mappings in the
+opposite direction exist as well.
+
+![](Henshin_ParameterMapping_Creation_TreeEditor.png "Henshin_ParameterMapping_Creation_TreeEditor.png"){width="500"}
+
+Using the tree-based editor mappings for parameters can be created
+manually. Therefore right-click the unit and select *New Child →
+Parameter Mapping*. The mapping can be edited using its *Properties*
+view.
+
+![](Henshin_ParameterMapping_Editing_PropertiesView.png "Henshin_ParameterMapping_Editing_PropertiesView.png")
+
+## Usage during execution {#usage_during_execution}
+
+Before unit or rule execution parameters of kind *in* and *inout* have
+to be set externally. Parameters of kind *unknown* may be set externally
+depending on their usage in their units/rules. This can be done using
+the [Interpreter
+Wizard](Henshin/Interpreter#Interpreter_Wizard "wikilink") or the
+[Interpreter API](Henshin/Interpreter#Interpreter_API "wikilink").
+
+### Interpreter Wizard {#interpreter_wizard}
+
+![Interpreter wizard with
+parameters](Henshin_Parameter_Usage_Wizard.png "Interpreter wizard with parameters"){width="200"}
+
+To set parameters using the interpreter wizard you have to open the
+wizard for your unit or rule of interest. In the lower part of the popup
+window is a table with the available parameters. You can set them by
+editing the cells in the *Values* column.
+
+### Interpreter API {#interpreter_api}
+
+See *Setting and Getting Parameter Values* in
+[Henshin/Interpreter#Transforming_and_more](Henshin/Interpreter#Transforming_and_more "wikilink").
+
+## Remarkable usage examples {#remarkable_usage_examples}
+
+There may be some use cases for parameters, which do not obviously
+emerge from the documentation so far. The following sections will
+describe a variety of those use cases.
+
+### Populate values between sub-units {#populate_values_between_sub_units}
+
+A common use case for parameters in sequential units is the passing of
+values between sub-units. This can be done with any parameter kind in
+the sequential unit to which the according units are sub-units. If you
+do not intend to use the value outside the unit, you should use the
+parameter kind *var*.
+
+![Usage example for
+parameters](Henshin_Parameters_Usage_Example.png "Usage example for parameters")
+
+In the example unit *getFatherCreateChild* the parameter *temp* stores
+the intermediate result mapped from *getNode*\'s *out* parameter. The
+*var* parameter *temp* is then mapped to *createChild*\'s *in*
+parameter. Further parameter passings between sub-units can reuse the
+same *var* parameter as an intermediate step to a subsequent sub-unit.
+
+### Alter parameter value during rule application {#alter_parameter_value_during_rule_application}
+
+Especially when using the parameter kind *inout* you may want to alter
+the parameter value during rule application to output another value
+different from the input. While this is easily achievable for units by
+the use of parameter mappings, the approach for rules is less obvious.
+
+In the depicted example the rule *createChild* has the parameter *param*
+of type *Node* and is of the parameter kind *inout*. It creates a new
+node as child of the node passed in via *param*. The notation
+\"param-\>?:Node\" in the preserved node indicates that this node is
+referred to by the name *param* before the transformation and is
+nameless afterwards. The newly created child node is assigned to the
+name *param* after the transformation. This automatically creates a
+parameter mapping to the rule\'s *inout* parameter of the same name.
+Overall the *inout* parameter\'s input value is replaced with the new
+child node.
+
+Please note that you can only assign nodes to an already set parameter.
+It is not possible to assign the value of a node attribute to an already
+set parameter.
+
+For an additional usage illustration, consider the rule *extendColumn*
+in the section *Generation of a sparse grid* of the [Grid and Comb
+Pattern](Henshin/Examples/GridAndCombPattern "wikilink") example.
+
+[Category:Henshin](Category:Henshin "wikilink")
+[Category:Modeling](Category:Modeling "wikilink")
