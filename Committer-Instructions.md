@@ -17,7 +17,6 @@ different responsibilies, for example:
 -   Plug-ins *org.eclipse.emf.henshin.{edit,editor}*: The tree-based
     editor
 
-\
 All plug-in projects are contained in the *plugins* folder in the root
 directory of our Git repo. Import the plug-ins you want to work on **as
 Eclipse projects** into your workspace. Depending on your selection, you
@@ -63,5 +62,3 @@ To resolve further build errors in
 *org.eclipse.emf.henshin.adapters.xtext* right click the project -\>
 *Properties* -\> *Resource* and set the text file encoding to *Other:
 UTF-8*.
-
-[Category:Modeling](Category:Modeling "wikilink")
