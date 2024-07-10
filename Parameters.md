@@ -90,7 +90,7 @@ If you omit a *kind* the parameter kind will be *unknown*.
 
 ### Parameter creation in tree-based editor
 
-[[/images/Henshin_Parameters_Creation_TreeEditor.png]]}
+[[/images/Henshin_Parameters_Creation_TreeEditor.png]]
 
 To create a parameter with the tree-based editor open the according
 *\*.henshin*-file. Right-click on the desired rule or unit and navigate
@@ -99,7 +99,7 @@ in its *Properties* view.
 
 ### Parameter editing in properties view
 
-[[/images/Henshin_Parameters_Editing_PropertiesView.png]]}
+[[/images/Henshin_Parameters_Editing_PropertiesView.png]]
 
 In the *Properties* view you can edit a parameter after selecting it in
 the tree-based editor. To edit a value click in the according row of the
@@ -112,7 +112,7 @@ based on overlapping parameter names: each parameter of a unit is mapped
 to all parameters of the same name in all sub-units; mappings in the
 opposite direction exist as well.
 
-[[/images/Henshin_ParameterMapping_Creation_TreeEditor.png]]}
+[[/images/Henshin_ParameterMapping_Creation_TreeEditor.png]]
 
 Using the tree-based editor mappings for parameters can be created
 manually. Therefore right-click the unit and select *New Child →

@@ -149,7 +149,7 @@ Note also that *x* and *y* have to be specified as *var* parameters.
 When executing this rule, these parameters will be automatically
 initialized by the found match.
 
-[[/images/henshin-bank-example-nts.png]]}
+[[/images/henshin-bank-example-nts.png]]
 
 The rule *deleteAllAccounts(client)* deletes all accounts of a given
 client. This is done using a star-operator, i.e. using the action
@@ -201,7 +201,7 @@ The rule *transferMoney* can also be realized using EMF EMaps. This
 significantly improves the performance for large models because Account
 objects can be looked up efficiently based on their ID.
 
-[[/images/henshin-bankmap.png]]}
+[[/images/henshin-bankmap.png]]
 
 ## Execution using the Interpreter API
 

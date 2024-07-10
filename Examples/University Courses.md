@@ -10,7 +10,7 @@ transformation model, example input models and source code can be found
 
 ## Metamodel
 
-[[/images/henshin-universityCourses-model.png]]}
+[[/images/henshin-universityCourses-model.png]]
 
 The metamodel describes a *University* which contains *Courses* and
 *Persons*.. A *Course* has a name, belongs to a university and can be of
@@ -39,7 +39,7 @@ rules below - have to meet the following requirements:
 
 ## Henshin Rules and Units
 
-[[/images/henshin-universityCourses-planAllCoursesOrFail.png]]}
+[[/images/henshin-universityCourses-planAllCoursesOrFail.png]]
 
 The *SequentialUnit* **planAllCoursesOrFail** (*strict=true*,
 *rollback=false*) executes the rule *existsUnscheduledInterestingCourse*
@@ -66,7 +66,7 @@ successful application of *planAllCoursesOrFail*. Therefore the
 fails after an unsuccessful application of its *if*-sub-unit - is used
 inside *planCourseOrIncrement*.
 
-[[/images/henshin-universityCourses-incrementHour.png]]}
+[[/images/henshin-universityCourses-incrementHour.png]]
 
 If *planOneCourse* is not applicable, the *ConditionalUnit*
 **incrementIfPossible** first checks whether incrementing the current
@@ -81,7 +81,7 @@ parameter *oneMore*. After successfully incrementing the hour value
 courses (with prospective students) scheduled between the starting time
 and the end of the day.
 
-[[/images/henshin-universityCourses-planOneCourse.png]]}
+[[/images/henshin-universityCourses-planOneCourse.png]]
 
 **planOneCourse** is a *SequentialUnit* with the flags *strict=true* and
 *rollback=true*. First, it schedules a course which prevents time
@@ -120,7 +120,7 @@ by *moveStudentsToScheduledCourse*. The rule
 **removeOfferedCourseAfterScheduling** (*checkDangling=false*) deletes
 an *OfferedCourse* that is scheduled.
 
-[[/images/henshin-universityCourses-manageCourses.png]]}
+[[/images/henshin-universityCourses-manageCourses.png]]
 
 The starting point for the application of this example is the
 *IteratedUnit* **manageCourses** with the flag *strict* set to false.
@@ -137,7 +137,7 @@ second iteration at latest.
 
 ### Loop Unit vs. Nested Rule
 
-[[/images/henshin-universityCourses-cleanupUninterestingCoursesUnit.png]]}
+[[/images/henshin-universityCourses-cleanupUninterestingCoursesUnit.png]]
 
 The rule *cleanupUninterestingCourses*, which is realised using a nested
 rule, can alternatively be replaced by a *LoopUnit*

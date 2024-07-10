@@ -14,7 +14,7 @@ found
 The transformation consist of one main unit and two rules. The main unit
 is depicted below.
 
-[[/images/henshin-ecore2rdb-main.png]]}
+[[/images/henshin-ecore2rdb-main.png]]
 
 The main unit is a sequential unit. It first executes the rule
 *CreateSchema* and then the rule *CreateTableInterrelations*. The two
@@ -40,7 +40,7 @@ the following multi-rules with these tasks:
 ***newPKey***: Creates a new key column if there exists no
 ID-attributes.
 
-[[/images/henshin-createSchema.png]]}
+[[/images/henshin-createSchema.png]]
 
 The second rule, called *CreateTableInterrelations*, is shown below.
 This rule creates the for all EReferences the corresponding table
@@ -48,7 +48,7 @@ relations. For 1..1 references, the rule creates a new column in the
 table and a foreign key pointing to the target column. For 1..n
 references, the rule creates a whole new table that contains the links.
 
-[[/images/henshin-createRelations.png]]}
+[[/images/henshin-createRelations.png]]
 
 ### Example
 
@@ -61,7 +61,7 @@ parameter type of the parameter *packageName* to String and enter
 *CarRentalModel* as its value. You can now click on Preview and you
 should see this compare dialog:
 
-[[/images/henshin-ecore2rdb-diff.png]]}
+[[/images/henshin-ecore2rdb-diff.png]]
 
 It shows that the created Schema object and its contents. There is also
 a new Trace object which could be used to check the correspondences

@@ -31,7 +31,7 @@ a method between two classes. The second one additionally creates a
 \"wrapper\" method of the same name in the source class. The third one
 adds an annotation to mark the wrapper method as deprecated.
 
-[[/images/Henshin_vb_exampleClassic.png]]}
+[[/images/Henshin_vb_exampleClassic.png]]
 
 These three rule variants can be expressed using one rule with
 *variability*, shown below. Several elements are annotated with presence
@@ -46,7 +46,7 @@ additional variants. To avoid the illegal configuration *{wrapper=false;
 deprecate=true}*, the rule has a *configuration constraint*, shown in
 the title bar, requiring *wrapper* to be true if *deprecate* is true.
 
-[[/images/Henshin_vb_exampleCompact.png]]}
+[[/images/Henshin_vb_exampleCompact.png]]
 
 <div id="editorsupport">
 </div>
@@ -83,7 +83,7 @@ configurations and rules lead to error messages being displayed.
 
 To navigate variants efficiently, frequently used configurations can be
 saved as favorites using the
-[[/images/star_grey.png]]} button in the toolbar.
+[[/images/star_grey.png]] button in the toolbar.
 The star appears in yellow if a favored configuration is currently
 active. Each configuration has a user-specified name. In the figure to
 the right the user has created two favorites, *WrapperWithDeprecate* and
@@ -93,12 +93,12 @@ view.
 
 A *view mode* feature allows to access distinguished variants rapidly.
 In the *maximum rule* mode, represented by the
-[[/images/rule_full.png]]} icon, all elements
+[[/images/rule_full.png]] icon, all elements
 included in the rule are shown regardless of the configuration. In the
 *variant mode*
-([[/images/rule_configured.png]]}), elements
+([[/images/rule_configured.png]]), elements
 absent in the current configuration are concealed. In the *base rule*
-mode ([[/images/rule_base.png]]}), elements with a
+mode ([[/images/rule_base.png]]), elements with a
 non-empty presence condition are concealed.
 
 To further improve the handling of variability, the view allows the
@@ -122,7 +122,7 @@ rule, users may choose to have the elements toned down instead.
 
 </div>
 
-Using the [[/images/creation_mode.png]]} button,
+Using the [[/images/creation_mode.png]] button,
 users can select an *editing mode* to define which variants are affected
 by edits to the rule. The supported options are: all variants, variants
 included in the selected configuration, or variants associated to the
