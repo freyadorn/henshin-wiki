@@ -1,5 +1,5 @@
 The **Henshin interpreter** is the default engine for executing model
-transformations defined in [Henshin](Henshin "wikilink"). The
+transformations defined in [Henshin](Home "wikilink"). The
 interpreter can be invoked either using a wizard or programmatically
 using an API.
 

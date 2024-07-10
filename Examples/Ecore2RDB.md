@@ -1,5 +1,5 @@
 
-[Henshin](Henshin "wikilink")\'s **Ecore2Rdb** example is an exogenous
+[Henshin](Home "wikilink")\'s **Ecore2Rdb** example is an exogenous
 transformation for translating an Ecore model to a relational database
 model. This example makes extensive use of nested multi-rules. The
 purpose of this example is to show how this concept can be used to
@@ -73,4 +73,4 @@ This example requires Henshin 0.9.3 or higher.
 
 *contributed by Stefan Jurack and Christian Krause*
 
-[`category:Henshin`](category:Henshin "wikilink")
+[`category:Henshin`](category:Home "wikilink")

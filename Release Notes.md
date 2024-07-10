@@ -1,4 +1,4 @@
-**Release notes** for current and previous [Henshin](Henshin "wikilink")
+**Release notes** for current and previous [Henshin](Home "wikilink")
 releases:
 
 -   [Release notes Henshin

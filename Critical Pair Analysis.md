@@ -1,4 +1,4 @@
-[Henshin](Henshin "wikilink")\'s **critical pair analysis** (CPA)
+[Henshin](Home "wikilink")\'s **critical pair analysis** (CPA)
 feature enables the detection of all potential conflicts and
 dependencies of a set of
 [rules](Transformation_Meta-Model#Basic_building_blocks:_Rules "wikilink").

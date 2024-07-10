@@ -1,4 +1,4 @@
-[Henshin](Henshin "wikilink")\'s **Ecore2GenModel** example is an
+[Henshin](Home "wikilink")\'s **Ecore2GenModel** example is an
 exogenous transformation for translating an Ecore model to a GenModel.
 This transformation was implemented for the [Transformation Tool Contest
 (TTC) 2010](http://planet-research20.org/ttc2010). It includes a

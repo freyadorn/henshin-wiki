@@ -1,4 +1,4 @@
-[Henshin](Henshin "wikilink")\'s **Gossiping Girls** example shows how
+[Henshin](Home "wikilink")\'s **Gossiping Girls** example shows how
 to use [nested
 rules](Henshin_Transformation_Meta-Model#Advanced_concepts:_Application_conditions_and_rule_nesting "wikilink")
 to match subpatterns and how to generate and analyze [state

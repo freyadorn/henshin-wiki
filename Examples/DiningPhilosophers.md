@@ -1,6 +1,6 @@
 The **Dining Philosophers** problem is a classical model checking
 scenario. We use it as an example to give an intuition about the
-rule-based modeling in [Henshin](Henshin "wikilink") and to conduct a
+rule-based modeling in [Henshin](Home "wikilink") and to conduct a
 benchmark for its [state space
 exploration](Henshin_Statespace_Explorer "wikilink") feature.
 

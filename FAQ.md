@@ -1,5 +1,5 @@
 Here we answer some **frequently asked questions** about
-[Henshin](Henshin "wikilink").
+[Henshin](Home "wikilink").
 
 
 

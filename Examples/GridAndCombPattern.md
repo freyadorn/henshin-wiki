@@ -1,4 +1,4 @@
-[Henshin](Henshin "wikilink")\'s **Grid & Comb Pattern** addresses a
+[Henshin](Home "wikilink")\'s **Grid & Comb Pattern** addresses a
 graph transformation benchmark from the technical report [Benchmarking
 for Graph
 Transformation](http://www.cs.bme.hu/~gervarro/publication/TUB-TR-05-EE17.pdf)

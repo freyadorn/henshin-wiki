@@ -1,5 +1,5 @@
 In addition to its [interpreter engine](Interpreter "wikilink"),
-[Henshin](Henshin "wikilink") also supports generating Java code for
+[Henshin](Home "wikilink") also supports generating Java code for
 [Apache Giraph](http://giraph.apache.org/).
 
 ## Getting Started

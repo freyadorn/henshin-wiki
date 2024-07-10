@@ -1,6 +1,6 @@
 
 This tutorial shows you how to **get started** with
-[Henshin](Henshin "wikilink"). It introduces the **Bank Accounts
+[Henshin](Home "wikilink"). It introduces the **Bank Accounts
 example** to show some of the basic concepts of the Henshin
 transformation language and tool environment. We explain how to define
 transformation rules using Henshin\'s integrated graphical editor, and

@@ -1,4 +1,4 @@
-[Henshin](Henshin "wikilink")\'s **Java2StateMachine** example is an
+[Henshin](Home "wikilink")\'s **Java2StateMachine** example is an
 exogenous transformation solving the Reengineering case of the
 [Transformation Tool Contest (TTC)
 2011](http://planet-research20.org/ttc2011/). This example primarily

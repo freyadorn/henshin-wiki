@@ -1,6 +1,6 @@
 
 This page contains **installation instructions** for
-[Henshin](Henshin "wikilink"). Henshin is a plug-in for recent versions
+[Henshin](Home "wikilink"). Henshin is a plug-in for recent versions
 of the Eclipse Modeling Tools (last tested version: 2022-12). To obtain
 the most recent Eclipse version, go to the [download
 page](https://www.eclipse.org/downloads/packages/) and download the

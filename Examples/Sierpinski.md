@@ -1,7 +1,7 @@
 ![](henshin-sierpinski.gif "henshin-sierpinski.gif"){width="140"}
 
 The **Sierpinski Triangle example** is a very simple example which we
-use to do some benchmarking for [Henshin](Henshin "wikilink")\'s
+use to do some benchmarking for [Henshin](Home "wikilink")\'s
 [interpreter](Interpreter "wikilink"). The [Sierpinski
 triangle](http://en.wikipedia.org/wiki/Sierpinski_triangle) is a fractal
 which is constructed by iteratively dividing triangles into

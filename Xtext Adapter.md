@@ -1,5 +1,5 @@
 **Henshin Xtext adapter** is a plugin that allows
-[Henshin](Henshin "wikilink") modules, rules, nodes etc to be referenced
+[Henshin](Home "wikilink") modules, rules, nodes etc to be referenced
 directly from any [Xtext](Xtext "wikilink")-based language.
 
 ### Intended use
