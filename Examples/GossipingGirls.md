@@ -22,7 +22,7 @@ This problem can be modeled nicely in Henshin. We only need one rule for
 modeling phone calls, and one rule for adding girls and secrets (for
 creating initial configurations). The two rules are shown below.
 
-![](henshin-gossip-rules.png "henshin-gossip-rules.png")
+[[/images/henshin-gossip-rules.png]]
 
 The rule *addGirl* creates a new girl and a new secret that only she
 knows. The annotation *\@Container* says that the two created objects
@@ -53,7 +53,7 @@ Java as done in the
 class. The figure below shows the state space for 4 girls generated in
 the state space explorer.
 
-![](henshin-gossip-statespace-4.png "henshin-gossip-statespace-4.png")
+[[/images/henshin-gossip-statespace-4.png]]
 
 The green state is the initial state. State 12 is the target state in
 which all girls know all secrets. We use the following OCL constraint to

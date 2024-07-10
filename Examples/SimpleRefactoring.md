@@ -12,7 +12,7 @@ The transformation model and source code can be found
 
 ### Metamodel
 
-![](henshin-ref-classModel.png "henshin-ref-classModel.png")
+[[/images/henshin-ref-classModel.png]]
 
 The metamodel is defined in the file *ClassModel.ecore*. We used the
 Ecore Tools to draw a diagram (depicted above). The diagram is stored in
@@ -41,7 +41,7 @@ attributes or references nor it is referenced by another class.
 
 ### Scenario
 
-![](henshin-ref-scenario.png "henshin-ref-scenario.png")
+[[/images/henshin-ref-scenario.png]]
 
 Let\'s assume that a software developer wants to know which refactoring
 rules need to be applied in order to restructure a class model. More
@@ -97,12 +97,12 @@ illustrations there.`</span>`{=html}
 The CPA is called on a Henshin file in the Eclipse Package Explorer
 (Right click → Henshin → Calculate Critical Pairs).
 
-![](henshin-ref-callCPAWizard.png "henshin-ref-callCPAWizard.png")
+[[/images/henshin-ref-callCPAWizard.png]]
 
 This brings up a wizard to specify the rule set to be analyzed and the
 kind of critical pairs that shall be analyzed.
 
-![](henshin-ref-CPAWizard.png "henshin-ref-CPAWizard.png")
+[[/images/henshin-ref-CPAWizard.png]]
 
 After the CPA, a dedicated results view provides an overview on all
 conflicts and dependencies found. The resulting list of critical pairs
@@ -123,7 +123,7 @@ For each critical pair, a minimal EMF model can be viewed after
 double-clicking on a specific conflict (dependency). The following
 figure shows a minimal model in the tree-based Ecore instance editor.
 
-![](henshin-ref-CPAEditor.png "henshin-ref-CPAEditor.png")
+[[/images/henshin-ref-CPAEditor.png]]
 
 The minimal model (see center of the figure above) is related to the
 first *produce-forbid-conflict* of the example. Both rules (shown on the
@@ -146,7 +146,7 @@ obtain a result: (1) Initialize the meta-model and the rules, and (2)
 start the execution of the conflict (dependency) analysis. The following
 figure shows the corresponding API.
 
-![](henshin-ref-ICriticalPairAnalysis.png "henshin-ref-ICriticalPairAnalysis.png")
+[[/images/henshin-ref-ICriticalPairAnalysis.png]]
 
 The initialization can be done with one or two rule sets containing
 Henshin transformation rules. Providing one rule set using method *init(
@@ -173,7 +173,7 @@ monitor.
 
 The following figure shows the results API.
 
-![](henshin-ref-CPAResultAPI.png "henshin-ref-CPAResultAPI.png")
+[[/images/henshin-ref-CPAResultAPI.png]]
 
 All conflicts (dependencies) are within the container *CPAResult*.
 Conflict and Dependency are concrete instances of the general concept
@@ -190,7 +190,7 @@ Finally, there are different kinds of conflicts and dependencies as
 introduced above. Two enumerations list these kinds (see following
 figure). Note that dependency and conflict kinds are strictly separated.
 
-![](henshin-ref-CPKinds.png "henshin-ref-CPKinds.png")
+[[/images/henshin-ref-CPKinds.png]]
 
 *contributed by Thorsten Arendt and Kristopher Born*
 

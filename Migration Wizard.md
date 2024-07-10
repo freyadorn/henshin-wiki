@@ -13,7 +13,7 @@ migration wizard by right-clicking on a \*.henshin file in the package
 explorer and choosing *Henshin -\> Migration Wizard*. Now you will see
 the following dialog:
 
-![](Henshin_migration_wizard.png "Henshin_migration_wizard.png")
+[[/images/Henshin_migration_wizard.png]]
 
 On the top you choose the transformation file to be converted. On the
 bottom, you can additionally specify a diagram file which should be

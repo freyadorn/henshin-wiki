@@ -76,7 +76,7 @@ iterations condition.
 
 ### Parameter creation and editing in graphical editor
 
-![](Henshin_Parameters_GraphicalEditor.png "Henshin_Parameters_GraphicalEditor.png")
+[[/images/Henshin_Parameters_GraphicalEditor.png]]
 
 To create or edit a parameter with the [graphical
 editor](Graphical_Editor "wikilink") open the according
@@ -119,7 +119,7 @@ manually. Therefore right-click the unit and select *New Child →
 Parameter Mapping*. The mapping can be edited using its *Properties*
 view.
 
-![](Henshin_ParameterMapping_Editing_PropertiesView.png "Henshin_ParameterMapping_Editing_PropertiesView.png")
+[[/images/Henshin_ParameterMapping_Editing_PropertiesView.png]]
 
 ## Usage during execution
 

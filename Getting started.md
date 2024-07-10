@@ -35,7 +35,7 @@ editor](Graphical_Editor "wikilink") and the
 
 ## Metamodel and Instance Model
 
-![](henshin-bank.png "henshin-bank.png") The metamodel is defined in the
+[[/images/henshin-bank.png]] The metamodel is defined in the
 file *bank.ecore*. We used the Ecore Tools to draw a diagram (depicted
 on the right). The diagram is stored in the file *bank.aird*.
 
@@ -48,7 +48,7 @@ of accounts in the bank. Note that the references between *Account* and
 for example not only possible to obtain all accounts of a given client,
 but also to find out to which client a given account belongs to.
 
-![](henshin-example-bank.png "henshin-example-bank.png") An example
+[[/images/henshin-example-bank.png]] An example
 instance model is depicted on the right using the Sample Reflective
 Ecore Model editor. It contains one manager, three clients and four
 accounts. Note that we did not generate code from the metamodel. Thus,
@@ -125,7 +125,7 @@ existing object or link,
 existience of an object or link. Note that these are the basic actions,
 which can be further parameterized (see below).
 
-![](henshin-rule-create-account.png "henshin-rule-create-account.png")
+[[/images/henshin-rule-create-account.png]]
 
 The rule *createAccount(client,accountId)* matches a bank, a client with
 the name given in the rule parameter *client* and the client\'s manager.
@@ -133,7 +133,7 @@ The rule creates a new account for the client and sets its ID to the
 value given in *accountId*. The rule is applicable only if now other
 account exists already with the same ID.
 
-![](henshin-rule-transfer-money.png "henshin-rule-transfer-money.png")
+[[/images/henshin-rule-transfer-money.png]]
 
 The rule *transferMoney(client,fromId,toId,amount,x,y)* matches a client
 with the name *client* and his account with the ID given in *fromId* and
@@ -171,14 +171,14 @@ model that should be transformed. Finally, set the parameters of the
 rule (not all have to be specified) and click on *Preview* to see the
 changes.
 
-![](henshin-apply-create-account.png "henshin-apply-create-account.png")
+[[/images/henshin-apply-create-account.png]]
 
 An application of the rule *createAccount(client)* is shown on the
 right. As parameters we specified *client=Alice* with type *String*, and
 *accountId=5* with type *Int*. The preview window on the right shows the
 result of applying the rule with these parameters.
 
-![](henshin-apply-transfer-money.png "henshin-apply-transfer-money.png")
+[[/images/henshin-apply-transfer-money.png]]
 
 An application of the rule *transferMoney* is shown on the right. We
 have specified the parameters *client*, *fromId*, *toid* and *amount*.
@@ -188,7 +188,7 @@ types, because otherwise the rule cannot be matched. The preview window
 on the right shows the result of applying the rule with these
 parameters.
 
-![](henshin-apply-delete-all-accounts.png "henshin-apply-delete-all-accounts.png")
+[[/images/henshin-apply-delete-all-accounts.png]]
 
 An application of the ruleThe rule *deleteAllAccounts(client)* is shown
 on the right. As parameter we specified *client=Charles* with type

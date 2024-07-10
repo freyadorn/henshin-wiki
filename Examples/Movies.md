@@ -8,7 +8,7 @@ The original example consists of a transformation on a part of the data
 found in the IMDB movie database. We use here the simplified metamodel
 shown below.
 
-![](henshin-movies.png "henshin-movies.png")
+[[/images/henshin-movies.png]]
 
 The goal is to find all persons (actors or actresses) that starred
 together in at least three movies. For every such pair we want to create
@@ -19,7 +19,7 @@ every pair of persons, and 2) we do not consider attributes, such as
 actor / actress names or movie ratings. For this simplified task, we use
 the rules and the sequential unit shown below.
 
-![](henshin-couples.png "henshin-couples.png")
+[[/images/henshin-couples.png]]
 
 To generate the Giraph code, right-click on the sequential unit and
 select *Generate Giraph Code*. This will generate two classes: one
