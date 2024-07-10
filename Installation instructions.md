@@ -1,4 +1,3 @@
-\_\_NOTOC\_\_
 
 This page contains **installation instructions** for
 [Henshin](Henshin "wikilink"). Henshin is a plug-in for recent versions
@@ -26,7 +25,7 @@ versions from 11.0 and higher. The release variant *1.8.0-legacyjdk*
 (see below) and previous releases are compatible with JDK 8.0 to JDK
 14.0.
 
-## Legacy versions {#legacy_versions}
+## Legacy versions
 
 Permanent URLs of current and previous releases:
 
@@ -59,7 +58,7 @@ Git repository (weblink):
 
 -   <http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/>
 
-## Build Jobs {#build_jobs}
+## Build Jobs
 
 Release and nighly builds are compiled using Hudson jobs:
 
@@ -67,4 +66,4 @@ Release and nighly builds are compiled using Hudson jobs:
 -   Nightly Builds:
     <https://ci.eclipse.org/henshin/job/cbi_henshin_nightly/>
 
-[category:Henshin](category:Henshin "wikilink")
+

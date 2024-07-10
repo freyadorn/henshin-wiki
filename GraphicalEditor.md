@@ -4,7 +4,7 @@ meta-model](Henshin/Transformation_Meta-Model "wikilink") in an
 intuitive and compact way. This article describes the basic usage of the
 graphical editor.
 
-## Creating a Henshin Diagram {#creating_a_henshin_diagram}
+## Creating a Henshin Diagram
 
 If you want to create a new transformation from scratch using the
 graphical editor, simply open the *New\...* wizard and select *Henshin
@@ -21,7 +21,7 @@ to create a diagram for it, do a right-click on the Henshin file and
 select *Initialize henshin_diagram file\...*. This will create and open
 the diagram file for you.
 
-## Importing Models {#importing_models}
+## Importing Models
 
 To define a transformation, you first need to import some EMF models.
 This can be done using an action in the context menu of the graphical
@@ -31,7 +31,7 @@ right-hand side of the graphical editor.
 
 ![Henshin Import Menu](Henshin-import-menu.png "Henshin Import Menu")
 
-## Editing Transformation Rules {#editing_transformation_rules}
+## Editing Transformation Rules
 
 ![Example Transformation
 Rule](Henshin-gmf-example-rule.png "Example Transformation Rule")
@@ -73,7 +73,7 @@ same (or no) forbid parameter, then the two elements must not be found
 **together**. It works in the same way for
 `<span style="color:brown">`{=html}«require»`</span>`{=html}.
 
-### Parameters and Transparent Containers {#parameters_and_transparent_containers}
+### Parameters and Transparent Containers
 
 ![Transformation rule with parameters and container
 object](Henshin-parameters.png "Transformation rule with parameters and container object")
@@ -106,12 +106,12 @@ only with limited expressiveness: no nesting of application conditions,
 and no boolean combination of application conditions beyond basic
 conjunction and negation.
 
-## Visual Multi-View Editor {#visual_multi_view_editor}
+## Visual Multi-View Editor
 
 An alternative [multi-view graphical
 editor](Henshin/Multi-View_Editor "wikilink") is currently developed at
 the TU Berlin and Uni Luxembourg. This multi-view editor is **not** yet
 part of the official Henshin toolset, but will be added in the future.
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

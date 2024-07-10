@@ -1,4 +1,3 @@
-\_\_NOTOC\_\_
 
 The purpose of [Henshin](Henshin "wikilink")\'s **University Courses
 example** is to assign university courses to lecturers and students
@@ -26,7 +25,7 @@ interested in courses. The *Temp* object contained in a university is
 defined to save transient information of course scheduling. The
 metamodel is defined in the file *universityCourses.ecore*.
 
-### Instance Model Restrictions {#instance_model_restrictions}
+### Instance Model Restrictions
 
 Instance models - which should be transformed with the transformation
 rules below - have to meet the following requirements:
@@ -38,7 +37,7 @@ rules below - have to meet the following requirements:
 -   There must not be any time conflicts for a *Lecturer* or *Student*
     and their associated *ScheduledCourse*s.
 
-## Henshin Rules and Units {#henshin_rules_and_units}
+## Henshin Rules and Units
 
 ![](henshin-universityCourses-planAllCoursesOrFail.png "henshin-universityCourses-planAllCoursesOrFail.png"){width="350"}
 
@@ -136,7 +135,7 @@ rule **cleanupUninterestingCourses** which removes *OfferedCourse*s
 without prospective students (*checkDangling=false*) is applied in the
 second iteration at latest.
 
-### Loop Unit vs. Nested Rule {#loop_unit_vs._nested_rule}
+### Loop Unit vs. Nested Rule
 
 ![](henshin-universityCourses-cleanupUninterestingCoursesUnit.png "henshin-universityCourses-cleanupUninterestingCoursesUnit.png"){width="350"}
 
@@ -154,4 +153,4 @@ has to be used necessarily.
 *PLEASE NOTE: This example does not work reliably with the Henshin 1.4
 release. Try a newer release or the current nightly build.*
 
-[category:Henshin](category:Henshin "wikilink")
+

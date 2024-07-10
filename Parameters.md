@@ -3,7 +3,7 @@
 information. A unit can have an arbitary number of parameters.
 Parameters have a name, a description, a kind, and, optionally, a type.
 
-## Parameter kinds {#parameter_kinds}
+## Parameter kinds
 
 The kind specifies the time when the parameter is bound to a concrete
 value, and whether the parameter is intended to be accessed after the
@@ -28,7 +28,7 @@ Pattern](Henshin/Examples/GridAndCombPattern "wikilink") (*in*, *inout*,
 Broadcast](Henshin/Examples/ProbabilisticBroadcast "wikilink"), (*in*,
 *var*)
 
-## Parameter mappings {#parameter_mappings}
+## Parameter mappings
 
 Parameters that need to be set externally can be set by the user using
 the [API](#Interpreter_API "wikilink") or the [Interpreter
@@ -61,7 +61,7 @@ Examples: [Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink") (*in*→*in*,
 Pattern](Henshin/Examples/GridAndCombPattern "wikilink") (*in*→*in*,
 *out*→*out*, *in*→*inout*, *inout*→*in*, *inout*→*out*)
 
-## Usage during definition {#usage_during_definition}
+## Usage during definition
 
 Parameters can be created using the tree-based or the
 [graphical](Henshin/Graphical_Editor "wikilink") editor. They can be
@@ -74,7 +74,7 @@ values, edge indices, and attribute conditions. In [iterated
 units](Henshin/Units#Iterated_Unit "wikilink"), this is the case for the
 iterations condition.
 
-### Parameter creation and editing in graphical editor {#parameter_creation_and_editing_in_graphical_editor}
+### Parameter creation and editing in graphical editor
 
 ![](Henshin_Parameters_GraphicalEditor.png "Henshin_Parameters_GraphicalEditor.png")
 
@@ -88,7 +88,7 @@ entries adhere to the following scheme: *`<kind>`{=html}
 `<name>`{=html}:`<type>`{=html}* . Both *kind* and *type* are optional.
 If you omit a *kind* the parameter kind will be *unknown*.
 
-### Parameter creation in tree-based editor {#parameter_creation_in_tree_based_editor}
+### Parameter creation in tree-based editor
 
 ![](Henshin_Parameters_Creation_TreeEditor.png "Henshin_Parameters_Creation_TreeEditor.png"){width="600"}
 
@@ -97,7 +97,7 @@ To create a parameter with the tree-based editor open the according
 to *New Child → Parameter*. You can continue with editing the parameter
 in its *Properties* view.
 
-### Parameter editing in properties view {#parameter_editing_in_properties_view}
+### Parameter editing in properties view
 
 ![](Henshin_Parameters_Editing_PropertiesView.png "Henshin_Parameters_Editing_PropertiesView.png"){width="350"}
 
@@ -105,7 +105,7 @@ In the *Properties* view you can edit a parameter after selecting it in
 the tree-based editor. To edit a value click in the according row of the
 *Value* column.
 
-### Parameter mapping creation {#parameter_mapping_creation}
+### Parameter mapping creation
 
 In the graphical editor parameter mappings are maintained implicitly
 based on overlapping parameter names: each parameter of a unit is mapped
@@ -121,7 +121,7 @@ view.
 
 ![](Henshin_ParameterMapping_Editing_PropertiesView.png "Henshin_ParameterMapping_Editing_PropertiesView.png")
 
-## Usage during execution {#usage_during_execution}
+## Usage during execution
 
 Before unit or rule execution parameters of kind *in* and *inout* have
 to be set externally. Parameters of kind *unknown* may be set externally
@@ -130,7 +130,7 @@ the [Interpreter
 Wizard](Henshin/Interpreter#Interpreter_Wizard "wikilink") or the
 [Interpreter API](Henshin/Interpreter#Interpreter_API "wikilink").
 
-### Interpreter Wizard {#interpreter_wizard}
+### Interpreter Wizard
 
 ![Interpreter wizard with
 parameters](Henshin_Parameter_Usage_Wizard.png "Interpreter wizard with parameters"){width="200"}
@@ -140,18 +140,18 @@ wizard for your unit or rule of interest. In the lower part of the popup
 window is a table with the available parameters. You can set them by
 editing the cells in the *Values* column.
 
-### Interpreter API {#interpreter_api}
+### Interpreter API
 
 See *Setting and Getting Parameter Values* in
 [Henshin/Interpreter#Transforming_and_more](Henshin/Interpreter#Transforming_and_more "wikilink").
 
-## Remarkable usage examples {#remarkable_usage_examples}
+## Remarkable usage examples
 
 There may be some use cases for parameters, which do not obviously
 emerge from the documentation so far. The following sections will
 describe a variety of those use cases.
 
-### Populate values between sub-units {#populate_values_between_sub_units}
+### Populate values between sub-units
 
 A common use case for parameters in sequential units is the passing of
 values between sub-units. This can be done with any parameter kind in
@@ -168,7 +168,7 @@ the intermediate result mapped from *getNode*\'s *out* parameter. The
 parameter. Further parameter passings between sub-units can reuse the
 same *var* parameter as an intermediate step to a subsequent sub-unit.
 
-### Alter parameter value during rule application {#alter_parameter_value_during_rule_application}
+### Alter parameter value during rule application
 
 Especially when using the parameter kind *inout* you may want to alter
 the parameter value during rule application to output another value
@@ -194,5 +194,5 @@ For an additional usage illustration, consider the rule *extendColumn*
 in the section *Generation of a sparse grid* of the [Grid and Comb
 Pattern](Henshin/Examples/GridAndCombPattern "wikilink") example.
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

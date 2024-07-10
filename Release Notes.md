@@ -17,4 +17,4 @@ releases:
     1.0.0](http://web.archive.org/web/20210508033305/http://www.ckrause.org/2014/07/henshin-10.html) -
     2014-07-28
 
-[category:Henshin](category:Henshin "wikilink")
+

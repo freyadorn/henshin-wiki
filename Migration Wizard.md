@@ -6,7 +6,7 @@ migrate your transformation models. To support you in this matter, we
 have implemented a **migration wizard** which will convert the old
 format into the new one.
 
-### How to use the wizard {#how_to_use_the_wizard}
+### How to use the wizard
 
 To convert a Henshin transformation into the new format, invoke the
 migration wizard by right-clicking on a \*.henshin file in the package
@@ -41,7 +41,7 @@ migrate the diagram file from the back-up, you will still get an error
 message when trying to open it. The solution is to restart Eclipse.
 Then, you will be able to open the diagram file correctly.
 
-### Model changes {#model_changes}
+### Model changes
 
 From version 0.8.0 to 0.9.0 of Henshin, the following changes where
 made:
@@ -71,7 +71,7 @@ made:
     whether rules are matched injectively. Note that you can specify
     these properties for all rules separately now.
 
-### API changes {#api_changes}
+### API changes
 
 There are also a few changes in the runtime API. Most importantly, the
 class *ModelHelper* which was earlier used to load and save models etc.
@@ -79,5 +79,5 @@ is no deprecated. Instead, you should use the functionality provided in
 *HenshinResourceSet*. For more details, see the example at the [Henshin
 Interpreter](Henshin/Interpreter "wikilink") wikipage.
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

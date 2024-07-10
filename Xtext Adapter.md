@@ -2,7 +2,7 @@
 [Henshin](Henshin "wikilink") modules, rules, nodes etc to be referenced
 directly from any [Xtext](Xtext "wikilink")-based language.
 
-### Intended use {#intended_use}
+### Intended use
 
 When defining an Xtext language, you essentially write down an
 (annotated) EBNF grammar for it and Xtext will generate a meta-model
@@ -43,7 +43,7 @@ provides: everything needed for using Henshin modules while parsing and
 manipulating Xtext files, and configuration so that the name provider
 can be correctly used in the context of an Xtext-generated editor.
 
-### Usage instructions {#usage_instructions}
+### Usage instructions
 
 -   Add
     `<span style="background:#dddddd">`{=html}org.eclipse.emf.henshin.adapters.xtext`</span>`{=html}
@@ -81,10 +81,10 @@ statically importing
 *org.eclipse.emf.henshin.adapters.xtext.NamingHelper*. In an Xtend
 class, it is recommended to import the class as an extension.
 
-### Credits and links {#credits_and_links}
+### Credits and links
 
 -   Contributed by Steffen Zschaler. See the original [implementation on
     GitHub](https://github.com/szschaler/henshin_xtext_adapter)
 -   [Xtext website](https://www.eclipse.org/Xtext/)
 
-[category:Henshin](category:Henshin "wikilink")
+

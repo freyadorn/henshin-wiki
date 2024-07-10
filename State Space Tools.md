@@ -35,12 +35,12 @@ analysis tools.
 
 \_\_TOC\_\_
 
-# State space generation {#state_space_generation}
+# State space generation
 
 In this section, we explain how to generate a state space for a Henshin
 transformation.
 
-## Transformation rules and initial state {#transformation_rules_and_initial_state}
+## Transformation rules and initial state
 
 As a running example we consider the academic example of [dining
 philosophers](Henshin/Examples/DiningPhilosophers "wikilink"). To make
@@ -77,7 +77,7 @@ the initial state. To create such a dynamic instance, right-click on an
 Dynamic Instance*. Now open the generated *\*.xmi* file in the Sample
 reflective editor of EMF and specify the initial configuration.
 
-## Setting up the state space {#setting_up_the_state_space}
+## Setting up the state space
 
 Now we set up our state space file. Open the *New\...* wizard and select
 *Henshin State space* in the Henshin category. After finishing the
@@ -96,7 +96,7 @@ things:
 In our dining philosophers example, we import the rules *left*, *right*,
 *release* and *create*. As initial state, we load the file from above.
 
-## Building up the state space {#building_up_the_state_space}
+## Building up the state space
 
 ![State space of reconfigurable dining
 philosophers](Statespace-explorer-phil-win32.png "State space of reconfigurable dining philosophers"){width="300"}
@@ -123,7 +123,7 @@ After a number of steps, the state space for the philosophers example is
 fully generated. It should look more or less like in the screenshot on
 the right. Here we used graph equality without extra options.
 
-## Offline state space generation {#offline_state_space_generation}
+## Offline state space generation
 
 ![Offline state space
 generation](Henshin-offline-statespace-generation.png "Offline state space generation"){width="300"}
@@ -156,7 +156,7 @@ state spaces with millions of states and tens of millions of
 transitions. You can open such big files also in the graphical explorer,
 but they will not be visualized anymore.
 
-## Resetting the state space {#resetting_the_state_space}
+## Resetting the state space
 
 Another often used functionality is to reset a state space. This removes
 all derived state space (all states which are not initial). You can do
@@ -168,7 +168,7 @@ programmatically:
 manager.resetStateSpace();
 ```
 
-## Setting properties {#setting_properties}
+## Setting properties
 
 ![Editing the state space
 properties](HenshinStateSpaceProperties.png "Editing the state space properties"){width="250"}
@@ -181,7 +181,7 @@ names for which unique object IDs will be generated (required for
 parameterized actions). *ignoredAttributes* is a comma-separated list of
 attribute names whose values will be ignored when comparing states.
 
-## Setting rule priorities {#setting_rule_priorities}
+## Setting rule priorities
 
 By default, in every state the explorer tries to apply all imported
 rules. This an be further customized by assigning priorities to the
@@ -198,7 +198,7 @@ applied, and so forth. This is essentially the approach of layered graph
 grammars. Note that priorities are only supported in Henshin 0.9.7 or
 higher.
 
-## Parameterized actions {#parameterized_actions}
+## Parameterized actions
 
 ![Parameterized
 actions](Statespace-with-rule-params.png "Parameterized actions"){width="250"}
@@ -217,13 +217,13 @@ for model checking later (see the paragraph on [model checking with
 parametrized
 actions](#Model_checking_with_parametrized_actions "wikilink")).
 
-# State space analysis {#state_space_analysis}
+# State space analysis
 
 To analyze a generated state space, open it in the graphical explorer
 and make sure it is fully explored (it has no open states). Then you can
 use the *Validation* menu in the control panel to analyze it.
 
-## Structural invariants in OCL {#structural_invariants_in_ocl}
+## Structural invariants in OCL
 
 ![OCL invariant checking in the state space
 explorer](Henshin-statespace-ocl-invariant.png "OCL invariant checking in the state space explorer"){width="250"}
@@ -240,7 +240,7 @@ a negative result. Moreover, a trace into a state which does not fullfil
 the constraint is automatically selected in the explorer. This gives you
 essentially a counterexample for your invariant.
 
-## Qualitative model checking with CADP and mCRL2 {#qualitative_model_checking_with_cadp_and_mcrl2}
+## Qualitative model checking with CADP and mCRL2
 
 Full model checking of temporal properties is supported using external
 model checkers. For qualitative model checking you can currently use
@@ -280,7 +280,7 @@ which basically says: Is there an infinite sequence of the actions
 we get *true*. Note that in [CADP](http://www.inrialpes.fr/vasy/cadp)
 you have to put quotes around the action names.
 
-### Model checking with parametrized actions {#model_checking_with_parametrized_actions}
+### Model checking with parametrized actions
 
 State space with [parameterized
 actions](#Parameterized_actions "wikilink") can be also analyzed.
@@ -310,13 +310,13 @@ on this topic. Note that the mCRL2-based approach currently does not
 scale very well and is limited to examples with not more than a couple
 of thousands of states.
 
-## Stochastic and probabilistic model checking with PRISM {#stochastic_and_probabilistic_model_checking_with_prism}
+## Stochastic and probabilistic model checking with PRISM
 
 Henshin supports the analysis of stochastic and probabilistic graph
 transformation systems using [PRISM model
 checker](http://www.prismmodelchecker.org).
 
-### Stochastic graph transformation systems {#stochastic_graph_transformation_systems}
+### Stochastic graph transformation systems
 
 Henshin support stochastic graph transformation systems (SGTSs) as
 introduced by Heckel et al. Based on given user-defined rates for the
@@ -395,7 +395,7 @@ The Henshin tool will invoke PRISM with the correct parameters, parse
 the output and generate a plot such as the one in the screenshot on the
 right.
 
-### Probabilistic graph transformation systems {#probabilistic_graph_transformation_systems}
+### Probabilistic graph transformation systems
 
 Probabilistic graph transformation systems (PGTSs) are another
 quantitative model. The formal details are described in an article
@@ -419,20 +419,20 @@ of probabilistic graph transformation systems. See also the
 [probabilistic
 broadcast](Henshin/Examples/ProbabilisticBroadcast "wikilink").
 
-# State space export {#state_space_export}
+# State space export
 
 Several export formats are supported. To export a state space, either
 right-click on the state space file in the package explorer and choose
 *State Space -\> Export State Space* or invoke use the task *Export
 state space* in the state space explorer.
 
-## CADP (\*.aut) {#cadp_.aut}
+## CADP (\*.aut)
 
 Produces an LTS in the [Aldebaran
 format](http://www.inrialpes.fr/vasy/cadp/man/aldebaran.html#sect6). No
 parameters are required for this format.
 
-## PRISM CTMC (\*.sm, \*.tra) {#prism_ctmc_.sm_.tra}
+## PRISM CTMC (\*.sm, \*.tra)
 
 Produces a continuous-time Markov chain (CTMC) in the input format of
 PRISM according to the semantics of stochastic graph transformation
@@ -446,7 +446,7 @@ As parameters, you can specify target states using OCL invariants, e.g.:
     label "T1" = <<<OCL self.philosophers->size() < 2 >>>
     label "T2" = <<<OCL self.philosophers->size() > 3 >>>
 
-## PRISM MDP (\*.nm, \*.tra) {#prism_mdp_.nm_.tra}
+## PRISM MDP (\*.nm, \*.tra)
 
 Produces a Markov decision process (MDP) in the input format of PRISM
 according to the semantics of probabilistic graph transformation
@@ -457,9 +457,9 @@ efficiently parsed by PRISM.
 
 You can use parameters as for CTMCs to specify target states.
 
-## TiKZ (\*.tex) {#tikz_.tex}
+## TiKZ (\*.tex)
 
 Produces a graphical representation of the state space for LaTeX.
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

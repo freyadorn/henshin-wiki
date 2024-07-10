@@ -2,12 +2,12 @@ In addition to its [interpreter engine](Henshin/Interpreter "wikilink"),
 [Henshin](Henshin "wikilink") also supports generating Java code for
 [Apache Giraph](http://giraph.apache.org/).
 
-## Getting Started {#getting_started}
+## Getting Started
 
 You can find here some first steps to get started with the Giraph code
 generator.
 
-### Generating Giraph Code {#generating_giraph_code}
+### Generating Giraph Code
 
 To generate Giraph code, right-click in the graphical or the tree-based
 editor on a rule or a unit and select *Generate Giraph Code*. Choose the
@@ -18,7 +18,7 @@ transformations (it is called *HenshinUtil*). The other class contains
 the code for your transformation. It contains the code for used rules
 and units.
 
-### Setting Up Giraph {#setting_up_giraph}
+### Setting Up Giraph
 
 The generated Giraph code has been tested with the [release
 branch](https://github.com/apache/giraph) of Apache Giraph and [Hadoop
@@ -31,10 +31,10 @@ Next you should build Giraph. Change into the Giraph source folder and
 use *mvn clean package -DskipTests*. For this you need Maven installed.
 Make sure that the build was successful.
 
-#### Hadoop Configuration {#hadoop_configuration}
+#### Hadoop Configuration
 
 Set the Hadoop home and Java home directories in *conf/hadoop-env.sh* in
 the Hadoop directory.
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

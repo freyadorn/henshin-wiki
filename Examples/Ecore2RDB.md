@@ -1,4 +1,3 @@
-\_\_NOTOC\_\_
 
 [Henshin](Henshin "wikilink")\'s **Ecore2Rdb** example is an exogenous
 transformation for translating an Ecore model to a relational database
@@ -10,7 +9,7 @@ transformation, source code and example input & output models can be
 found
 [here](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/ecore2rdb).
 
-### The Transformation {#the_transformation}
+### The Transformation
 
 The transformation consist of one main unit and two rules. The main unit
 is depicted below.

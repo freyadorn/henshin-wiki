@@ -4,7 +4,7 @@ rule-based modeling in [Henshin](Henshin "wikilink") and to conduct a
 benchmark for its [state space
 exploration](Henshin_Statespace_Explorer "wikilink") feature.
 
-#### Transformation System {#transformation_system}
+#### Transformation System
 
 The transformation consists of four rules shown below. In rule *left(p)*
 philosopher *p* picks up his left fork, and analogously for the rule
@@ -18,7 +18,7 @@ different numbers of philosophers below.
 
 ![](henshin-diningphils-rules.png "henshin-diningphils-rules.png"){width="500"}
 
-#### State Space Generation {#state_space_generation}
+#### State Space Generation
 
 The state space can be either generated in the [state space
 explorer](Henshin_Statespace_Explorer "wikilink") (slow), or by
@@ -55,4 +55,4 @@ time to generate the full state space.
 
 *contributed by Christian Krause*
 
-[category:Henshin](category:Henshin "wikilink")
+

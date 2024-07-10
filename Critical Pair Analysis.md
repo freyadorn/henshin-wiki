@@ -18,7 +18,7 @@ Analysis](Henshin/Conflict_and_Dependency_Analysis "wikilink").`</span>`{=html}
 
 \_\_TOC\_\_
 
-## Kinds of conflicts and dependencies {#kinds_of_conflicts_and_dependencies}
+## Kinds of conflicts and dependencies
 
 Two kinds of relations among transformation rules can be detected:
 conflicts and dependencies. In the case of a conflict, the application
@@ -115,7 +115,7 @@ Modeling Framework](Eclipse_Modeling_Framework "wikilink") are
 supported. The supported and unsupported features are listed in what
 follows.
 
-### Supported Features {#supported_features}
+### Supported Features
 
 -   Basic model transformations involving the actions *preserve*,
     *create* and *delete* of EClasses and EReferences as well as the
@@ -127,7 +127,7 @@ follows.
 -   Ecore modeling concepts of inheritance and abstract eClasses and
     eOpposite references.
 
-### Unsupported Features {#unsupported_features}
+### Unsupported Features
 
 -   Model transformations for more than one meta-model, for example
     outplace model transformations involving more than one Ecore
@@ -136,12 +136,12 @@ follows.
 -   Multi-rules (formally, rules with amalgamtion).
 -   Transformation units.
 
-## Applying the Analysis {#applying_the_analysis}
+## Applying the Analysis
 
 The analysis can be invoked either using a wizard or programmatically
 using an API.
 
-### CPA Wizard {#cpa_wizard}
+### CPA Wizard
 
 ![CPA Wizard](CPA_wizard_1.png "CPA Wizard"){width="320"} The wizard
 enables the quick and easy usage of the critical pair analysis, notably
@@ -181,7 +181,7 @@ directory tree. To open a critical pair from the workspace, right-click
 on a \*.henshinCp file in the Package Explorer and select *Henshin→Open
 Critical Pair*.
 
-### CPA API {#cpa_api}
+### CPA API
 
 The CPA API allows to use the CPA programmatically. As a prerequisite,
 all considered transformation rules have to be loaded upfront. A
@@ -217,10 +217,10 @@ methods optionally take a *ProgressMonitor* object as input that can
 monitor the analysis progress and give a rough estimate for the required
 time to finish the analysis.
 
-## Usage example {#usage_example}
+## Usage example
 
 For a usage example of this feature, see the [Simple Class Modeling
 Refactoring](https://www.eclipse.org/henshin/examples.php?example=simpleclassmodelingrefactoring).
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

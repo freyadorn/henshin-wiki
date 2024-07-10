@@ -3,12 +3,12 @@ Here we answer some **frequently asked questions** about
 
 \_\_TOC\_\_
 
-## How can I execute transformations? {#how_can_i_execute_transformations}
+## How can I execute transformations?
 
 Use the [Henshin Interpreter](Henshin/Interpreter "wikilink") to execute
 transformations, available via a wizard or programatically.
 
-## My rule cannot be applied, even though I expect that it should. {#my_rule_cannot_be_applied_even_though_i_expect_that_it_should.}
+## My rule cannot be applied, even though I expect that it should.
 
 The two most common problems are as follows:
 
@@ -49,13 +49,13 @@ If you have ruled out these issues, we recommend to check out the
 [Debugging
 Support](Henshin/Interpreter#Debugging_using_the_interpreter "wikilink").
 
-## Does Henshin support automatic tracing for exogenous transformations? {#does_henshin_support_automatic_tracing_for_exogenous_transformations}
+## Does Henshin support automatic tracing for exogenous transformations?
 
 Henshin follows a rewrite approach. Tracing is not build into the
 transformation language but can be easily realized using a generic
 [Henshin Trace Model](Henshin/Trace_Model "wikilink").
 
-## How can I use dynamic EMF with Henshin? {#how_can_i_use_dynamic_emf_with_henshin}
+## How can I use dynamic EMF with Henshin?
 
 Define your EMF models as usual. Make sure you set the namespace URIs
 and prefixes for all packages. To use the packages in Henshin,
@@ -68,7 +68,7 @@ then edit in the Sample Reflective Model Editor of EMF.
 If you **don\'t** want to use dynamic EMF, import the packages from the
 registry and use the runtime version (not the development version).
 
-## I get NullPointerExceptions when I try to execute my transformation {#i_get_nullpointerexceptions_when_i_try_to_execute_my_transformation}
+## I get NullPointerExceptions when I try to execute my transformation
 
 Make sure all node, edge and attribute types are correctly set. Also, it
 is important that you reference the same version of the metamodels in
@@ -78,17 +78,17 @@ that you use the same UML metamodel in your transformation. In this
 case, you would have to import the UML metamodel from the registry and
 use the runtime version. See also the entries before and after this one.
 
-## I get exceptions during state space generation {#i_get_exceptions_during_state_space_generation}
+## I get exceptions during state space generation
 
 Try setting the property *collectMissingRoots=true*.
 
-## How can I define a higher-order (HO) transformation in Henshin? {#how_can_i_define_a_higher_order_ho_transformation_in_henshin}
+## How can I define a higher-order (HO) transformation in Henshin?
 
 Import the Henshin and the Ecore metamodel into your transformation
 (import from the registry and use the **runtime** versions). Check out
 the examples repository on our website for more details.
 
-## Why is my rule with a String constant not matched even though the constant is correct? {#why_is_my_rule_with_a_string_constant_not_matched_even_though_the_constant_is_correct}
+## Why is my rule with a String constant not matched even though the constant is correct?
 
 The attribute in the Henshin rule must look like this: \"CONSTANT\"
 where CONSTANT is the string to be matched. Make sure you use double
@@ -96,7 +96,7 @@ quotes here. In the instance model, the object\'s attribute must have
 the value CONSTANT \-- in the EMF editor you must not use any quotes
 here!
 
-## What sort of automatic analysis is supported? {#what_sort_of_automatic_analysis_is_supported}
+## What sort of automatic analysis is supported?
 
 You can use the [Henshin State Space
 Explorer](Henshin/State_Space_Tools "wikilink") to generate a state
@@ -108,5 +108,5 @@ allows to uncover conflicts and dependencies in a rule set, which can be
 used for many purposes, including validation and testing.
 
 [Category:FAQ](Category:FAQ "wikilink")
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

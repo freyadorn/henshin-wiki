@@ -5,7 +5,7 @@ using an API.
 
 \_\_TOC\_\_
 
-## Interpreter Wizard {#interpreter_wizard}
+## Interpreter Wizard
 
 ![Henshin Interpreter
 Wizard](Henshin-interpreter-wizard.png "Henshin Interpreter Wizard"){width="320"}
@@ -32,12 +32,12 @@ types.
 If you click *Transform* the model will be transformed and saved, if
 possible.
 
-## Debugging using the interpreter {#debugging_using_the_interpreter}
+## Debugging using the interpreter
 
 The latest version of Henshin includes basic debugging support for
 single rule applications, as well as Run/Debug Configurations.
 
-### Run/Debug Configuration {#rundebug_configuration}
+### Run/Debug Configuration
 
 Henshin now provides the usual Eclipse Run and Debug Configurations that
 simplify repeated application of transformation and enable debugging.
@@ -62,7 +62,7 @@ can use the standard *step into*, *step over*, and *step return*
 actions, and analyze the state of the rule application using the *Debug*
 and *Variables* views.
 
-### Step Semantics {#step_semantics}
+### Step Semantics
 
 The Henshin debugger aims to preserve the semantics of those three
 actions known from imperative languages (step into/over subroutines,
@@ -152,7 +152,7 @@ the bottom). When a match for a node was found, the corresponding
 variable is marked as matched in the call stack view, and the next
 variable is displayed on top.
 
-### Using the Debug / Variable View {#using_the_debug_variable_view}
+### Using the Debug / Variable View
 
 The debugger tries to provide meaningful descriptions for any EObjects
 displayed in the *debug* / *variables* view (e.g. \"Client Charles,
@@ -194,7 +194,7 @@ further development:
 Note that these limitations do not apply to a normal \"non-debug\"
 launch of a run configuration.
 
-## Interpreter API {#interpreter_api}
+## Interpreter API
 
 The interpreter can be also invoked programmatically via its API.
 
@@ -210,7 +210,7 @@ is especially focused on showing how to load, create and save models,
 execute Henshin rules, and how to test the correct behavior of rules
 with JUnit.
 
-### Loading & Saving {#loading_saving}
+### Loading & Saving
 
 For loading and saving of models and transformations you can use the
 class **HenshinResourceSet**, which provides some convenience methods.
@@ -244,7 +244,7 @@ single resource set for all loading and saving operations. There are
 also some more convenience methods for loading and saving (see the
 Javadoc).
 
-### Transforming and more {#transforming_and_more}
+### Transforming and more
 
 Here is a typical use case for the interpreter:
 
@@ -355,5 +355,5 @@ configuring the engine\'s options in the following way:
 engine.getOptions().put(Engine.OPTION_DETERMINISTIC, false);
 ```
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

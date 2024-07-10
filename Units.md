@@ -12,7 +12,7 @@ sub-unit exists. This check means the sub-unit is executed.
 
 ## Usage
 
-### Unit creation in graphical editor {#unit_creation_in_graphical_editor}
+### Unit creation in graphical editor
 
 ![Create
 unit](Henshin_Units_Creation_GraphicalEditor.png "Create unit"){width="250"}
@@ -35,7 +35,7 @@ sub-units, which is especially relevant for *PriorityUnit*s and
 recommended to use the *Properties* view or the tree-based editor for
 sub-unit insertion or reordering.
 
-### Unit creation in tree-based editor {#unit_creation_in_tree_based_editor}
+### Unit creation in tree-based editor
 
 To add a unit to a Henshin project in the tree-based editor, first open
 the *\*.henshin* file. Then right-click on the parent *Module*. Select
@@ -44,11 +44,11 @@ creation the units can be edited in their *Properties* view.
 
 ![](Henshin_Units_Creation_TreeEditor.png "Henshin_Units_Creation_TreeEditor.png"){width="350"}
 
-## Unary Units {#unary_units}
+## Unary Units
 
 A Unary Unit has exactly one sub-unit.
 
-### Loop Unit {#loop_unit}
+### Loop Unit
 
 ![Apply A as often as
 possible](Henshin_Loop_Unit.png "Apply A as often as possible")
@@ -62,7 +62,7 @@ possible](Henshin_Loop_Unit.png "Apply A as often as possible")
     [Java2StateMachine](Henshin/Examples/Java2StateMachine "wikilink"),
     [Ecore2GenModel](Henshin/Examples/Ecore2GenModel "wikilink")
 
-### Iterated Unit {#iterated_unit}
+### Iterated Unit
 
 ![Apply A three times](Henshin_Iterated_Unit.png "Apply A three times")
 
@@ -85,7 +85,7 @@ possible](Henshin_Loop_Unit.png "Apply A as often as possible")
 -   **Examples:** [Grid and Comb
     Pattern](Henshin/Examples/GridAndCombPattern "wikilink")
 
-## Conditional Unit {#conditional_unit}
+## Conditional Unit
 
 ![If A applicable then apply B, else apply
 C](Henshin_Conditional_Unit.png "If A applicable then apply B, else apply C")
@@ -101,11 +101,11 @@ C](Henshin_Conditional_Unit.png "If A applicable then apply B, else apply C")
 -   **Examples:**
     [Java2StateMachine](Henshin/Examples/Java2StateMachine "wikilink")
 
-## Multi-Units {#multi_units}
+## Multi-Units
 
 A Multi-Unit has an arbitrary number of sub-units.
 
-### Sequential Unit {#sequential_unit}
+### Sequential Unit
 
 ![Apply A then B then
 C](Henshin_Sequential_Unit.png "Apply A then B then C")
@@ -133,7 +133,7 @@ C](Henshin_Sequential_Unit.png "Apply A then B then C")
     and Comb Pattern](Henshin/Examples/GridAndCombPattern "wikilink"),
     [Movies](Henshin/Examples/Movies "wikilink")
 
-### Priority Unit {#priority_unit}
+### Priority Unit
 
 ![Try to apply A. If A not applicable, try B
 etc.](Henshin_Priority_Unit.png "Try to apply A. If A not applicable, try B etc.")
@@ -148,7 +148,7 @@ etc.](Henshin_Priority_Unit.png "Try to apply A. If A not applicable, try B etc.
 -   **Examples:**
     [Java2StateMachine](Henshin/Examples/Java2StateMachine "wikilink")
 
-### Independent Unit {#independent_unit}
+### Independent Unit
 
 ![Choose A, B or C in non-deterministic order. If not applicable, try
 another one in non-deterministic order. If it is not
@@ -164,5 +164,5 @@ applicable\...](Henshin_Independent_Unit.png "Choose A, B or C in non-determinis
 -   **Examples:**
     [Ecore2GenModel](Henshin/Examples/Ecore2GenModel "wikilink")
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

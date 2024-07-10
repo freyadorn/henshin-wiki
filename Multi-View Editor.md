@@ -4,7 +4,7 @@ Editor](Henshin/Graphical_Editor "wikilink"). It is based on the Muvitor
 framework and maintained at [TU Berlin](http://www.tu-berlin.de/tfs) and
 [Uni Luxembourg](http://wwwde.uni.lu/snt).
 
-### Main differences {#main_differences}
+### Main differences
 
 -   Multi-view: the editor provides a tree-view of the transformation
     system and graphical views for rules and graphs
@@ -27,9 +27,9 @@ provided, so you need to do the following to use the editor:
     workspace
 2.  Run \> Run as \> Eclipse application
 
-### Further Information {#further_information}
+### Further Information
 
 -   [Webpage at TU
     Berlin](http://www.user.tu-berlin.de/lieske/tfs/projekte/henshin/)
 
-[category:Henshin](category:Henshin "wikilink")[category:Modeling](category:Modeling "wikilink")
+

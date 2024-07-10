@@ -51,7 +51,7 @@ the title bar, requiring *wrapper* to be true if *deprecate* is true.
 <div id="editorsupport">
 </div>
 
-### Integration with graphical editor {#integration_with_graphical_editor}
+### Integration with graphical editor
 
 A user interface supporting the management of rules with variability is
 integrated with Henshin\'s [graphical
@@ -136,7 +136,7 @@ and attributes can be selected and simultaneously \"moved to a different
 configuration\" (that is, have their presence conditions changed to
 match the current configuration).
 
-### Execution via API {#execution_via_api}
+### Execution via API
 
 Applying a rule with variability is supported via an extension of the
 interpreter engine. A minimal self-contained usage example is available
@@ -176,7 +176,7 @@ particularly useful for batch transformations, where all rules of a
 module are applied as long as one is applicable (see [Strüber et al.\'s
 paper at FASE 2015](https://doi.org/10.1007/978-3-662-46675-9_19)).
 
-### Technicalities/To-Dos {#technicalitiesto_dos}
+### Technicalities/To-Dos
 
 -   To support variant-specific differences of the *injectiveMatching*
     flag, rules with variability have a separate attribute
@@ -194,4 +194,4 @@ paper at FASE 2015](https://doi.org/10.1007/978-3-662-46675-9_19)).
 -   Interaction with multi-rules is currently undefined.
 -   Integration with the transformation wizard is an open to-do.
 
-[category:Henshin](category:Henshin "wikilink")
+

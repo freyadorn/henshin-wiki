@@ -1,10 +1,9 @@
-\_\_NOTOC\_\_
 
 This page lists documented **examples** of [Henshin](Henshin "wikilink")
 transformations. All examples can be found in the [Henshin examples
 plug-in](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples).
 
-### Endogenous Transformations {#endogenous_transformations}
+### Endogenous Transformations
 
 Endogenous transformations are transformations on a single model. Please
 take also a look under *Higher-order (HO) Transformations*, *State Space
@@ -20,7 +19,7 @@ transformations.
     Courses](Henshin/Examples/University_Courses "wikilink"): An example
     showing the capabilities and usage of Units.
 
-### Exogenous Transformations {#exogenous_transformations}
+### Exogenous Transformations
 
 Exogenous transformations are transformations on multiple models, e.g.,
 translations between different DSLs. Please take also a look under
@@ -33,7 +32,7 @@ transformations.
     Translating a Java model into a state machine. This is the
     Reengineering case of TTC\'11.
 
-### Higher-Order (HO) Transformations {#higher_order_ho_transformations}
+### Higher-Order (HO) Transformations
 
 Higher-order transformations modify or translate transformation models,
 e.g. Henshin transformations.
@@ -48,7 +47,7 @@ e.g. Henshin transformations.
     initially described in a technical report on benchmarks for graph
     transformation.
 
-### State Space Analysis {#state_space_analysis}
+### State Space Analysis
 
 These are examples showing how to use the state space generation and
 analysis features of Henshin.
@@ -65,7 +64,7 @@ analysis features of Henshin.
     message broadcasting in wireless sensor networks. This example is
     taken from an ICGT\'12 paper.
 
-### Giraph Code Generation {#giraph_code_generation}
+### Giraph Code Generation
 
 These are examples of uses of the Giraph code generator provided by
 Henshin.
@@ -74,7 +73,7 @@ Henshin.
     the example used in the paper *Implementing Graph Transformations in
     the Bulk Synchronous Parallel Model*.
 
-### Critical Pair Analysis {#critical_pair_analysis}
+### Critical Pair Analysis
 
 These are examples showing how to use the critical pair analysis feature
 of Henshin.
@@ -88,4 +87,4 @@ of Henshin.
 users, do not hesitate to send your example to our [mailing
 list](https://dev.eclipse.org/mailman/listinfo/henshin-dev).*
 
-[Category:Henshin](Category:Henshin "wikilink")
+

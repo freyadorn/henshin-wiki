@@ -15,7 +15,7 @@ The transformation and the source code can be found
 All benchmarks were run on a Intel(R) Xeon(R) CPU @ 2.50GHz with 8GB of
 main memory using Henshin 0.9.2.
 
-### Generation of a sparse grid {#generation_of_a_sparse_grid}
+### Generation of a sparse grid
 
 In this part, a sparse grid structure is constructed that consists of a
 number of columns which are not interconnected. The transformation rules
@@ -49,7 +49,7 @@ the width and the height.
   180      32.400    7.113ms
   200      40.000    12.118ms
 
-### Generation of a full grid {#generation_of_a_full_grid}
+### Generation of a full grid
 
 Now our goal is to construct a full grid. The transformation rules and
 units are shown below. The main unit unit for constructing the grid is
@@ -84,7 +84,7 @@ involved matching process takes more time.
   90       8.100     6.278ms
   100      10.000    9.238ms
 
-### Generating and matching the comb pattern {#generating_and_matching_the_comb_pattern}
+### Generating and matching the comb pattern
 
 Now we want to construct the comb pattern with varying width. For this
 we use the transformation units and rules shown below. The comb pattern
@@ -134,4 +134,4 @@ sparse and the full grid.
 
 *contributed by Dmitry Zakharov and Christian Krause*
 
-[category:Henshin](category:Henshin "wikilink")
+

@@ -93,4 +93,4 @@ This example requires Henshin 0.9.3 or higher.
 
 *contributed by Christian Krause*
 
-[category:Henshin](category:Henshin "wikilink")
+

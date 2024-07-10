@@ -19,14 +19,14 @@ transformation. The models, transformation, source code and example
 input / output models can be found
 [here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/ecore2genmodel).
 
-### Generating the GenModel {#generating_the_genmodel}
+### Generating the GenModel
 
 The following screenshots depicts the rules and transformation units for
 the generation of the GenModel.
 
 ![](henshin-ecore2genmodel-rules1.png "henshin-ecore2genmodel-rules1.png"){width="600"}
 
-### Customization (HO-transformation) {#customization_ho_transformation}
+### Customization (HO-transformation)
 
 The following screenshots depicts the rules, meta-rules and
 transformation units for the customization part. For details, please
@@ -39,4 +39,4 @@ This example requires Henshin 0.9.3 or higher.
 *contributed by Enrico Biermann, Claudia Ermel, Stefan Jurack and
 Christian Krause*
 
-[category:Henshin](category:Henshin "wikilink")
+

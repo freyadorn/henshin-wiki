@@ -7,7 +7,7 @@ composite units. Rule specify atomic building blocks for
 transformations. Composite units enable the orchestration of multiple
 rules in a control flow.
 
-### Basic building blocks: Rules {#basic_building_blocks_rules}
+### Basic building blocks: Rules
 
 ![](Henshin_Transformatin_Modules.png "Henshin_Transformatin_Modules.png"){width="550"
 height=""}
@@ -62,7 +62,7 @@ entries can be modified using the *index* attribute. An example is shown
 in [this
 article](http://web.archive.org/web/20160722080730/http://www.ckrause.org:80/2013/05/henshin-098-working-with-lists.html).
 
-### Advanced concepts: Application conditions and rule nesting {#advanced_concepts_application_conditions_and_rule_nesting}
+### Advanced concepts: Application conditions and rule nesting
 
 ![](Henshin_Application_Conditions.png "Henshin_Application_Conditions.png"){width="550"
 height=""}
@@ -127,7 +127,7 @@ transformation.\" Software & Systems Modeling 11.2 (2012): 227-250.
 Chapter 5.
 [SpringerLink](http://link.springer.com/article/10.1007/s10270-011-0199-7)*
 
-### Control flow: Units {#control_flow_units}
+### Control flow: Units
 
 ![](Henshin_Transformation_Units.png "Henshin_Transformation_Units.png"){width="550"
 height=""}
@@ -174,7 +174,7 @@ one found to be executable - is executed.
 checked in nondeterministic order for executability. One sub-unit - the
 first one found to be executable - is executed.
 
-### Execution-time variability: Parameters {#execution_time_variability_parameters}
+### Execution-time variability: Parameters
 
 *Main article (with examples):
 [Parameters](Henshin/Parameters "wikilink")*
@@ -216,7 +216,7 @@ is the case for the *iterations* condition.
 ![](Henshin_Annotations.png "Henshin_Annotations.png"){width="310"
 height=""}
 
-### Adding meta-information: Annotations {#adding_meta_information_annotations}
+### Adding meta-information: Annotations
 
 **Annotations** are a mechanism for supporting non-intrusive extensions
 of the Henshin language: Each model element from a Henshin module can be
@@ -229,5 +229,5 @@ management](Henshin/Variant_Management "wikilink") feature, variant
 management information is added to rules and rule elements via
 annotations.
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

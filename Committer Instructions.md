@@ -3,7 +3,7 @@ committers**: The set-up for working on the codebase with Gerrit, and
 the instructions for importing projects and resolving their dependencies
 in your local workspace.
 
-## Set-up {#set_up}
+## Set-up
 
 Henshin uses [Gerrit](https://git.eclipse.org/r/#/) for handling code
 reviewing and merging. This implies specific processes when setting up
@@ -61,7 +61,7 @@ After pushing a change, a corresponding entry on
 (a subset of) the other committers as reviewers, doing this for all
 changes.
 
-### Frequent problem: no push rights {#frequent_problem_no_push_rights}
+### Frequent problem: no push rights
 
 A frequent error message is:
 
@@ -76,9 +76,9 @@ This error message occurs if you\'re pushing to one of the read-only
 repository URLs. Please follow the instructions above, especially the
 part about changing the repository location.
 
-[category:Henshin](category:Henshin "wikilink")
 
-## `<span id="imports">`{=html}`</span>`{=html}Importing projects into your workspace and resolving dependencies {#importing_projects_into_your_workspace_and_resolving_dependencies}
+
+## `<span id="imports">`{=html}`</span>`{=html}Importing projects into your workspace and resolving dependencies
 
 Henshin\'s codebase is divided into several plug-in projects with
 different responsibilies, for example:
@@ -139,4 +139,4 @@ To resolve further build errors in
 *Properties* -\> *Resource* and set the text file encoding to *Other:
 UTF-8*.
 
-[Category:Modeling](Category:Modeling "wikilink")
+

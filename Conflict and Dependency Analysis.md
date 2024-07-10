@@ -6,7 +6,7 @@ supersedes [Critical Pair
 Analysis](Henshin/Critical_Pair_Analysis "wikilink") by providing a more
 efficient and flexible analysis.
 
-### Granularity levels {#granularity_levels}
+### Granularity levels
 
 For conflicts, there are four types of granularity:
 
@@ -50,7 +50,7 @@ file](Henshin_MultiCDA_doc_1.png "Fig. 1: Execute MultiCDA on the Henshin file o
 ![Fig. 2: First page of the MultiCDA wizard: selecting the rules to be
 analysed.](Henshin_MultiCDA_doc_2.png "Fig. 2: First page of the MultiCDA wizard: selecting the rules to be analysed."){width="200"}
 
-### Usage via wizard {#usage_via_wizard}
+### Usage via wizard
 
 You can execute the MultiCDA from *.henshin* files by right-clicking on
 it and clicking *Conflict and dependency analysis* beneath *Henshin*
@@ -162,7 +162,7 @@ corresponding critical pair to the right
 tables <File:Henshin_MultiCDA_doc_6.png%7CFig>. 10: Representation of
 conflicts on attributes
 
-### Usage via API {#usage_via_api}
+### Usage via API
 
 The folder
 *[org.eclipse.emf.henshin.examples.cda](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/cda)*
@@ -246,9 +246,9 @@ The expected console output should be:
 `[Node 14.1_10.1:Package -> Node 14.1:Package, Node 14.4_10.3:Class -> Node 14.4:Class]`\
 `[Node 14.1_10.1:Package -> Node 10.1:Package, Node 14.4_10.3:Class -> Node 10.3:Class]`
 
-### Current limitations/scope {#current_limitationsscope}
+### Current limitations/scope
 
 -   We currently do not consider conflicts and dependency in relation to
     *attributes*.
 
-[category:Henshin](category:Henshin "wikilink")
+

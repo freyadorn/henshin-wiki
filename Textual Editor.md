@@ -2,15 +2,15 @@ The textual Henshin editor supports the specification of transformation
 rules and units with syntax highlighting, quick fixes and content
 assist.
 
-# Creating a new henshin_text file {#creating_a_new_henshin_text_file}
+# Creating a new henshin_text file
 
 To create a new henshin_text file you need to open New wizard and select
 Henshin Text from the category Henshin. The wizard will create a new
 henshin_text file and will add the XText nature to your project.
 
-# Specifying transformation rules and units {#specifying_transformation_rules_and_units}
+# Specifying transformation rules and units
 
-## Specifying transformation rules {#specifying_transformation_rules}
+## Specifying transformation rules
 
 The below code shows the textual definition of the transformation rule
 *createAccount* ([bank
@@ -61,7 +61,7 @@ the name of the target node and its type. If no action is specified, as
 it is for *(bank-\>manager:managers)*, the action of the edge is
 **preserve**.
 
-## Specifying multi-rules {#specifying_multi_rules}
+## Specifying multi-rules
 
 The below code shows the textual definition of the transformation rule
 scheduleOfferedCourse ([university courses
@@ -125,7 +125,7 @@ rule scheduleOfferedCourse(IN hour:EInt, OUT offered:OfferedCourse, VAR name:ESt
 }
 ```
 
-## Specifying Application Conditions {#specifying_application_conditions}
+## Specifying Application Conditions
 
 There are two ways to specify application conditions with the textual
 syntax for Henshin. One way is to annotate nodes with the actions
@@ -216,7 +216,7 @@ rule scheduleOfferedCourseFormula(IN hour:EInt, OUT offered:OfferedCourse, VAR n
 }
 ```
 
-## Specifying Units {#specifying_units}
+## Specifying Units
 
 The following code examples show how to define the different
 [units](https://wiki.eclipse.org/Henshin/Units). The Independent Unit is
@@ -225,7 +225,7 @@ Ecore2GenModel](https://www.eclipse.org/henshin/examples.php?example=ecore2genmo
 and the other units are taken from the ([example University
 Courses](https://www.eclipse.org/henshin/examples.php?example=universitycourses)).
 
-### Independent Unit {#independent_unit}
+### Independent Unit
 
 ``` text
 unit generateGenModel(IN modelFileName:EString, IN pluginName:EString, OUT genModel:GenModel){
@@ -233,7 +233,7 @@ unit generateGenModel(IN modelFileName:EString, IN pluginName:EString, OUT genMo
 }
 ```
 
-### Priority Unit {#priority_unit}
+### Priority Unit
 
 ``` text
 unit planOrCleanup(IN startHour:EInt){
@@ -241,7 +241,7 @@ unit planOrCleanup(IN startHour:EInt){
 }
 ```
 
-### Sequential Unit {#sequential_unit}
+### Sequential Unit
 
 ``` text
 unit planAllCoursesOrFail(IN startHour:EInt){
@@ -250,7 +250,7 @@ unit planAllCoursesOrFail(IN startHour:EInt){
 }
 ```
 
-### Loop Unit {#loop_unit}
+### Loop Unit
 
 ``` text
  
@@ -261,7 +261,7 @@ unit cleanUpUniterestingCoursesUnit(){
 }
 ```
 
-### Iterated Unit {#iterated_unit}
+### Iterated Unit
 
 ``` text
 unit manageCourses(IN startHour:EInt){
@@ -271,7 +271,7 @@ unit manageCourses(IN startHour:EInt){
 }
 ```
 
-### Conditional Unit {#conditional_unit}
+### Conditional Unit
 
 The first example code shows a Conditional Unit with **else**-part the
 second example is a Conditional Unit without **else**-part.
@@ -314,7 +314,7 @@ unit planUnscheduledInterestingCourses(IN currentHour:EInt){
 }
 ```
 
-# Running a transformation rule or unit {#running_a_transformation_rule_or_unit}
+# Running a transformation rule or unit
 
 To run a transformation rule or unit you need to right-click on your
 henhin_text file and select „Apply transformation". This will invoke the
@@ -323,4 +323,4 @@ wizard](https://wiki.eclipse.org/Henshin/Interpreter#Interpreter_Wizard).
 It is also possible to generate a henshin file. For this you need to
 right-click on your henhin_text file and select „Transform to Henshin".
 
-[category:Henshin](category:Henshin "wikilink")
+

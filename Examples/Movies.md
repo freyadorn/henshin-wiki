@@ -30,4 +30,4 @@ folder in the *examples* plugin.
 
 *contributed by Christian Krause and Matthias Tichy*
 
-[category:Henshin](category:Henshin "wikilink")
+

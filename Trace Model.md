@@ -15,7 +15,7 @@ be named and can contain subtraces.
 
 ![Henshin Trace Model](Henshin-trace-model.png "Henshin Trace Model")
 
-## Importing the Trace Model {#importing_the_trace_model}
+## Importing the Trace Model
 
 To use the trace model in an exogenous transformation, all you need to
 do is to import the trace package into your transformation and to use it
@@ -26,7 +26,7 @@ editors and choose this URI:
 
 ![Henshin Import Menu](Henshin-import-menu.png "Henshin Import Menu")
 
-## Using the Trace Model {#using_the_trace_model}
+## Using the Trace Model
 
 Suppose you want to translate EClasses to GenClasses and all their
 EAttributes to GenFeatures. Then you could use the following to
@@ -44,5 +44,5 @@ themselves. In general, the source and target models in exogenous
 transformations may not be related and therefore the Trace model is
 necessary.
 
-[Category:Henshin](Category:Henshin "wikilink")
-[Category:Modeling](Category:Modeling "wikilink")
+
+

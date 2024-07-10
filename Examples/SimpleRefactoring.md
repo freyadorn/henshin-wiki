@@ -1,4 +1,3 @@
-\_\_NOTOC\_\_
 
 The **Simple Class Modeling Refactoring example** illustrates Henshin\'s
 capabilities for [Conflict and Dependency
@@ -25,7 +24,7 @@ consists of a number of *Classes* where each one can have a number of
 *Attributes*. Finally, a class may be associated to other classes by
 *references*.
 
-### Refactoring Transformation Rules {#refactoring_transformation_rules}
+### Refactoring Transformation Rules
 
 ![](henshin-ref-refactoringRules.png "henshin-ref-refactoringRules.png"){width="250"}
 
@@ -73,7 +72,7 @@ observe the following:
     refactoring becomes inapplicable (and vice versa). This means,
     refactoring Move Attribute is in conflict with itself.
 
-### Applying the Critical Pair Analysis {#applying_the_critical_pair_analysis}
+### Applying the Critical Pair Analysis
 
 `<span style="background:#ffff00">`{=html}As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
@@ -87,7 +86,7 @@ tools of different application domains. In addition, a user interface
 (UI) is provided supporting domain experts in developing rules by
 providing the CPA interactively.
 
-#### Execution using the CPA Wizard {#execution_using_the_cpa_wizard}
+#### Execution using the CPA Wizard
 
 `<span style="background:#ffff00">`{=html}As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
@@ -134,7 +133,7 @@ and *Attribute*. Element *Attribute* is marked by hash tags to state
 that it causes the conflict. Numbers indicate corresponding matches of
 rule nodes to model nodes.
 
-#### Execution using the API {#execution_using_the_api}
+#### Execution using the API
 
 `<span style="background:#ffff00">`{=html}As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
@@ -195,4 +194,4 @@ figure). Note that dependency and conflict kinds are strictly separated.
 
 *contributed by Thorsten Arendt and Kristopher Born*
 
-[Category:Henshin](Category:Henshin "wikilink")
+

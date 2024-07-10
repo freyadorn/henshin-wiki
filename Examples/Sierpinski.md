@@ -42,4 +42,4 @@ milliseconds.
 
 \
 *Contributed by Enrico Biermann and Christian Krause*
-[category:Henshin](category:Henshin "wikilink")
+

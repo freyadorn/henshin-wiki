@@ -1,4 +1,3 @@
-\_\_NOTOC\_\_
 
 This tutorial shows you how to **get started** with
 [Henshin](Henshin "wikilink"). It introduces the **Bank Accounts
@@ -34,7 +33,7 @@ application can be found in the articles about the [graphical
 editor](Henshin/Graphical_Editor "wikilink") and the
 [interpreter](Henshin/Interpreter "wikilink")
 
-## Metamodel and Instance Model {#metamodel_and_instance_model}
+## Metamodel and Instance Model
 
 ![](henshin-bank.png "henshin-bank.png") The metamodel is defined in the
 file *bank.ecore*. We used the Ecore Tools to draw a diagram (depicted
@@ -57,7 +56,7 @@ we use dynamic EMF here, i.e. the instance model is typed over a dynamic
 metamodel loaded from *bank.ecore*. This is also the reason why we used
 the generic file extension *\*.xmi* here and not, say, *\*.bank*.
 
-## Transformation Rules {#transformation_rules}
+## Transformation Rules
 
 We define a couple of transformation rules for the above metamodel. In
 fact, the rule set we aim to define is provided as part of the
@@ -162,7 +161,7 @@ set to true, a node can only be deleted if all its links are deleted,
 too. As an exercise, you may define a rule which moves all accounts from
 one client to another client.
 
-## Execution using the Interpreter Wizard {#execution_using_the_interpreter_wizard}
+## Execution using the Interpreter Wizard
 
 We now show how to execute single transformation rules using the Henshin
 interpreter, invoked through a dialog. To run this dialog, open the
@@ -196,7 +195,7 @@ on the right. As parameter we specified *client=Charles* with type
 *String*. The preview window on the right shows the result of applying
 the rule with these parameters.
 
-## Performance Optimization using EMaps {#performance_optimization_using_emaps}
+## Performance Optimization using EMaps
 
 The rule *transferMoney* can also be realized using EMF EMaps. This
 significantly improves the performance for large models because Account
@@ -204,7 +203,7 @@ objects can be looked up efficiently based on their ID.
 
 ![](henshin-bankmap.png "henshin-bankmap.png"){width="300"}
 
-## Execution using the Interpreter API {#execution_using_the_interpreter_api}
+## Execution using the Interpreter API
 
 Of course, you can also invoke the interpreter programmatically. You can
 find an implementation of the example transformations above using the
