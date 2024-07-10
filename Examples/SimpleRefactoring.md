@@ -1,7 +1,7 @@
 
 The **Simple Class Modeling Refactoring example** illustrates Henshin\'s
 capabilities for [Conflict and Dependency
-Analysis](Henshin/Conflict_and_Dependency_Analysis "wikilink"). It is
+Analysis](Conflict_and_Dependency_Analysis "wikilink"). It is
 described in the paper *Analyzing Conflicts and Dependencies of
 Rule-Based Transformations in Henshin* published at FASE 2015. We
 explain how to use the analysis (wizard and programmatically) to find
@@ -77,7 +77,7 @@ observe the following:
 `<span style="background:#ffff00">`{=html}As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
 and Dependency
-Analysis](Henshin/Conflict_and_Dependency_Analysis "wikilink") - see the
+Analysis](Conflict_and_Dependency_Analysis "wikilink") - see the
 illustrations there.`</span>`{=html}
 
 The CPA in Henshin can be used in two different ways: Its application
@@ -91,7 +91,7 @@ providing the CPA interactively.
 `<span style="background:#ffff00">`{=html}As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
 and Dependency
-Analysis](Henshin/Conflict_and_Dependency_Analysis "wikilink") - see the
+Analysis](Conflict_and_Dependency_Analysis "wikilink") - see the
 illustrations there.`</span>`{=html}
 
 The CPA is called on a Henshin file in the Eclipse Package Explorer
@@ -138,7 +138,7 @@ rule nodes to model nodes.
 `<span style="background:#ffff00">`{=html}As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
 and Dependency
-Analysis](Henshin/Conflict_and_Dependency_Analysis "wikilink") - see the
+Analysis](Conflict_and_Dependency_Analysis "wikilink") - see the
 illustrations there.`</span>`{=html}
 
 The usage of the API is straightforward. There are two main steps to

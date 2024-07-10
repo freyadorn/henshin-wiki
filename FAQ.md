@@ -1,11 +1,11 @@
 Here we answer some **frequently asked questions** about
 [Henshin](Henshin "wikilink").
 
-\_\_TOC\_\_
+
 
 ## How can I execute transformations?
 
-Use the [Henshin Interpreter](Henshin/Interpreter "wikilink") to execute
+Use the [Henshin Interpreter](Interpreter "wikilink") to execute
 transformations, available via a wizard or programatically.
 
 ## My rule cannot be applied, even though I expect that it should.
@@ -24,7 +24,7 @@ ensure validity of the transformation, the interpreter performs a check
 that the rule application does not leave behind dangling edges.\
 To make the rule applicable, you can either modify the rule to specify
 the problematic edges to be deleted as well (potentially using
-[multi-rules](Henshin/Transformation_Meta-Model#Advanced_concepts:_Application_conditions_and_rule_nesting "wikilink"),
+[multi-rules](Transformation_Meta-Model#Advanced_concepts:_Application_conditions_and_rule_nesting "wikilink"),
 to establish a for-all semantics), or switch to Single-Pushout semantics
 (by setting the *checkDangling* property of the rule to *false*).
 
@@ -47,13 +47,13 @@ Henshin?](#How_can_I_use_dynamic_EMF_with_Henshin.3F "wikilink").
 
 If you have ruled out these issues, we recommend to check out the
 [Debugging
-Support](Henshin/Interpreter#Debugging_using_the_interpreter "wikilink").
+Support](Interpreter#Debugging_using_the_interpreter "wikilink").
 
 ## Does Henshin support automatic tracing for exogenous transformations?
 
 Henshin follows a rewrite approach. Tracing is not build into the
 transformation language but can be easily realized using a generic
-[Henshin Trace Model](Henshin/Trace_Model "wikilink").
+[Henshin Trace Model](Trace_Model "wikilink").
 
 ## How can I use dynamic EMF with Henshin?
 
@@ -99,11 +99,11 @@ here!
 ## What sort of automatic analysis is supported?
 
 You can use the [Henshin State Space
-Explorer](Henshin/State_Space_Tools "wikilink") to generate a state
+Explorer](State_Space_Tools "wikilink") to generate a state
 space for a transformation system, check structural invariants and do
 model checking.
 
-The [Critical Pair Analysis](Henshin/Critical_Pair_Analysis "wikilink")
+The [Critical Pair Analysis](Critical_Pair_Analysis "wikilink")
 allows to uncover conflicts and dependencies in a rule set, which can be
 used for many purposes, including validation and testing.
 

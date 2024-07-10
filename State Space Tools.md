@@ -33,7 +33,7 @@ menu for state space files or programmatically. For model checking, the
 state space explorer provides a uniform front-end to the above mentioned
 analysis tools.
 
-\_\_TOC\_\_
+
 
 # State space generation
 
@@ -43,11 +43,11 @@ transformation.
 ## Transformation rules and initial state
 
 As a running example we consider the academic example of [dining
-philosophers](Henshin/Examples/DiningPhilosophers "wikilink"). To make
+philosophers](Examples/DiningPhilosophers "wikilink"). To make
 it more interesting we include a rule for a dynamic reconfiguration,
 i.e. to allow to add a philosopher to the table during the execution.
 The rules can be specified using the either the graphical or tree-based
-[transformation editor](Henshin/Graphical_Editor "wikilink"). The
+[transformation editor](Graphical_Editor "wikilink"). The
 graphical versions of our rules are depicted below. We have the
 following rules:
 
@@ -417,7 +417,7 @@ This is all information you need to specify. The state space tool will
 automatically generate a PRISM specification according to the semantics
 of probabilistic graph transformation systems. See also the
 [probabilistic
-broadcast](Henshin/Examples/ProbabilisticBroadcast "wikilink").
+broadcast](Examples/ProbabilisticBroadcast "wikilink").
 
 # State space export
 

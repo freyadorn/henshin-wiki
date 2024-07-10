@@ -9,11 +9,11 @@ Henshin\'s codebase is divided into several plug-in projects with
 different responsibilies, for example:
 
 -   Plug-in *org.eclipse.emf.henshin.model*: The
-    [meta-model](Henshin/Transformation_Meta-Model "wikilink")
+    [meta-model](Transformation_Meta-Model "wikilink")
 -   Plug-in *org.eclipse.emf.henshin.diagram*: The [graphical
-    editor](Henshin/Graphical_Editor "wikilink")
+    editor](Graphical_Editor "wikilink")
 -   Plug-in *org.eclipse.emf.henshin.interpreter*: The
-    [interpeter](Henshin/Interpreter "wikilink")
+    [interpeter](Interpreter "wikilink")
 -   Plug-ins *org.eclipse.emf.henshin.{edit,editor}*: The tree-based
     editor
 

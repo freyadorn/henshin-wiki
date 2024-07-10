@@ -1,7 +1,7 @@
 [Henshin](Henshin "wikilink")\'s **critical pair analysis** (CPA)
 feature enables the detection of all potential conflicts and
 dependencies of a set of
-[rules](Henshin/Transformation_Meta-Model#Basic_building_blocks:_Rules "wikilink").
+[rules](Transformation_Meta-Model#Basic_building_blocks:_Rules "wikilink").
 The result of the analysis is a set of critical pairs, each reporting on
 a potential conflict or dependency between two rules. A critical pair
 describes a minimal conflict or dependency situation, consisting of the
@@ -14,9 +14,9 @@ transformations.
 
 `<span style="background:#ffff00">`{=html}As per release 1.6, this
 feature has been superseded by Henshin\'s new [Conflict and Dependency
-Analysis](Henshin/Conflict_and_Dependency_Analysis "wikilink").`</span>`{=html}
+Analysis](Conflict_and_Dependency_Analysis "wikilink").`</span>`{=html}
 
-\_\_TOC\_\_
+
 
 ## Kinds of conflicts and dependencies
 
@@ -110,7 +110,7 @@ different kinds of dependencies.
 ## Features
 
 Several language features of the Henshin [model transformation
-language](Henshin/Transformation_Meta-Model "wikilink") and the [Eclipse
+language](Transformation_Meta-Model "wikilink") and the [Eclipse
 Modeling Framework](Eclipse_Modeling_Framework "wikilink") are
 supported. The supported and unsupported features are listed in what
 follows.
@@ -186,7 +186,7 @@ Critical Pair*.
 The CPA API allows to use the CPA programmatically. As a prerequisite,
 all considered transformation rules have to be loaded upfront. A
 description of this process is given in the [Henshin Interpreter
-page](Henshin/Interpreter#Loading_.26_Saving "wikilink").
+page](Interpreter#Loading_.26_Saving "wikilink").
 
 Depending on the desired result, either one or two lists of the rules to
 be analysed have to be set up. To obtain all pair-wise conflicts or

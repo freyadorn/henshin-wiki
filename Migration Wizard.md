@@ -77,7 +77,7 @@ There are also a few changes in the runtime API. Most importantly, the
 class *ModelHelper* which was earlier used to load and save models etc.
 is no deprecated. Instead, you should use the functionality provided in
 *HenshinResourceSet*. For more details, see the example at the [Henshin
-Interpreter](Henshin/Interpreter "wikilink") wikipage.
+Interpreter](Interpreter "wikilink") wikipage.
 
 
 

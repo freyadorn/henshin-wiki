@@ -26,12 +26,12 @@ repository](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/p
 
 Once you want to go beyond the basic concepts covered in this tutorial,
 we recommend to look at the [Henshin
-meta-model](Henshin/Transformation_Meta-Model "wikilink") for a complete
+meta-model](Transformation_Meta-Model "wikilink") for a complete
 reference on how model transformations are specified in Henshin and what
 their capabilities are. Additional details about rule creation and rule
 application can be found in the articles about the [graphical
-editor](Henshin/Graphical_Editor "wikilink") and the
-[interpreter](Henshin/Interpreter "wikilink")
+editor](Graphical_Editor "wikilink") and the
+[interpreter](Interpreter "wikilink")
 
 ## Metamodel and Instance Model
 

@@ -1,5 +1,5 @@
 **Parameters** allow to shape the behavior of
-[units](Henshin/Units "wikilink"), including rules, with variable
+[units](Units "wikilink"), including rules, with variable
 information. A unit can have an arbitary number of parameters.
 Parameters have a name, a description, a kind, and, optionally, a type.
 
@@ -18,14 +18,14 @@ unit has been applied. There are four parameter kinds (*in*, *out*,
 
   : Feature comparison
 
-Examples: [Bank Accounts](Henshin/Getting_started "wikilink") (*in*,
-*var*), [Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink") (*in*, *out*,
-*var*), [Ecore2GenModel](Henshin/Examples/Ecore2GenModel "wikilink")
+Examples: [Bank Accounts](Getting_started "wikilink") (*in*,
+*var*), [Ecore2RDB](Examples/Ecore2RDB "wikilink") (*in*, *out*,
+*var*), [Ecore2GenModel](Examples/Ecore2GenModel "wikilink")
 (*in*, *out*, *var*), [Grid and Comb
-Pattern](Henshin/Examples/GridAndCombPattern "wikilink") (*in*, *inout*,
-*out*), [Gossiping Girls](Henshin/Examples/GossipingGirls "wikilink")
+Pattern](Examples/GridAndCombPattern "wikilink") (*in*, *inout*,
+*out*), [Gossiping Girls](Examples/GossipingGirls "wikilink")
 (*out*), [Probabilistic
-Broadcast](Henshin/Examples/ProbabilisticBroadcast "wikilink"), (*in*,
+Broadcast](Examples/ProbabilisticBroadcast "wikilink"), (*in*,
 *var*)
 
 ## Parameter mappings
@@ -40,7 +40,7 @@ application are either set during the match finding process (in the case
 of LHS elements) or after the creation of new elements (in the case of
 RHS elements). This behavior can be used to propagate values between LHS
 and RHS elements, as exemplified in the *transferMoney* rule in the
-[Bank Accounts](Henshin/Getting_started "wikilink") example.
+[Bank Accounts](Getting_started "wikilink") example.
 
   From → / to ↓   IN   OUT   INOUT   VAR
   --------------- ---- ----- ------- -----
@@ -54,24 +54,24 @@ and RHS elements, as exemplified in the *transferMoney* rule in the
 The legacy parameter kind *unknown* can be mapped arbitrarily depending
 on its usage.
 
-Examples: [Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink") (*in*→*in*,
+Examples: [Ecore2RDB](Examples/Ecore2RDB "wikilink") (*in*→*in*,
 *out*→*out*),
-[Ecore2GenModel](Henshin/Examples/Ecore2GenModel "wikilink") (*in*→*in*,
+[Ecore2GenModel](Examples/Ecore2GenModel "wikilink") (*in*→*in*,
 *out*→*out*), [Grid and Comb
-Pattern](Henshin/Examples/GridAndCombPattern "wikilink") (*in*→*in*,
+Pattern](Examples/GridAndCombPattern "wikilink") (*in*→*in*,
 *out*→*out*, *in*→*inout*, *inout*→*in*, *inout*→*out*)
 
 ## Usage during definition
 
 Parameters can be created using the tree-based or the
-[graphical](Henshin/Graphical_Editor "wikilink") editor. They can be
+[graphical](Graphical_Editor "wikilink") editor. They can be
 edited using the latter or the *Properties* view.
 
 Declared parameters are used inside the unit by referencing them by
 name. Parameters can be used at any place in the unit where a string
 value is expected: in rules, this is the case for node names, attribute
 values, edge indices, and attribute conditions. In [iterated
-units](Henshin/Units#Iterated_Unit "wikilink"), this is the case for the
+units](Units#Iterated_Unit "wikilink"), this is the case for the
 iterations condition.
 
 ### Parameter creation and editing in graphical editor
@@ -79,7 +79,7 @@ iterations condition.
 ![](Henshin_Parameters_GraphicalEditor.png "Henshin_Parameters_GraphicalEditor.png")
 
 To create or edit a parameter with the [graphical
-editor](Henshin/Graphical_Editor "wikilink") open the according
+editor](Graphical_Editor "wikilink") open the according
 *\*.henshin_diagram* file. Select the name of a unit or rule by clicking
 on it. Click a second time to edit the name. You can now - text-based -
 add, edit and remove parameters which follow the unit/rule name
@@ -127,8 +127,8 @@ Before unit or rule execution parameters of kind *in* and *inout* have
 to be set externally. Parameters of kind *unknown* may be set externally
 depending on their usage in their units/rules. This can be done using
 the [Interpreter
-Wizard](Henshin/Interpreter#Interpreter_Wizard "wikilink") or the
-[Interpreter API](Henshin/Interpreter#Interpreter_API "wikilink").
+Wizard](Interpreter#Interpreter_Wizard "wikilink") or the
+[Interpreter API](Interpreter#Interpreter_API "wikilink").
 
 ### Interpreter Wizard
 
@@ -143,7 +143,7 @@ editing the cells in the *Values* column.
 ### Interpreter API
 
 See *Setting and Getting Parameter Values* in
-[Henshin/Interpreter#Transforming_and_more](Henshin/Interpreter#Transforming_and_more "wikilink").
+[Henshin/Interpreter#Transforming_and_more](Interpreter#Transforming_and_more "wikilink").
 
 ## Remarkable usage examples
 
@@ -192,7 +192,7 @@ set parameter.
 
 For an additional usage illustration, consider the rule *extendColumn*
 in the section *Generation of a sparse grid* of the [Grid and Comb
-Pattern](Henshin/Examples/GridAndCombPattern "wikilink") example.
+Pattern](Examples/GridAndCombPattern "wikilink") example.
 
 
 

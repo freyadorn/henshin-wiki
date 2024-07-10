@@ -3,7 +3,7 @@ detection of potential conflicts and dependencies of a set of rules. The
 feature is called **MultiCDA** in short, since it supports multiple
 granularity levels, which can be selected by the user. MultiCDA
 supersedes [Critical Pair
-Analysis](Henshin/Critical_Pair_Analysis "wikilink") by providing a more
+Analysis](Critical_Pair_Analysis "wikilink") by providing a more
 efficient and flexible analysis.
 
 ### Granularity levels
@@ -21,7 +21,7 @@ For conflicts, there are four types of granularity:
     by different combinations of minimal ones.
 -   Very Fine granularity is equivalent to critical pairs, as obtained
     from [Critical Pair
-    Analysis](Henshin/Critical_Pair_Analysis "wikilink") (CPA). A
+    Analysis](Critical_Pair_Analysis "wikilink") (CPA). A
     critical pair describes a minimal conflict situation, consisting of
     the first rule and the second rule as well as a minimal model
     affected by the conflict.
@@ -36,7 +36,7 @@ important for most applications (explained below).
 
 Binary-, Coarse-, and Fine-granular results are computed based on a new
 suite of algorithms, which are much faster than the existing
-[CPA](Henshin/Critical_Pair_Analysis "wikilink") implementation (see
+[CPA](Critical_Pair_Analysis "wikilink") implementation (see
 [Lambers et al. - Multi-granular conflict and dependency analysis in
 software engineering based on graph
 transformation](https://doi.org/10.1145/3180155.3180258)). For Very Fine
@@ -167,7 +167,7 @@ conflicts on attributes
 The folder
 *[org.eclipse.emf.henshin.examples.cda](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/cda)*
 contains a usage example based on the [Simple
-Refactoring](Henshin/Examples/SimpleRefactoring "wikilink") example.
+Refactoring](Examples/SimpleRefactoring "wikilink") example.
 
 -   The file *refactorings.henshin* contains 8 refactoring rules.
 -   The file *RunConflictDetectionOnRefactoring.java* contains the code

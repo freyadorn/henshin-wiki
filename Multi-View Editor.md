@@ -1,6 +1,6 @@
 The **Henshin Multi-View Editor** (development discontinued in 2015) was
 an alternative to the integrated [Henshin Graphical
-Editor](Henshin/Graphical_Editor "wikilink"). It is based on the Muvitor
+Editor](Graphical_Editor "wikilink"). It is based on the Muvitor
 framework and maintained at [TU Berlin](http://www.tu-berlin.de/tfs) and
 [Uni Luxembourg](http://wwwde.uni.lu/snt).
 

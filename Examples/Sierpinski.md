@@ -2,7 +2,7 @@
 
 The **Sierpinski Triangle example** is a very simple example which we
 use to do some benchmarking for [Henshin](Henshin "wikilink")\'s
-[interpreter](Henshin/Interpreter "wikilink"). The [Sierpinski
+[interpreter](Interpreter "wikilink"). The [Sierpinski
 triangle](http://en.wikipedia.org/wiki/Sierpinski_triangle) is a fractal
 which is constructed by iteratively dividing triangles into
 sub-triangles. The number of nodes in the triangle grows exponentially

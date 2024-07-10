@@ -1,5 +1,5 @@
 The **Movies example** showcases Henshin\'s [Code Generator for
-Giraph](Henshin/Code_Generator_for_Giraph "wikilink"), which enables
+Giraph](Code_Generator_for_Giraph "wikilink"), which enables
 support for massive parallel rule execution. The example stems from the
 paper *Implementing Graph Transformations in the Bulk Synchronous
 Parallel Model* published in FASE 2014.

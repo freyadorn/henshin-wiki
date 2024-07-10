@@ -1,6 +1,6 @@
 The **graphical Henshin editor** allows to specify transformation rules
 and transformation units as defined by the [transformation
-meta-model](Henshin/Transformation_Meta-Model "wikilink") in an
+meta-model](Transformation_Meta-Model "wikilink") in an
 intuitive and compact way. This article describes the basic usage of the
 graphical editor.
 
@@ -41,7 +41,7 @@ Henshin, objects are referred to as *nodes* and links between objects as
 *edges*. A collection of nodes and edges forms a graph.
 
 The control flow of an arbitrary number of rules is specified using
-[units](Henshin/Units "wikilink").
+[units](Units "wikilink").
 
 ### Actions
 
@@ -101,7 +101,7 @@ EPackage node here explicitly.
 ## Limitations
 
 The graphical editor currently supports [application
-conditions](Henshin/Transformation_Meta-Model#Advanced_concepts:_Application_conditions_and_rule_nesting "wikilink")
+conditions](Transformation_Meta-Model#Advanced_concepts:_Application_conditions_and_rule_nesting "wikilink")
 only with limited expressiveness: no nesting of application conditions,
 and no boolean combination of application conditions beyond basic
 conjunction and negation.
@@ -109,7 +109,7 @@ conjunction and negation.
 ## Visual Multi-View Editor
 
 An alternative [multi-view graphical
-editor](Henshin/Multi-View_Editor "wikilink") is currently developed at
+editor](Multi-View_Editor "wikilink") is currently developed at
 the TU Berlin and Uni Luxembourg. This multi-view editor is **not** yet
 part of the official Henshin toolset, but will be added in the future.
 

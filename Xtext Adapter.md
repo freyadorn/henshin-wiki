@@ -64,7 +64,7 @@ can be correctly used in the context of an Xtext-generated editor.
     `<span style="background:#dddddd">`{=html}\[henshin::Module\]`</span>`{=html},
     `<span style="background:#dddddd">`{=html}\[henshin::Rule\]`</span>`{=html}
     etc. in your grammar to reference [Henshin
-    meta-classes](Henshin/Transformation_Meta-Model "wikilink").
+    meta-classes](Transformation_Meta-Model "wikilink").
 
 By default, links have no name in Henshin. To allow them to be
 referenced nonetheless, the plugins generate names following the grammar

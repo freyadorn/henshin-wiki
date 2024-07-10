@@ -13,7 +13,7 @@ cumbersome to edit presence conditions by hand, we provide dedicated
 [editing support](#editorsupport "wikilink") to reduce that effort.
 
 We also provide an extension of the
-[interpreter](Henshin/Interpreter "wikilink") that can deal with such
+[interpreter](Interpreter "wikilink") that can deal with such
 annotated rules, either by removing the variability before one variant
 is applied, or by considering all variants at the same time (executing
 them in *batch mode*).
@@ -55,7 +55,7 @@ the title bar, requiring *wrapper* to be true if *deprecate* is true.
 
 A user interface supporting the management of rules with variability is
 integrated with Henshin\'s [graphical
-editor](Henshin/Graphical_Editor "wikilink"). The main components of
+editor](Graphical_Editor "wikilink"). The main components of
 this user interface, a graphical editor and its attached *properties*
 view, are shown in the left of the image below. As custom components, we
 provide the *variability* and *sanitizing* views, shown in the right.
@@ -145,7 +145,7 @@ project](https://wiki.eclipse.org/images/4/49/Henshin-refactoring-variants-examp
 Loading the relevant resources and setting up the components of the
 transformation (EGraph, Engine etc.) etc. works the same as for standard
 rules (see the [Interpreter API
-description](Henshin/Interpreter#Interpreter_API "wikilink")).
+description](Interpreter#Interpreter_API "wikilink")).
 
 Instead of using a standard *RuleApplicationImpl*, rules with
 variability are applied by using a class *VarRuleApplicationImpl*, which
@@ -185,7 +185,7 @@ paper at FASE 2015](https://doi.org/10.1007/978-3-662-46675-9_19)).
 -   All variant management information (presence conditions, feature
     lists, configuration constraint, injective matching presence
     condition) is represented using the
-    [Annotation](Henshin/Transformation_Meta-Model "wikilink")
+    [Annotation](Transformation_Meta-Model "wikilink")
     metaclass. The UI shows these annotations as entries in the
     *Properties* view.
 -   Elements of the same application condition graphs cannot have

@@ -3,7 +3,7 @@ transformations defined in [Henshin](Henshin "wikilink"). The
 interpreter can be invoked either using a wizard or programmatically
 using an API.
 
-\_\_TOC\_\_
+
 
 ## Interpreter Wizard
 
@@ -203,7 +203,7 @@ fulfilled. For working with XMI-based models, at least
 **org.eclipse.emf.henshin.interpreter** for running Henshin and
 **org.eclipse.emf.ecore.xmi** for loading models and rules need to be
 included in the classpath (e.g. as a plug-in dependency). Various
-[examples](Henshin/Examples "wikilink"), including Java files showcasing
+[examples](Examples "wikilink"), including Java files showcasing
 API usage, are available. The [apibasics
 example](https://wiki.eclipse.org/images/7/75/Henshin-apibasics-example.zip)
 is especially focused on showing how to load, create and save models,

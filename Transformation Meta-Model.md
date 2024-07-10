@@ -30,7 +30,7 @@ reference or attribute in an EMF model. Attribute conditions can impose
 additional boolean conditions that are bound to the rule.
 
 For conciseness, the [graphical
-editor](Henshin/Graphical_Editor "wikilink") merges LHS and RHS into an
+editor](Graphical_Editor "wikilink") merges LHS and RHS into an
 integrated representation: Nodes and edges are annotated with a
 `<span style="color:gray">`{=html}«preserve»`</span>`{=html},
 `<span style="color:green">`{=html}«create»`</span>`{=html}, or
@@ -73,7 +73,7 @@ relationships not included in the LHS. In this case, they are referred
 to as *positive application conditions* (PACs). Furthermore, they may
 forbid the presence of elements or relationships. In this case, they are
 referred to as *negative application conditions* (NACs). Consequently,
-the [graphical editor](Henshin/Graphical_Editor "wikilink") displays PAC
+the [graphical editor](Graphical_Editor "wikilink") displays PAC
 elements with a
 `<span style="color:brown">`{=html}«require»`</span>`{=html} and NAC
 elements with a
@@ -89,20 +89,20 @@ the LHS. However, they are not part of the computed match. A match only
 contains mappings for LHS nodes. This is particularly important in
 scenarios where you want to apply a rule for each computed match
 (compare *rule-nesting*, described below). For an example, please refer
-to [Movies](Henshin/Examples/Movies "wikilink").\
+to [Movies](Examples/Movies "wikilink").\
 Identity of nodes in different graphs, including LHS, PAC, and NAC
 graphs, can be specified using mappings. The graphical editor maintains
 these mappings implicitly: For each LHS node, it creates a mapped node
 inside the NAC or PAC.\
-*Examples:* [Bank Accounts](Henshin/Getting_started "wikilink"),
-[Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink"),
-[Java2StateMachine](Henshin/Examples/Java2StateMachine "wikilink"),
-[Ecore2GenModel](Henshin/Examples/Ecore2GenModel "wikilink"), [Grid and
-Comb Pattern](Henshin/Examples/GridAndCombPattern "wikilink"),
-[Gossiping Girls](Henshin/Examples/GossipingGirls "wikilink"),
+*Examples:* [Bank Accounts](Getting_started "wikilink"),
+[Ecore2RDB](Examples/Ecore2RDB "wikilink"),
+[Java2StateMachine](Examples/Java2StateMachine "wikilink"),
+[Ecore2GenModel](Examples/Ecore2GenModel "wikilink"), [Grid and
+Comb Pattern](Examples/GridAndCombPattern "wikilink"),
+[Gossiping Girls](Examples/GossipingGirls "wikilink"),
 [Probabilistic
-Broadcast](Henshin/Examples/ProbabilisticBroadcast "wikilink"),
-[Movies](Henshin/Examples/Movies "wikilink")
+Broadcast](Examples/ProbabilisticBroadcast "wikilink"),
+[Movies](Examples/Movies "wikilink")
 
 **Rule-nesting** is a powerful concept providing a for-each operator for
 rules. In nested rules, the outer rule is referred to as *kernel rule*
@@ -111,16 +111,16 @@ the kernel rule is matched and executed once. Afterwards, the match is
 used as a starting point to match the multi-rule as often as possible
 and execute it for each match. Multi mappings allow to specify identity
 between kernel and multi-rule nodes. In the [graphical
-editor](Henshin/Graphical_Editor "wikilink"), multi-rule nodes are
+editor](Graphical_Editor "wikilink"), multi-rule nodes are
 indicated by a layered representation and an asterisk (\*). Multiple
 layers of rule-nesting are allowed. The graphical editor shows the path
 constituted by the nested rules in the title bar of the respective
 nodes. An extensive example for multiple-layer rule-nesting is found in
-[Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink").\
-*Examples:* [Bank Accounts](Henshin/Getting_started "wikilink"),
-[Ecore2RDB](Henshin/Examples/Ecore2RDB "wikilink"), [Gossiping
-Girls](Henshin/Examples/GossipingGirls "wikilink"), [Probabilistic
-Broadcast](Henshin/Examples/ProbabilisticBroadcast "wikilink")\
+[Ecore2RDB](Examples/Ecore2RDB "wikilink").\
+*Examples:* [Bank Accounts](Getting_started "wikilink"),
+[Ecore2RDB](Examples/Ecore2RDB "wikilink"), [Gossiping
+Girls](Examples/GossipingGirls "wikilink"), [Probabilistic
+Broadcast](Examples/ProbabilisticBroadcast "wikilink")\
 *Further Reading: Biermann, Ermel, Taentzer. \"Formal foundation of
 consistent EMF model transformations by algebraic graph
 transformation.\" Software & Systems Modeling 11.2 (2012): 227-250.
@@ -132,7 +132,7 @@ Chapter 5.
 ![](Henshin_Transformation_Units.png "Henshin_Transformation_Units.png"){width="550"
 height=""}
 
-*Main article (with examples): [Units](Henshin/Units "wikilink")*
+*Main article (with examples): [Units](Units "wikilink")*
 
 In Henshin, control flow is specified using units. Units have a fixed
 number of sub-units, allowing for arbitrary nesting. The following unit
@@ -177,7 +177,7 @@ first one found to be executable - is executed.
 ### Execution-time variability: Parameters
 
 *Main article (with examples):
-[Parameters](Henshin/Parameters "wikilink")*
+[Parameters](Parameters "wikilink")*
 
 ![](Henshin_Parameters.png "Henshin_Parameters.png"){width="370"
 height=""}
@@ -225,7 +225,7 @@ inherits from a metaclass *Model Element*, which has an arbitrary number
 of annotations. An annotation has a key and a value, both being strings.
 
 *Example:* In Henshin\'s [variant
-management](Henshin/Variant_Management "wikilink") feature, variant
+management](Variant_Management "wikilink") feature, variant
 management information is added to rules and rule elements via
 annotations.
 

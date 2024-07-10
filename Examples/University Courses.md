@@ -2,7 +2,7 @@
 The purpose of [Henshin](Henshin "wikilink")\'s **University Courses
 example** is to assign university courses to lecturers and students
 while avoiding time conflicts. It is also meant to be an accessible
-example for the usage of [Units](Henshin/Units "wikilink"). This example
+example for the usage of [Units](Units "wikilink"). This example
 wants to showcase as many units as possible. Therefore please pardon
 that some units\' usage may seem unnecessarily complicated. The
 transformation model, example input models and source code can be found

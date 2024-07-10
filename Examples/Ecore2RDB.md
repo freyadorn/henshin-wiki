@@ -26,7 +26,7 @@ input model is.
 The rule *CreateSchema* is shown in the screenshot below. This rule
 creates the schema, all tables, and all columns. In general, the
 transformation makes use of Henshin\'s generic [trace
-model](Henshin/Trace_Model "wikilink"). The *CreateSchema* rule contains
+model](Trace_Model "wikilink"). The *CreateSchema* rule contains
 the following multi-rules with these tasks:
 
 **CreateSchema:** Creates a schema for a given package.
