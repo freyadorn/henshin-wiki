@@ -84,8 +84,8 @@ editor](Graphical_Editor "wikilink") open the according
 on it. Click a second time to edit the name. You can now - text-based -
 add, edit and remove parameters which follow the unit/rule name
 encompassed by parentheses and separated by commas. The parameter
-entries adhere to the following scheme: *`<kind>`{=html}
-`<name>`{=html}:`<type>`{=html}* . Both *kind* and *type* are optional.
+entries adhere to the following scheme: *`<kind>
+`<name>:`<type>* . Both *kind* and *type* are optional.
 If you omit a *kind* the parameter kind will be *unknown*.
 
 ### Parameter creation in tree-based editor

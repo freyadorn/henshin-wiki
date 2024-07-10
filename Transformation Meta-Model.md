@@ -31,9 +31,9 @@ additional boolean conditions that are bound to the rule.
 For conciseness, the [graphical
 editor](Graphical_Editor "wikilink") merges LHS and RHS into an
 integrated representation: Nodes and edges are annotated with a
-`<span style="color:gray">`{=html}«preserve»`</span>`{=html},
-`<span style="color:green">`{=html}«create»`</span>`{=html}, or
-`<span style="color:red">`{=html}«delete»`</span>`{=html} tag depending
+*«preserve»*,
+*«create»*, or
+*«delete»* tag depending
 on their containment in LHS or RHS graphs.
 
 **Dangling condition**: A common beginner-level problem is that rules
@@ -73,9 +73,9 @@ forbid the presence of elements or relationships. In this case, they are
 referred to as *negative application conditions* (NACs). Consequently,
 the [graphical editor](Graphical_Editor "wikilink") displays PAC
 elements with a
-`<span style="color:brown">`{=html}«require»`</span>`{=html} and NAC
+*«require»* and NAC
 elements with a
-`<span style="color:blue">`{=html}«forbid»`</span>`{=html} tag.
+*«forbid»* tag.
 Application conditions can be arbitarily nested using the propositional
 operators *Or*, *And*, *Xor*, and *Not*. Whether an application
 condition graph represents a NAC or a PAC is determined by whether it is

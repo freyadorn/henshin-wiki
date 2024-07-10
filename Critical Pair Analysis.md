@@ -12,9 +12,9 @@ As Henshin transformations are formally based on graph transformations,
 the critical pair analysis is also based on algebraic graph
 transformations.
 
-`<span style="background:#ffff00">`{=html}As per release 1.6, this
+<span style="background:#ffff00">As per release 1.6, this
 feature has been superseded by Henshin\'s new [Conflict and Dependency
-Analysis](Conflict_and_Dependency_Analysis "wikilink").`</span>`{=html}
+Analysis](Conflict_and_Dependency_Analysis "wikilink").</span>
 
 
 
@@ -208,7 +208,7 @@ analysis can be initialized with the suitable *init(...)*-method. Please
 note that the *init(...)*-method might throw an
 *UnsupportedRuleException* if one of the rules exhibits an [unsupported
 feature](#Unsupported_Features "wikilink"). The method
-*check(List`<Rule>`{=html} rules)* can be used to avoid this exception
+*check(List`<Rule> rules)* can be used to avoid this exception
 by checking the rules upfront.
 
 After successful initialisation, the methods *runConflictAnalysis()* or

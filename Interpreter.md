@@ -328,7 +328,7 @@ for (Match match : engine.findMatches(rule, graph, partialMatch)) {
 ```
 
 Note that matches are computed on-demand and that *findMatches()*
-returns an instance of Iterable`<Match>`{=html}. If you need all matches
+returns an instance of Iterable`<Match>. If you need all matches
 anyway, you can also use *InterpreterUtil.findAllMatches()* which will
 return a list of all matches.
 

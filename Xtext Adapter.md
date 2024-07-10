@@ -46,23 +46,23 @@ can be correctly used in the context of an Xtext-generated editor.
 ### Usage instructions
 
 -   Add
-    `<span style="background:#dddddd">`{=html}org.eclipse.emf.henshin.adapters.xtext`</span>`{=html}
+    *org.eclipse.emf.henshin.adapters.xtext*
     and
-    `<span style="background:#dddddd">`{=html}org.eclipse.emf.henshin.model`</span>`{=html}
+    *org.eclipse.emf.henshin.model*
     to the dependencies of your Xtext language plugin (and potentially
     your test plugin).
 -   Add
-    `<span style="background:#dddddd">`{=html}org.eclipse.emf.henshin.adapters.xtext`</span>`{=html}
+    *org.eclipse.emf.henshin.adapters.xtext*
     to the dependencies of your language\'s .ui plugin.
--   Add `<span style="background:#dddddd">`{=html}referencedResource =
-    \"<platform:/resource/org.eclipse.emf.henshin.model/model/henshin.genmodel>\"`</span>`{=html}
+-   Add <span style="background:#dddddd">referencedResource =
+    \"<platform:/resource/org.eclipse.emf.henshin.model/model/henshin.genmodel>\"</span>
     to the *StandardLanguage* block in your .mwe2 file.
--   Add `<span style="background:#dddddd">`{=html}import
+-   Add <span style="background:#dddddd">import
     \"http://www.eclipse.org/emf/2011/Henshin\" as
-    henshin`</span>`{=html} to your .xtext file.
+    henshin</span> to your .xtext file.
 -   Use
-    `<span style="background:#dddddd">`{=html}\[henshin::Module\]`</span>`{=html},
-    `<span style="background:#dddddd">`{=html}\[henshin::Rule\]`</span>`{=html}
+    *\[henshin::Module\]*,
+    *\[henshin::Rule\]*
     etc. in your grammar to reference [Henshin
     meta-classes](Transformation_Meta-Model "wikilink").
 

@@ -74,11 +74,11 @@ observe the following:
 
 ### Applying the Critical Pair Analysis
 
-`<span style="background:#ffff00">`{=html}As per release 1.6, the
+<span style="background:#ffff00">As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
 and Dependency
 Analysis](Conflict_and_Dependency_Analysis "wikilink") - see the
-illustrations there.`</span>`{=html}
+illustrations there.</span>
 
 The CPA in Henshin can be used in two different ways: Its application
 programming interface (API) can be used to integrate the CPA into other
@@ -88,11 +88,11 @@ providing the CPA interactively.
 
 #### Execution using the CPA Wizard
 
-`<span style="background:#ffff00">`{=html}As per release 1.6, the
+<span style="background:#ffff00">As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
 and Dependency
 Analysis](Conflict_and_Dependency_Analysis "wikilink") - see the
-illustrations there.`</span>`{=html}
+illustrations there.</span>
 
 The CPA is called on a Henshin file in the Eclipse Package Explorer
 (Right click → Henshin → Calculate Critical Pairs).
@@ -135,11 +135,11 @@ rule nodes to model nodes.
 
 #### Execution using the API
 
-`<span style="background:#ffff00">`{=html}As per release 1.6, the
+<span style="background:#ffff00">As per release 1.6, the
 Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
 and Dependency
 Analysis](Conflict_and_Dependency_Analysis "wikilink") - see the
-illustrations there.`</span>`{=html}
+illustrations there.</span>
 
 The usage of the API is straightforward. There are two main steps to
 obtain a result: (1) Initialize the meta-model and the rules, and (2)

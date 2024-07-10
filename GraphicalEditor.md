@@ -50,28 +50,28 @@ graph. To distinguish between node/edges which should be matched,
 deleted, created etc. by the rule, stereotypes are used. We refer to the
 stereotypes as *actions*. Currently, the following actions are supported
 for nodes / edges / attributes:
-`<span style="color:gray">`{=html}«preserve»`</span>`{=html},
-`<span style="color:green">`{=html}«create»`</span>`{=html},
-`<span style="color:red">`{=html}«delete»`</span>`{=html},
-`<span style="color:blue">`{=html}«forbid»`</span>`{=html} and
-`<span style="color:brown">`{=html}«require»`</span>`{=html}. To change
+*«preserve»*,
+*«create»*,
+*«delete»*,
+*«forbid»* and
+*«require»*. To change
 the action for an element in the rule, select the action label and use
 the keyboard to type the action (you don\'t need to type the surrounding
 «\...»).
 
-The actions `<span style="color:blue">`{=html}«forbid»`</span>`{=html}
-and `<span style="color:brown">`{=html}«require»`</span>`{=html} play a
+The actions *«forbid»*
+and *«require»* play a
 special role, as they are used respectively to specify Negative
 Application Conditions (NACs) and Positive Application Conditions
 (PACs). The two actions can be also parameterized to distinguish
 multiple NACs/PACs. For example, if there are two elements, one with the
-action `<span style="color:blue">`{=html}«forbid#1»`</span>`{=html} and
+action *«forbid#1»* and
 the other one with
-`<span style="color:blue">`{=html}«forbid#2»`</span>`{=html}, then
+*«forbid#2»*, then
 neither of the two objects must be present. If both elements have the
 same (or no) forbid parameter, then the two elements must not be found
 **together**. It works in the same way for
-`<span style="color:brown">`{=html}«require»`</span>`{=html}.
+*«require»*.
 
 ### Parameters and Transparent Containers
 

@@ -115,13 +115,13 @@ which is evaluated during the rule application.
 
 **Actions:** Nodes and edges are annotated with stereotypes which we
 refer to as actions. A number of actions are supported:
-`<span style="color:gray">`{=html}«preserve»`</span>`{=html} matches an
+*«preserve»* matches an
 object and preserves it during the rule application,
-`<span style="color:green">`{=html}«create»`</span>`{=html} creates a
+*«create»* creates a
 new object or link between objects,
-`<span style="color:red">`{=html}«delete»`</span>`{=html} deletes an
+*«delete»* deletes an
 existing object or link,
-`<span style="color:blue">`{=html}«forbid»`</span>`{=html} forbid the
+*«forbid»* forbid the
 existience of an object or link. Note that these are the basic actions,
 which can be further parameterized (see below).
 
@@ -153,7 +153,7 @@ initialized by the found match.
 
 The rule *deleteAllAccounts(client)* deletes all accounts of a given
 client. This is done using a star-operator, i.e. using the action
-`<span style="color:red">`{=html}«delete\*»`</span>`{=html}. On the
+*«delete\*»*. On the
 model level, this is mapped to a nested rule. which has a for-all
 semantics. Note that, when deleting bidirectional edges, both directions
 have to be specified(!). If the checkDangling-attribute in the rule is

@@ -180,7 +180,7 @@ the detection of conflicts on the granularity levels *binary*, *coarse*
 and *fine* as defined above. Per default, the analysis is performed on
 all three granularity levels:
 
-`public static List``<Granularity>`{=html}` granularities =  Arrays.asList(`\
+`public static List``<Granularity>` granularities =  Arrays.asList(`\
 `       Granularity.binary,`\
 `       Granularity.coarse,`\
 `       Granularity.fine`\

@@ -106,13 +106,13 @@ side of the explorer to enable automatic layouting. By double clicking
 on a state, you can unfold this state and thereby, manually explore the
 state space. States are depicted using different colors:
 
--   `<span style="color:green">`{=html}Green`</span>`{=html}: initial
+-   *Green*: initial
     states
--   `<span style="color:grey">`{=html}Grey`</span>`{=html}: explored
+-   *Grey*: explored
     states
--   `<span style="color:blue">`{=html}Blue`</span>`{=html}: open states
+-   *Blue*: open states
     (can be explored by double clicking on them)
--   `<span style="color:red">`{=html}Red`</span>`{=html}: deadlock or
+-   *Red*: deadlock or
     terminal states (no rules are applicable here)
 
 You can also let the tool do the work for you by clicking on *Start
