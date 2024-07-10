@@ -11,7 +11,7 @@ with the number of iterations.
 The transformation consists of a single rule, which divides and adds new
 triangles. The screenshot below shows this rule in the graphical editor.
 
-![](henshin-addtriangle2.png "henshin-addtriangle2.png"){width="400"}
+[[/images/henshin-addtriangle2.png]]}
 
 The transformation files and the Java source code are available in the
 examples plug-in in the

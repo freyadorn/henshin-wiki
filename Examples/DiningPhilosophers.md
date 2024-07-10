@@ -16,7 +16,7 @@ can be used to dynamically add a philosopher to the table and to link it
 to its neighbors. We use this rule to derive initial models for
 different numbers of philosophers below.
 
-![](henshin-diningphils-rules.png "henshin-diningphils-rules.png"){width="500"}
+[[/images/henshin-diningphils-rules.png]]}
 
 #### State Space Generation
 
@@ -30,7 +30,7 @@ visualized in the state space explorer. Note that we do not make use of
 graph isomorphy checking for making the state space smaller, because we
 want to be able to identify each philosopher individually (by its ID).
 
-![](henshin-diningphils-statespace-3.png "henshin-diningphils-statespace-3.png"){width="500"}
+[[/images/henshin-diningphils-statespace-3.png]]}
 
 We conducted a benchmark to measure the speed of the state space
 generator. The models and the source code for the example can be found

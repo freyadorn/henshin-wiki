@@ -8,7 +8,7 @@ using a higher-order (HO) transformation, and matching the comb pattern
 in the generated sparse and full grids. The involved structures are
 shown below (images taken from the TR).
 
-![](henshin-structures.png "henshin-structures.png"){width="600"}
+[[/images/henshin-structures.png]]}
 
 The transformation and the source code can be found
 [here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/combpattern).
@@ -30,7 +30,7 @@ consisting of two vertical lines of nodes), where each column is built
 up step-wise by invoking *startColumn* once, and *extendColumn* height-2
 times.
 
-![](henshin-grid-sparse-rules.png "henshin-grid-sparse-rules.png"){width="600"}
+[[/images/henshin-grid-sparse-rules.png]]}
 
 The following table shows the run time of the Henshin interpreter for
 different sizes of the sparse grid, where we used the same values for
@@ -60,7 +60,7 @@ build up the first vertical line of nodes. Then, we step-wise add new
 columns to the grid, each starting from the top and working all the way
 down.
 
-![](henshin-grid-full-rules.png "henshin-grid-full-rules.png"){width="700"}
+[[/images/henshin-grid-full-rules.png]]}
 
 The following table shows the run time of the Henshin interpreter for
 different sizes of the full grid. The construction time is longer than
@@ -97,7 +97,7 @@ therefore defined over the Henshin and the Ecore meta-model. If you want
 to define a high-order transformation, make sure that you import the
 runtime versions of both models.
 
-![](henshin-comb-rules.png "henshin-comb-rules.png"){width="700"}
+[[/images/henshin-comb-rules.png]]}
 
 The following table shows the matching time for the comb pattern for the
 sparse and the full grid.

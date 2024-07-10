@@ -24,7 +24,7 @@ input / output models can be found
 The following screenshots depicts the rules and transformation units for
 the generation of the GenModel.
 
-![](henshin-ecore2genmodel-rules1.png "henshin-ecore2genmodel-rules1.png"){width="600"}
+[[/images/henshin-ecore2genmodel-rules1.png]]}
 
 ### Customization (HO-transformation)
 
@@ -32,7 +32,7 @@ The following screenshots depicts the rules, meta-rules and
 transformation units for the customization part. For details, please
 take a look at the paper cited in the beginning.
 
-![](henshin-ecore2genmodel-rules2.png "henshin-ecore2genmodel-rules2.png"){width="600"}
+[[/images/henshin-ecore2genmodel-rules2.png]]}
 
 This example requires Henshin 0.9.3 or higher.
 

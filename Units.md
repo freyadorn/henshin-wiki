@@ -42,7 +42,7 @@ the *\*.henshin* file. Then right-click on the parent *Module*. Select
 *New Child* and afterwards the desired unit from the context menu. After
 creation the units can be edited in their *Properties* view.
 
-![](Henshin_Units_Creation_TreeEditor.png "Henshin_Units_Creation_TreeEditor.png"){width="350"}
+[[/images/Henshin_Units_Creation_TreeEditor.png]]}
 
 ## Unary Units
 

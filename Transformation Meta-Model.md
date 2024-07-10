@@ -9,8 +9,7 @@ rules in a control flow.
 
 ### Basic building blocks: Rules
 
-![](Henshin_Transformatin_Modules.png "Henshin_Transformatin_Modules.png"){width="550"
-height=""}
+[[/images/Henshin_Transformatin_Modules.png]]
 
 **Rules** are the basic building blocks for model transformations. A
 rule comprises two graphs, a left-hand side (LHS) and a right-hand side
@@ -64,8 +63,7 @@ article](http://web.archive.org/web/20160722080730/http://www.ckrause.org:80/201
 
 ### Advanced concepts: Application conditions and rule nesting
 
-![](Henshin_Application_Conditions.png "Henshin_Application_Conditions.png"){width="550"
-height=""}
+[[/images/Henshin_Application_Conditions.png]]
 
 **Application conditions** are graph patterns that restrict the LHS of a
 given rule. They may require the presence of additional elements or
@@ -129,8 +127,7 @@ Chapter 5.
 
 ### Control flow: Units
 
-![](Henshin_Transformation_Units.png "Henshin_Transformation_Units.png"){width="550"
-height=""}
+[[/images/Henshin_Transformation_Units.png]]
 
 *Main article (with examples): [Units](Units "wikilink")*
 
@@ -179,8 +176,7 @@ first one found to be executable - is executed.
 *Main article (with examples):
 [Parameters](Parameters "wikilink")*
 
-![](Henshin_Parameters.png "Henshin_Parameters.png"){width="370"
-height=""}
+[[/images/Henshin_Parameters.png]]
 
 **Parameters** allow to shape the behavior of units, including rules,
 with variable information. A unit can have an arbitary number of
@@ -213,8 +209,7 @@ value is expected: in rules, this is the case for node names, attribute
 values, edge indices, and attribute conditions. In iterated units, this
 is the case for the *iterations* condition.
 
-![](Henshin_Annotations.png "Henshin_Annotations.png"){width="310"
-height=""}
+[[/images/Henshin_Annotations.png]]
 
 ### Adding meta-information: Annotations
 

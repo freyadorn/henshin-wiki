@@ -17,7 +17,7 @@ models, transformation, source code and example input / output models
 can be found
 [here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/java2statemachine).
 
-![](henshin-java2statemachine.png "henshin-java2statemachine.png"){width="700"}
+[[/images/henshin-java2statemachine.png]]}
 
 We ran the transformation for three input models of different sizes.
 These input models were provided by the TTC organizers. We measured the

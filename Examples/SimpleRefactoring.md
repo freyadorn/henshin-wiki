@@ -26,7 +26,7 @@ consists of a number of *Classes* where each one can have a number of
 
 ### Refactoring Transformation Rules
 
-![](henshin-ref-refactoringRules.png "henshin-ref-refactoringRules.png"){width="250"}
+[[/images/henshin-ref-refactoringRules.png]]}
 
 Since refactoring is a specific kind of model transformation,
 refactorings for EMF-based models can be specified in Henshin and then
@@ -110,7 +110,7 @@ is ordered along conflicts and dependencies as well as rule pairs. For
 each pair, a set of conflicts (dependencies) is listed named by their
 kinds.
 
-![](henshin-ref-CPAResultView.png "henshin-ref-CPAResultView.png"){width="250"}
+[[/images/henshin-ref-CPAResultView.png]]}
 
 Here, three conflics are found. The conflicts of the first and the third
 rule pair in the results view present a *produce-forbid-conflict* and a
