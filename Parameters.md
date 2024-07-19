@@ -10,13 +10,13 @@ value, and whether the parameter is intended to be accessed after the
 unit has been applied. There are four parameter kinds (*in*, *out*,
 *inout*, *var*) and an additional legacy parameter kind (*unknown*).
 
-  Parameter kind                              IN   OUT   INOUT   VAR   UNKOWN
-  ------------------------------------------- ---- ----- ------- ----- --------
-  must be set externally before application   x          x             \(x\)
-  must be set during application                   x             x     \(x\)
-  readable after application                       x     x       x     \(x\)
+| Parameter kind                            | IN | OUT | INOUT | VAR   | UNKOWN |
+|-------------------------------------------|----|-----|-------|-------|--------|
+| must be set externally before application | x  | x   | \(x\) |       |        |
+| must be set during application            | x  | x   | \(x\) |       |        |
+| readable after application                | x  | x   | x     | \(x\) |        |
 
-  : Feature comparison
+_Feature comparison_
 
 Examples: [Bank Accounts](Getting_started "wikilink") (*in*,
 *var*), [Ecore2RDB](Examples/Ecore2RDB "wikilink") (*in*, *out*,
@@ -42,12 +42,12 @@ RHS elements). This behavior can be used to propagate values between LHS
 and RHS elements, as exemplified in the *transferMoney* rule in the
 [Bank Accounts](Getting_started "wikilink") example.
 
-  From → / to ↓   IN   OUT   INOUT   VAR
-  --------------- ---- ----- ------- -----
-  IN              x          x       x
-  OUT                  x     x       x
-  INOUT           x    x     x       x
-  VAR             x    x     x       
+| From → / to ↓ | IN | OUT | INOUT | VAR | UNKOWN |
+|---------------|----|-----|-------|-----|--------|
+| IN            | x  | x   | x     |     |        |
+| OUT           | x  | x   | x     |     |        |
+| INOUT         | x  | x   | x     | x   |        |
+| VAR           | x  | x   | x     |     |        |   
 
   : Allowed mappings
 
