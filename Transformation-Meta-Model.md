@@ -9,7 +9,7 @@ rules in a control flow.
 
 ### Basic building blocks: Rules
 
-[[/images/Henshin_Transformatin_Modules.png]]
+[[/images/Henshin_Transformation_Modules.png]]
 
 **Rules** are the basic building blocks for model transformations. A
 rule comprises two graphs, a left-hand side (LHS) and a right-hand side
