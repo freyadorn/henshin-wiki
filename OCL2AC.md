@@ -20,8 +20,7 @@ update site of your Eclipse (e.g., in Eclipse Neon, the default update
 site is <http://download.eclipse.org/releases/neon/> )
 
 **How to install**: OCL2AC is available from Henshin releases from 1.8.0
-onward and via the nightly build (see [update
-sites](https://www.eclipse.org/henshin/install.php); upon installation
+onward and via the nightly build (see [Installation instructions](Installation_instructions "wikilink"); upon installation
 from update site, search for the \"OCL2AC\" feature, and make sure to
 also install the \"Henshin SDK\" feature if you don\'t have it).
 
