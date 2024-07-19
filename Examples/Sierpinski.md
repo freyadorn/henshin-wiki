@@ -1,5 +1,3 @@
-[[/images/henshin-sierpinski.gif]]
-
 The **Sierpinski Triangle example** is a very simple example which we
 use to do some benchmarking for [Henshin](Home "wikilink")\'s
 [interpreter](Interpreter "wikilink"). The [Sierpinski
@@ -9,7 +7,10 @@ sub-triangles. The number of nodes in the triangle grows exponentially
 with the number of iterations.
 
 The transformation consists of a single rule, which divides and adds new
-triangles. The screenshot below shows this rule in the graphical editor.
+triangles. The images below show the basic idea of Sierpinski triangles, and the rule in the graphical editor.
+
+[[/images/henshin-sierpinski.gif]]
+
 
 [[/images/henshin-addtriangle2.png]]
 
