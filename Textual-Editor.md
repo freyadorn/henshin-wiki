@@ -13,8 +13,7 @@ henshin_text file and will add the XText nature to your project.
 ## Specifying transformation rules
 
 The below code shows the textual definition of the transformation rule
-*createAccount* ([bank
-example](https://www.eclipse.org/henshin/examples.php?example=bank)).
+*createAccount* from the [Bank example](Getting-started "wikilink")).
 The definition of this rule starts with the keyword **rule**, followed
 by its unique name *createAccount*. The two parameters *client* and
 *accountId* are defined by specifying their kind, followed by their name
@@ -64,8 +63,9 @@ it is for *(bank-\>manager:managers)*, the action of the edge is
 ## Specifying multi-rules
 
 The below code shows the textual definition of the transformation rule
-scheduleOfferedCourse ([university courses
-example](https://www.eclipse.org/henshin/examples.php?example=universitycourses)).
+scheduleOfferedCourse ([University Courses
+example](University-Courses "wikilink")).
+
 Within the element **graph** the multi-rule to associate students with
 the ScheduledCourse is defined after the keyword **multiRule** and its
 name moveStudentsToScheduledCourse. Inside a **multiRule** there is
