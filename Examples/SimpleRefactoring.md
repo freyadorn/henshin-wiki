@@ -127,11 +127,9 @@ rule nodes to model nodes.
 
 #### Execution using the API
 
-<span style="background:#ffff00">As per release 1.6, the
-Critical Pair Analysis has been superseded by Henshin\'s new [Conflict
-and Dependency
-Analysis](Conflict_and_Dependency_Analysis "wikilink") - see the
-illustrations there.</span>
+
+**As per release 1.6, the Critical Pair Analysis has been superseded by Henshin\'s new [Conflict and Dependency Analysis](Conflict-and-Dependency-Analysis "wikilink") - see the illustrations there.**
+
 
 The usage of the API is straightforward. There are two main steps to
 obtain a result: (1) Initialize the meta-model and the rules, and (2)
