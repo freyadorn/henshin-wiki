@@ -58,10 +58,9 @@ the state space explorer.
 The green state is the initial state. State 12 is the target state in
 which all girls know all secrets. We use the following OCL constraint to
 identify the target states:
+  
+  `girls->forAll(g : Girl | g.secrets->size()=girls->size())`
 
-    girls-&gt;forAll(g : Girl | g.secrets-&gt;size()=girls-&gt;size())
-
-\
 which basically says that for all girls it holds that the number of
 secrets that she knows is equal to the number of girls there exists. To
 determine the minimum number of phone calls required, select the
@@ -77,18 +76,16 @@ conducted on a Intel(R) Xeon(R) CPU @ 2.50GHz with 8GB of main memory.
 Note that it is important to set the state space property
 *ignoreDuplicateTransitions* to true here to be able to get to level 8.
 
-    Girls       States       Transitions       Calls       Generation Time       Checking Time  
-  ----------- ------------ ----------------- ----------- --------------------- -------------------
-  2           2            2                 1           59ms                  3ms
-  3           4            6                 3           88ms                  4ms
-  4           13           31                4           221ms                 5ms
-  5           52           198               6           733ms                 12ms
-  6           357          2,092             8           2,891ms               66ms
-  7           3,689        33,392            10          12,545ms              721ms
-  8           62,857       827,963           12          510s                  430s
+| Girls | States | Transitions | Calls | Generation Time | Checking Time |
+|-------|--------|-------------|-------|-----------------|---------------|
+| 2     | 2      | 2           | 1     | 59ms            | 3ms           |
+| 3     | 4      | 6           | 3     | 88ms            | 4ms           |
+| 4     | 13     | 31          | 4     | 221ms           | 5ms           |
+| 5     | 52     | 198         | 6     | 733ms           | 12ms          |
+| 6     | 357    | 2,092       | 8     | 2,891ms         | 66ms          |
+| 7     | 3,689  | 33,392      | 10    | 12,545ms        | 721ms         |
+| 8     | 62,857 | 827,963     | 12    | 510s            | 430s          |
 
-\
-\
 This example requires Henshin 0.9.3 or higher.
 
 *contributed by Christian Krause*
