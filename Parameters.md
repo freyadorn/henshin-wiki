@@ -71,7 +71,7 @@ Declared parameters are used inside the unit by referencing them by
 name. Parameters can be used at any place in the unit where a string
 value is expected: in rules, this is the case for node names, attribute
 values, edge indices, and attribute conditions. In [iterated
-units](Units#Iterated_Unit "wikilink"), this is the case for the
+units](Units#iterated-unit "wikilink"), this is the case for the
 iterations condition.
 
 ### Parameter creation and editing in graphical editor
@@ -127,8 +127,8 @@ Before unit or rule execution parameters of kind *in* and *inout* have
 to be set externally. Parameters of kind *unknown* may be set externally
 depending on their usage in their units/rules. This can be done using
 the [Interpreter
-Wizard](Interpreter#Interpreter_Wizard "wikilink") or the
-[Interpreter API](Interpreter#Interpreter_API "wikilink").
+Wizard](Interpreter#interpreter-wizard "wikilink") or the
+[Interpreter API](Interpreter#interpreter-api "wikilink").
 
 ### Interpreter Wizard
 
@@ -143,7 +143,7 @@ editing the cells in the *Values* column.
 ### Interpreter API
 
 See *Setting and Getting Parameter Values* in
-[Henshin/Interpreter#Transforming_and_more](Interpreter#Transforming_and_more "wikilink").
+[Henshin/Interpreter#Transforming_and_more](Interpreter#transforming-and-more "wikilink").
 
 ## Remarkable usage examples
 
