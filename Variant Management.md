@@ -55,7 +55,7 @@ the title bar, requiring *wrapper* to be true if *deprecate* is true.
 
 A user interface supporting the management of rules with variability is
 integrated with Henshin\'s [graphical
-editor](Graphical_Editor "wikilink"). The main components of
+editor](GraphicalEditor "wikilink"). The main components of
 this user interface, a graphical editor and its attached *properties*
 view, are shown in the left of the image below. As custom components, we
 provide the *variability* and *sanitizing* views, shown in the right.

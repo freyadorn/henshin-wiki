@@ -18,7 +18,7 @@ sub-unit exists. This check means the sub-unit is executed.
 unit](Henshin_Units_Creation_GraphicalEditor.png "Create unit"){width="250"}
 
 To add a unit to a Henshin project in the [graphical
-editor](Graphical_Editor "wikilink"), first open the
+editor](GraphicalEditor "wikilink"), first open the
 *\*.henshin_diagram* file. Then select *Unit* from the *Palette* on the
 right of the window. Afterwards left-click any empty space of the
 Henshin diagram and choose the desired unit from the appearing menu.

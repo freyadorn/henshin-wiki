@@ -30,7 +30,7 @@ meta-model](Transformation_Meta-Model "wikilink") for a complete
 reference on how model transformations are specified in Henshin and what
 their capabilities are. Additional details about rule creation and rule
 application can be found in the articles about the [graphical
-editor](Graphical_Editor "wikilink") and the
+editor](GraphicalEditor "wikilink") and the
 [interpreter](Interpreter "wikilink")
 
 ## Metamodel and Instance Model

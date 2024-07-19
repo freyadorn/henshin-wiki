@@ -11,7 +11,7 @@ different responsibilies, for example:
 -   Plug-in *org.eclipse.emf.henshin.model*: The
     [meta-model](Transformation_Meta-Model "wikilink")
 -   Plug-in *org.eclipse.emf.henshin.diagram*: The [graphical
-    editor](Graphical_Editor "wikilink")
+    editor](GraphicalEditor "wikilink")
 -   Plug-in *org.eclipse.emf.henshin.interpreter*: The
     [interpeter](Interpreter "wikilink")
 -   Plug-ins *org.eclipse.emf.henshin.{edit,editor}*: The tree-based

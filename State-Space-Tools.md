@@ -47,7 +47,7 @@ philosophers](DiningPhilosophers "wikilink"). To make
 it more interesting we include a rule for a dynamic reconfiguration,
 i.e. to allow to add a philosopher to the table during the execution.
 The rules can be specified using the either the graphical or tree-based
-[transformation editor](Graphical_Editor "wikilink"). The
+[transformation editor](GraphicalEditor "wikilink"). The
 graphical versions of our rules are depicted below. We have the
 following rules:
 

@@ -29,7 +29,7 @@ reference or attribute in an EMF model. Attribute conditions can impose
 additional boolean conditions that are bound to the rule.
 
 For conciseness, the [graphical
-editor](Graphical_Editor "wikilink") merges LHS and RHS into an
+editor](GraphicalEditor "wikilink") merges LHS and RHS into an
 integrated representation: Nodes and edges are annotated with a
 *«preserve»*,
 *«create»*, or
@@ -71,7 +71,7 @@ relationships not included in the LHS. In this case, they are referred
 to as *positive application conditions* (PACs). Furthermore, they may
 forbid the presence of elements or relationships. In this case, they are
 referred to as *negative application conditions* (NACs). Consequently,
-the [graphical editor](Graphical_Editor "wikilink") displays PAC
+the [graphical editor](GraphicalEditor "wikilink") displays PAC
 elements with a
 *«require»* and NAC
 elements with a
@@ -109,7 +109,7 @@ the kernel rule is matched and executed once. Afterwards, the match is
 used as a starting point to match the multi-rule as often as possible
 and execute it for each match. Multi mappings allow to specify identity
 between kernel and multi-rule nodes. In the [graphical
-editor](Graphical_Editor "wikilink"), multi-rule nodes are
+editor](GraphicalEditor "wikilink"), multi-rule nodes are
 indicated by a layered representation and an asterisk (\*). Multiple
 layers of rule-nesting are allowed. The graphical editor shows the path
 constituted by the nested rules in the title bar of the respective
