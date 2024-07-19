@@ -43,12 +43,14 @@ transformation](https://doi.org/10.1145/3180155.3180258)). For Very Fine
 granularity, MultiCDA under the hood uses the existing CPA
 implementation.
 
-![Fig. 1: Execute MultiCDA on the Henshin file or on the associated
-diagram
-file](Henshin_MultiCDA_doc_1.png "Fig. 1: Execute MultiCDA on the Henshin file or on the associated diagram file"){width="200"}
+[[/images/Henshin_MultiCDA_doc_1.png]]
 
-![Fig. 2: First page of the MultiCDA wizard: selecting the rules to be
-analysed.](Henshin_MultiCDA_doc_2.png "Fig. 2: First page of the MultiCDA wizard: selecting the rules to be analysed."){width="200"}
+_Fig. 1: Execute MultiCDA on the Henshin file or on the associated diagram file_
+
+
+[[/images/Henshin_MultiCDA_doc_2.png]]
+
+_Fig. 2: First page of the MultiCDA wizard: selecting the rules to be analysed_
 
 ### Usage via wizard
 
@@ -65,11 +67,15 @@ each side and at least one of the kinds of the analysis: conflict and
 dependency. Each rule from the left side will be analysed with each rule
 from the right side.
 
-![Fig. 3: Second page of the MultiCDA wizard: choosing a
-granularity](Henshin_MultiCDA_doc_3.png "Fig. 3: Second page of the MultiCDA wizard: choosing a granularity"){width="200"}
 
-![Fig. 7: Execution of the MultiCDA
-analysis](Henshin_MultiCDA_doc_31.png "Fig. 7: Execution of the MultiCDA analysis"){width="200"}
+[[/images/Henshin_MultiCDA_doc_3.png]]
+
+_Fig. 3: Second page of the MultiCDA wizard: choosing a granularity_
+
+
+[[/images/Henshin_MultiCDA_doc_31.png]]
+
+_Fig. 7: Execution of the MultiCDA analysis _
 
 In the next step the desired granularity level has to be set. In Fig. 3
 you can see several options to do that, for an example rule set
@@ -91,10 +97,17 @@ number on the right side of each conflict kind indicates the number of
 existing conflicts. Reason kinds without number mean, that only one
 conflict of this kind was created by the given pair of rules.
 
-<File:Henshin_MultiCDA_doc_example_rules.png%7CFig>. 4: Example rule set
-<File:Henshin_MultiCDA_doc_html.png%7CFig>. 5: Full table for all rules
-from example rule set <File:Henshin_MultiCDA_doc_htmla.png%7CFig>. 6:
-Abstract table for all rules from example rule set
+[[/images/Henshin_MultiCDA_doc_example_rules.png]]
+
+_Fig. 4: Example rule set_
+
+[[/images/Henshin_MultiCDA_doc_html.png]]
+
+_Fig. 5: Full table for all rules from example rule set_
+
+[[/images/Henshin_MultiCDA_doc_htmla.png]]
+
+_Fig. 6: Abstract table for all rules from example rule set_
 
 The Very Fine granularity level takes three options for fine-tuning for
 the level of detail further (for a detailed discussion, see the opening
@@ -155,12 +168,17 @@ from the first rule is separated from the second rule by an underscore,
 just as in the case of nodes. The *x* represents the nonexistent value
 of attribute.
 
-<File:Henshin_MultiCDA_doc_4.png%7CFig>. 8: Representation of the
-result, showing a a delete-delete conflict reason to the left and the
-corresponding critical pair to the right
-<File:Henshin_MultiCDA_doc_5.png%7CFig>. 9: Storage of results and
-tables <File:Henshin_MultiCDA_doc_6.png%7CFig>. 10: Representation of
-conflicts on attributes
+[[/images/Henshin_MultiCDA_doc_4.png]]
+
+_Fig. 8: Representation of the result, showing a delete-delete conflict reason to the left and the corresponding critical pair to the right_
+
+[[/images/Henshin_MultiCDA_doc_5.png]]
+
+_Fig. 9: Storage of results and tables_
+
+[[/images/Henshin_MultiCDA_doc_6.png]]
+
+_Fig. 10: Representation of conflicts on attributes_
 
 ### Usage via API
 
