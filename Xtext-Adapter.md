@@ -54,12 +54,12 @@ can be correctly used in the context of an Xtext-generated editor.
 -   Add
     *org.eclipse.emf.henshin.adapters.xtext*
     to the dependencies of your language\'s .ui plugin.
--   Add <span style="background:#dddddd">referencedResource =
-    \"<platform:/resource/org.eclipse.emf.henshin.model/model/henshin.genmodel>\"</span>
+-   Add *referencedResource =
+    \"<platform:/resource/org.eclipse.emf.henshin.model/model/henshin.genmodel>\"*
     to the *StandardLanguage* block in your .mwe2 file.
--   Add <span style="background:#dddddd">import
+-   Add *import
     \"http://www.eclipse.org/emf/2011/Henshin" as
-    henshin</span> to your .xtext file.
+    henshin* to your .xtext file.
 -   Use
     *\[henshin::Module\]*,
     *\[henshin::Rule\]*
