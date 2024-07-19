@@ -1,4 +1,4 @@
-This page gives an overview about [Henshin](https://wiki.eclipse.org/Henshin)-related projects.
+This page gives an overview about [Henshin](Home "wikilink")-related projects.
 
 # Overview
 
