@@ -21,7 +21,7 @@ To use the project contained in this Zip file, download it and import it
 into your workspace via *File → Import\... → General → Existing Projects
 into Workspace*. The individual files contained in the project can also
 be inspected online in our [Git
-repository](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/bank)
+repository](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/bank)
 .
 
 Once you want to go beyond the basic concepts covered in this tutorial,
@@ -208,7 +208,7 @@ objects can be looked up efficiently based on their ID.
 Of course, you can also invoke the interpreter programmatically. You can
 find an implementation of the example transformations above using the
 interpreter in the
-[bank](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/bank)
+[bank](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/bank)
 example package.
 
 *Main contributor of this example: Christian Krause*

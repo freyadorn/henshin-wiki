@@ -7,7 +7,7 @@ construct complex and powerful rules. Note that this example could be
 also modeled with simple (but more) rules in Henshin. The
 transformation, source code and example input & output models can be
 found
-[here](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/ecore2rdb).
+[here](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/ecore2rdb).
 
 ### The Transformation
 

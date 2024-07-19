@@ -6,7 +6,7 @@ example for the usage of [Units](Units "wikilink"). This example
 wants to showcase as many units as possible. Therefore please pardon
 that some units\' usage may seem unnecessarily complicated. The
 transformation model, example input models and source code can be found
-[here](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/universitycourses).
+[here](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/universitycourses).
 
 ## Metamodel
 

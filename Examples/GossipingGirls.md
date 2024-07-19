@@ -49,7 +49,7 @@ girls know all secrets. The state space generation can be done in the
 [State Space
 Explorer](http://wiki.eclipse.org/Henshin_Statespace_Explorer) or in
 Java as done in the
-[GossipingGirls](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.henshin-org/eclipse/emf/henshin/henshin-GossipingGirls.java)
+[GossipingGirls](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.henshin-org/eclipse/emf/henshin/henshin-GossipingGirls.java)
 class. The figure below shows the state space for 4 girls generated in
 the state space explorer.
 

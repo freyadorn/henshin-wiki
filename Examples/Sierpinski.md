@@ -15,7 +15,7 @@ triangles. The screenshot below shows this rule in the graphical editor.
 
 The transformation files and the Java source code are available in the
 examples plug-in in the
-[sierpinski](http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/sierpinski/)
+[sierpinski](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/sierpinski/)
 package.
 
 The following benchmark was conducted on a Intel(R) Xeon(R) CPU @
