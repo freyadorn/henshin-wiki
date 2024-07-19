@@ -3,34 +3,34 @@
 **Basic transformation definition and execution**
 
 * [Rule](GraphicalEditor#editing-transformation-rules)-based transformation paradigm with [units](Units "wikilink") for managing control flow of rules
-* [Graphical](GraphicalEditor) and [textual syntax](https://wiki.eclipse.org/Henshin/Textual_Editor), based on a transformation [meta-model](Transformation-Meta-Model "wikilink")
+* [Graphical](GraphicalEditor) and [textual syntax](Textual-Editor), based on a transformation [meta-model](Transformation-Meta-Model "wikilink")
 * Native support for endogenous transformations; support of exogenous transformations via [traces](Trace-Model "wikilink")
 * Efficient in-place execution of transformations using a dedicated [interpreter](Interpreter "wikilink") with debugging support
 
 Analysis
 
 * A [performance profiler](Performance_Profiler "wikilink") to identify slow spots
-* Support for [conflict and dependency analysis](Conflict_and_Dependency_Analysis "wikilink")
-* [State space analysis](State_Space_Tools "wikilink") for verification
+* Support for [conflict and dependency analysis](Conflict-and-Dependency-Analysis "wikilink")
+* [State space analysis](State-Space-Tools "wikilink") for verification
 
 
 Advanced rule definition
 
-* Support for [rule variants](Variant_Management "wikilink")
-* Support for [automated rule generation](Rule_Generation "wikilink")
+* Support for [rule variants](Variant-Management "wikilink")
+* Support for [automated rule generation](Rule-Generation "wikilink")
 * Support for [generating application conditions from OCL constraints](OCL2AC "wikilink")
 
 Integration with other tools
 
-* Integration with [Xtext](Xtext_Adapter "wikilink")
-* Support for [massive parallel rule execution](Code_Generator_for_Giraph "wikilink") using Apache Giraph
+* Integration with [Xtext](Xtext-Adapter "wikilink")
+* Support for [massive parallel rule execution](Code-Generator-for-Giraph "wikilink") using Apache Giraph
 
 Resources
 
 * [Official website](http://www.eclipse.org/modeling/emft/henshin)
-* [Installation instructions](Installation_instructions "wikilink")
-* [Getting started](Getting_started "wikilink")
+* [Installation instructions](Installation-instructions "wikilink")
+* [Getting started](Getting-started "wikilink")
 * [Examples](Examples "wikilink")
 * [FAQ](FAQ "wikilink")
-* [Release Notes](Release_Notes "wikilink")
+* [Release Notes](Release-Notes "wikilink")
 * [Projects that use Henshin](Projects "wikilink")
