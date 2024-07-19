@@ -135,12 +135,12 @@ actions **require** and **forbid** are combined, as in the example, a
 positive application condition (PAC) and a negative application
 conditions (NAC) are created, which are combined using **AND** (more
 about PAC and NAC
-[here](https://wiki.eclipse.org/Henshin/Transformation_Meta-Model#Advanced_concepts:_Application_conditions_and_rule_nesting)).
+[here](Transformation-Meta-Model#advanced-concepts-application-conditions-and-rule-nesting "wikilink")).
 The other way is to define individual graphs to specify application
 conditions. This option also allows to express more complex application
 conditions. The below code shows the textual definition of the
-transformation rule *scheduleOfferedCourse* ([university courses
-example](https://www.eclipse.org/henshin/examples.php?example=universitycourses)).
+transformation rule *scheduleOfferedCourse* ([University Courses
+example](University-Courses "wikilink")).
 In this example the application condition is defined within the element
 **matchingFormula**. Inside a **matchingFormula** positive application
 conditions are defined as individual graphs. A graph definition starts
@@ -219,11 +219,11 @@ rule scheduleOfferedCourseFormula(IN hour:EInt, OUT offered:OfferedCourse, VAR n
 ## Specifying Units
 
 The following code examples show how to define the different
-[units](https://wiki.eclipse.org/Henshin/Units). The Independent Unit is
-taken from the ([example
-Ecore2GenModel](https://www.eclipse.org/henshin/examples.php?example=ecore2genmodel))
-and the other units are taken from the ([example University
-Courses](https://www.eclipse.org/henshin/examples.php?example=universitycourses)).
+[units](Units "wikilink"). The Independent Unit is
+taken from the [Ecore2GenModel
+example](Ecore2GenModel "wikilink")
+and the other units are taken from the [University Courses
+example](University-Courses "wikilink").
 
 ### Independent Unit
 
@@ -318,8 +318,7 @@ unit planUnscheduledInterestingCourses(IN currentHour:EInt){
 
 To run a transformation rule or unit you need to right-click on your
 henhin_text file and select „Apply transformation". This will invoke the
-[interpreter
-wizard](https://wiki.eclipse.org/Henshin/Interpreter#Interpreter_Wizard).
+[interpreter wizard](Interpreter#interpreter-wizard "wikilink").
 It is also possible to generate a henshin file. For this you need to
 right-click on your henhin_text file and select „Transform to Henshin".
 
