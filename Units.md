@@ -14,8 +14,7 @@ sub-unit exists. This check means the sub-unit is executed.
 
 ### Unit creation in graphical editor
 
-![Create
-unit](Henshin_Units_Creation_GraphicalEditor.png "Create unit"){width="250"}
+[[/images/Henshin_Units_Creation_GraphicalEditor.png]]
 
 To add a unit to a Henshin project in the [graphical
 editor](GraphicalEditor "wikilink"), first open the
@@ -23,8 +22,7 @@ editor](GraphicalEditor "wikilink"), first open the
 right of the window. Afterwards left-click any empty space of the
 Henshin diagram and choose the desired unit from the appearing menu.
 
-![Add
-sub-unit](Henshin_Units_Add_Invocation.png "Add sub-unit"){width="250"}
+[[/images/Henshin_Units_Add_Invocation.png]]
 
 If the selected unit is a Multi-Unit, some sub-units have to be added
 manually. Therefore select *Invocation* from the *Palette* and click on
@@ -50,8 +48,9 @@ A Unary Unit has exactly one sub-unit.
 
 ### Loop Unit
 
-![Apply A as often as
-possible](Henshin_Loop_Unit.png "Apply A as often as possible")
+_Apply A as often as possible_
+
+[[/images/Henshin_Loop_Unit.png]]
 
 -   **Number of sub-units:** 1
 -   **Available Flags/Properties:** *none*
@@ -64,7 +63,9 @@ possible](Henshin_Loop_Unit.png "Apply A as often as possible")
 
 ### Iterated Unit
 
-![Apply A three times](Henshin_Iterated_Unit.png "Apply A three times")
+_Apply A a specified number of times_
+
+[[/images/Henshin_Iterated_Unit.png]]
 
 -   **Number of sub-units:** 1
 -   **Available Flags/Properties:** iterations (integer), strict,
@@ -87,8 +88,9 @@ possible](Henshin_Loop_Unit.png "Apply A as often as possible")
 
 ## Conditional Unit
 
-![If A applicable then apply B, else apply
-C](Henshin_Conditional_Unit.png "If A applicable then apply B, else apply C")
+_If A applicable then apply B, else apply C_
+
+[[/images/Henshin_Conditional_Unit.png]]
 
 -   **Number of sub-units:** 2 or 3
 -   **Available Flags/Properties:** *none*
@@ -107,8 +109,9 @@ A Multi-Unit has an arbitrary number of sub-units.
 
 ### Sequential Unit
 
-![Apply A then B then
-C](Henshin_Sequential_Unit.png "Apply A then B then C")
+_Apply all sub-units in the specified order (first A, then B, then C...)._
+
+[[/images/Henshin_Sequential_Unit.png]]
 
 -   **Number of sub-units:** arbitrary (0..\*)
 -   **Available Flags/Properties:** strict, rollback (both of type
@@ -135,8 +138,9 @@ C](Henshin_Sequential_Unit.png "Apply A then B then C")
 
 ### Priority Unit
 
-![Try to apply A. If A not applicable, try B
-etc.](Henshin_Priority_Unit.png "Try to apply A. If A not applicable, try B etc.")
+_Apply all sub-units in the specified order, until one is applicable ("Try to apply A. If A not applicable, try B etc.")._
+
+[[/images/Henshin_Priority_Unit.png]]
 
 -   **Number of sub-units:** arbitrary (0..\*)
 -   **Available Flags/Properties:** *none*
@@ -150,9 +154,11 @@ etc.](Henshin_Priority_Unit.png "Try to apply A. If A not applicable, try B etc.
 
 ### Independent Unit
 
-![Choose A, B or C in non-deterministic order. If not applicable, try
-another one in non-deterministic order. If it is not
-applicable\...](Henshin_Independent_Unit.png "Choose A, B or C in non-deterministic order. If not applicable, try another one in non-deterministic order. If it is not applicable...")
+_Apply all sub-units in non-deterministic order, until one is applicable ("Choose A, B or C in non-deterministic order. If not applicable, try another one in non-deterministic order. If it is not applicable, etc.")._
+
+
+[[/images/Henshin_Independent_Unit.png]]
+
 
 -   **Number of sub-units:** arbitrary (0..\*)
 -   **Available Flags/Properties:** *none*
