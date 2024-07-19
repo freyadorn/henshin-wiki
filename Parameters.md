@@ -31,8 +31,8 @@ Broadcast](ProbabilisticBroadcast "wikilink"), (*in*,
 ## Parameter mappings
 
 Parameters that need to be set externally can be set by the user using
-the [API](#Interpreter_API "wikilink") or the [Interpreter
-Wizard](#Interpreter_Wizard "wikilink"). In addition, they can be passed
+the [API](#interpreter-api "wikilink") or the [Interpreter
+Wizard](#interpreter-wizard "wikilink"). In addition, they can be passed
 in from another unit using a **parameter mapping**. A parameter mapping
 assigns a source parameter to a target parameter between a unit and its
 sub-unit. Parameters that need to be set automatically during unit
@@ -132,8 +132,8 @@ Wizard](Interpreter#Interpreter_Wizard "wikilink") or the
 
 ### Interpreter Wizard
 
-![Interpreter wizard with
-parameters](Henshin_Parameter_Usage_Wizard.png "Interpreter wizard with parameters"){width="200"}
+
+[[/images/Henshin_Parameter_Usage_Wizard.png]]
 
 To set parameters using the interpreter wizard you have to open the
 wizard for your unit or rule of interest. In the lower part of the popup
