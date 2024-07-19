@@ -79,7 +79,7 @@ iterations condition.
 [[/images/Henshin_Parameters_GraphicalEditor.png]]
 
 To create or edit a parameter with the [graphical
-editor](Graphical_Editor "wikilink") open the according
+editor](GraphicalEditor "wikilink") open the according
 *\*.henshin_diagram* file. Select the name of a unit or rule by clicking
 on it. Click a second time to edit the name. You can now - text-based -
 add, edit and remove parameters which follow the unit/rule name
@@ -159,8 +159,7 @@ the sequential unit to which the according units are sub-units. If you
 do not intend to use the value outside the unit, you should use the
 parameter kind *var*.
 
-![Usage example for
-parameters](Henshin_Parameters_Usage_Example.png "Usage example for parameters")
+[[/images/Henshin_Parameter_Usage_Example.png]]
 
 In the example unit *getFatherCreateChild* the parameter *temp* stores
 the intermediate result mapped from *getNode*\'s *out* parameter. The
