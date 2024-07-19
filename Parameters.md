@@ -112,14 +112,14 @@ based on overlapping parameter names: each parameter of a unit is mapped
 to all parameters of the same name in all sub-units; mappings in the
 opposite direction exist as well.
 
-[[/images/Henshin_ParameterMapping_Creation_TreeEditor.png]]
+[[/images/Henshin_Parameters_Creation_TreeEditor.png]]
 
 Using the tree-based editor mappings for parameters can be created
 manually. Therefore right-click the unit and select *New Child →
 Parameter Mapping*. The mapping can be edited using its *Properties*
 view.
 
-[[/images/Henshin_ParameterMapping_Editing_PropertiesView.png]]
+[[/images/Henshin_Parameters_Editing_PropertiesView.png]]
 
 ## Usage during execution
 
