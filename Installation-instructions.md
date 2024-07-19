@@ -14,7 +14,7 @@ one of the following update site URLs:
     <http://download.eclipse.org/modeling/emft/henshin/updates/release>
     (1.8.0)
 -   **Nightly build**:
-    <http://download.eclipse.org/modeling/emft/henshin/updates/nightly>\
+    <http://download.eclipse.org/modeling/emft/henshin/updates/nightly>
 
 **Features** At a minimum, install the Henshin SDK feature. Version
 1.6.0 and 1.8.0 introduced the additional features Henshin Variability
@@ -56,7 +56,7 @@ these instructions):
 You can also get the latest version of the source code directly from our
 Git repository (weblink):
 
--   <http://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/>
+-   <https://github.com/eclipse-henshin/henshin>
 
 ## Build Jobs
 
