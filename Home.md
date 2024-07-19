@@ -2,9 +2,9 @@
 
 **Basic transformation definition and execution**
 
-* [Rule](Graphical_Editor#editing-transformation-rules)-based transformation paradigm with [units](Units "wikilink") for managing control flow of rules
-* [Graphical](Graphical_Editor) and [textual syntax](https://wiki.eclipse.org/Henshin/Textual_Editor), based on a transformation [meta-model](https://wiki.eclipse.org/Henshin/Transformation_Meta-Model "wikilink")
-* Native support for endogenous transformations; support of exogenous transformations via [traces](Trace_Model "wikilink")
+* [Rule](GraphicalEditor#editing-transformation-rules)-based transformation paradigm with [units](Units "wikilink") for managing control flow of rules
+* [Graphical](GraphicalEditor) and [textual syntax](https://wiki.eclipse.org/Henshin/Textual_Editor), based on a transformation [meta-model](Transformation-Meta-Model "wikilink")
+* Native support for endogenous transformations; support of exogenous transformations via [traces](Trace-Model "wikilink")
 * Efficient in-place execution of transformations using a dedicated [interpreter](Interpreter "wikilink") with debugging support
 
 Analysis
