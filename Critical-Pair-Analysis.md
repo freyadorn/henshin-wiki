@@ -143,7 +143,9 @@ using an API.
 
 ### CPA Wizard
 
-![CPA Wizard](CPA_wizard_1.png "CPA Wizard"){width="320"} The wizard
+[[/images/CPA_wizard_1.png]]
+
+The wizard
 enables the quick and easy usage of the critical pair analysis, notably
 if the set of rules is currently being developed.
 
@@ -165,7 +167,8 @@ the analysis can be started using the *Finish* button. Alternatively,
 the *Next* button leads to the second page *Option Setting* for advanced
 configuration.
 
-![CPA Result View](CPA_results_view.png "CPA Result View"){width="320"}
+[[/images/CPA_results_view.png]]
+
 After the analysis finished, all critical pairs as produced by the
 user-specified configuration are listed in the *CPA Result View*. The
 critical pairs are grouped by the rule combinations of which they

@@ -38,21 +38,18 @@ generator. The models and the source code for the example can be found
 The following benchmark was conducted on a Intel(R) Xeon(R) CPU @
 2.50GHz with 8GB of main memory using Henshin 0.9.2. We measured the
 time to generate the full state space.
-
-    Philosophers       States (= 3\^p)       Transitions       Time  
-  ------------------ --------------------- ----------------- ----------
-  3                  27                    63                56ms
-  4                  81                    252               69ms
-  5                  243                   945               224ms
-  6                  729                   3,402             616ms
-  7                  2,187                 11,907            1.3s
-  8                  6,561                 40,824            5.0s
-  9                  19,683                137,781           19.8s
-  10                 59,049                459,270           80.5s
-  11                 177,147               1,515,591         6min
-  12                 531,441               4,960,116         61min
-  13                 1,594,323             16,120,377        593min
-
-*contributed by Christian Krause*
+|   Philosophers    |                                             States (= 3^p)                                             |    Transitions    |    Time    |
+|:-----------------:|:------------------------------------------------------------------------------------------------------:|:-----------------:|:----------:|
+|  3                |  27                                                                                                    |  63               |  56ms      |
+|  4                |  81                                                                                                    |  252              |  69ms      |
+|  5                |  243                                                                                                   |  945              |  224ms     |
+|  6                |  729                                                                                                   |  3,402            |  616ms     |
+|  7                |  2,187                                                                                                 |  11,907           |  1.3s      |
+|  8                |  6,561                                                                                                 |  40,824           |  5.0s      |
+|  9                |  19,683                                                                                                |  137,781          |  19.8s     |
+|  10               |  59,049                                                                                                |  459,270          |  80.5s     |
+|  11               |  177,147                                                                                               |  1,515,591        |  6min      |
+|  12               |  531,441                                                                                               |  4,960,116        |  61min     |
+|  13               |  1,594,323                                                                                             |  16,120,377       |  593min    |*contributed by Christian Krause*
 
 
