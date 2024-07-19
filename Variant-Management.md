@@ -106,21 +106,17 @@ representation of the rule and lets users focus on the variant at hand.
 On the other hand, to allow the comparison of a variant with the full
 rule, users may choose to have the elements toned down instead.
 
-<div>
+[[/images/Vbrule_fade.png]]
 
--   ![\
-    **Concealing strategy: tone
-    down**](Vbrule_fade.png " Concealing strategy: tone down"){width="300"}
+*Concealing strategy: tone down*
 
--    
 
--   ![\
-    **Concealing strategy:
-    invisible**](Vbrule_invisible.png " Concealing strategy: invisible"){width="300"}
+[[/images/Vbrule_invisible.png]]
 
-</div>
+*Concealing strategy: invisible*
 
-Using the [[/images/creation_mode.png]] button,
+
+Using the [[/images/Creation_mode.png]] button,
 users can select an *editing mode* to define which variants are affected
 by edits to the rule. The supported options are: all variants, variants
 included in the selected configuration, or variants associated to the
