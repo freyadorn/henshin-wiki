@@ -77,7 +77,7 @@ same level, and step return moves the state one level \"up\".
 
 [[/images/Henshin-debug-example.png]]
 
-_State diagram for an example containing every possible step transition (parameter amount is too high_
+_State diagram for an example containing every possible step transition (parameter number is too high)_
 
 | Debug Level       | Represents                                                  | Examples                 |
 |-------------------|-------------------------------------------------------------|--------------------------|
@@ -86,14 +86,15 @@ _State diagram for an example containing every possible step transition (paramet
 | *Constraint Type* | one possible kind of constraint                             | Attribute, Reference     |
 | *Constraint n*    | the *n*-th individual constraint of a given constraint type | (Attribute) Constraint 2 |
 
-  : the four debugging levels
+_The four debugging levels_
 
 | Debug Level → ↓ Step Action  |                                                             Variable                                                             |                                                             Value / Candidate                                                            |                          Constraint Type                         |                                                                                                   Constraint Instance                                                                                                  |
 |:----------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |           Step into          |  Continues with the first candidate for the variable.                                                                            |  Continues with checking/enforcing the first constraint type.                                                                            |  Checks/enforces the first constraint of the current type.       |  Identical to step over.                                                                                                                                                                                               |
 |           Step over          |  Tries all candidates including all constraint checks until a different variable is matched. Terminates if no variable is left.  |  Executes all constraint checks for the current candidate.                                                                               |  Executes all constraint checks of the current constraint type.  |  Checks/enforces the next constraint of the current type. Continues  with the next constraint type if there is no further constraint of the  current type. Backtracks to the next value if the constraint is not met.  |
 |          Step return         |  Identical to step over.                                                                                                         |  Tries all remaining candidates including all constraint checks  until the next variable is matched. Terminates if no variable is left.  |  Executes constraint checks for all remaining constraint types.  |  Executes all remaining constraint checks of the current constraint type.                                                                                                                                              |
-: semantics of the *step-\** actions
+
+_Smantics of the *step-\** actions_
 
 [[/images/Henshin_debug_stack_and_variables.png]]
 
