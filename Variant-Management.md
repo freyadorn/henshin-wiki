@@ -179,7 +179,7 @@ paper at FASE 2015](https://doi.org/10.1007/978-3-662-46675-9_19)).
 -   All variant management information (presence conditions, feature
     lists, configuration constraint, injective matching presence
     condition) is represented using the
-    [Annotation](Transformation_Meta-Model "wikilink")
+    [Annotation](Transformation-Meta-Model#annotations "wikilink")
     metaclass. The UI shows these annotations as entries in the
     *Properties* view.
 -   Elements of the same application condition graphs cannot have
