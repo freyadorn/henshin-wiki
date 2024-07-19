@@ -29,12 +29,14 @@ editor, as shown below. When you have successfully imported a new
 package, all its classes automatically appear in the palette on the
 right-hand side of the graphical editor.
 
-![Henshin Import Menu](Henshin-import-menu.png "Henshin Import Menu")
+[[/images/Henshin-import-menu.png]]
+_Henshin Import Menu_
+
 
 ## Editing Transformation Rules
 
-![Example Transformation
-Rule](Henshin-gmf-example-rule.png "Example Transformation Rule")
+[[/images/Henshin-gmf-example-rule.png]]
+_Example Transformation Rule_
 
 The graphical editor offers an intuitive way of representing rules. In
 Henshin, objects are referred to as *nodes* and links between objects as
@@ -75,8 +77,9 @@ same (or no) forbid parameter, then the two elements must not be found
 
 ### Parameters and Transparent Containers
 
-![Transformation rule with parameters and container
-object](Henshin-parameters.png "Transformation rule with parameters and container object")
+[[/images/Henshin-parameters.png]]
+
+_Transformation rule with parameters and container object_
 
 To specify parameters of the rule, simply write the names of the
 parameters separated by commas and surrounded by (\...) after the name
@@ -109,9 +112,8 @@ conjunction and negation.
 ## Visual Multi-View Editor
 
 An alternative [multi-view graphical
-editor](Multi-View_Editor "wikilink") is currently developed at
-the TU Berlin and Uni Luxembourg. This multi-view editor is **not** yet
-part of the official Henshin toolset, but will be added in the future.
-
+editor](Multi-View_Editor "wikilink") (now discontinued) was developed at
+the TU Berlin and Uni Luxembourg. This multi-view editor is **not** 
+part of the official Henshin toolset.
 
 
