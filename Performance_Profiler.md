@@ -1,4 +1,4 @@
-The Henshin profiler offers different visualizations especially for the matching process of Henshin transformation rules. We use the example [Ecore2RDB](https://wiki.eclipse.org/Henshin/Examples/Ecore2RDB) to explain how to invoke the profiler and what information is displayed. We have changed the transformation rule CreateTableInterrelations in such a way that we have named the nodes to be able to identified them in the visualizations of the profiler (the picture shows only a part of the rule CreateTableInterrelations).
+The **Henshin profiler** offers different visualizations especially for the matching process of Henshin transformation rules. We use the example [Ecore2RDB](Ecore2RDB) to explain how to invoke the profiler and what information is displayed. We have changed the transformation rule CreateTableInterrelations in such a way that we have named the nodes to be able to identified them in the visualizations of the profiler (the picture shows only a part of the rule CreateTableInterrelations).
 
 [[/images/Henshin-Profiler-Rule.png]]
 
@@ -10,21 +10,25 @@ The profiler can be invoked via the [interpreter wizard](https://wiki.eclipse.or
 
 To call the profiler via the API, a _PerformanceMonitorImpl_-object must be created and passed to the method _execute(ApplicationMonitor monitor)_. After all transformations are finished, the method _showVisualizations()_ of the _PerformanceMonitorImpl_-object must be called to start the analysis and to open the GUI. _showVisualizations()_ also terminates the monitoring. Since the terminated monitoring cannot be used to monitor further transformations, one should always ensure that _showVisualizations()_ is called at the end. The following code shows an excerpt from Ecore2Rdb.java, which was modified to call the profiler via the API. To execute the modified code the class _Ecore2Rdb_ must import _org.eclipse.emf.henshin.monitoring.kieker.monitoring.PerformanceMonitorImpl_ and the two dependencies _org.eclipse.emf.henshin.monitoring.kieker_ and _org.eclipse.emf.henshin.monitoring.ui_ must be added to the MANIFEST.MF.
 
-`Unit unit = module.getUnit("main");`
-`UnitApplication unitApp = new UnitApplicationImpl(engine, graph, unit, null);`
+
+``` java
+Unit unit = module.getUnit("main");
+UnitApplication unitApp = new UnitApplicationImpl(engine, graph, unit, null);
  
-`unitApp.setParameterValue("packageName", packageName);`
+unitApp.setParameterValue("packageName", packageName);
  
-`//Create a new PerformanceMonitorImpl-object`
-`PerformanceMonitorImpl monitor = new PerformanceMonitorImpl(); `
+//Create a new PerformanceMonitorImpl-object
+PerformanceMonitorImpl monitor = new PerformanceMonitorImpl(); 
  
-`//Monitor Transformation execution	`
-`unitApp.execute(monitor);`
+//Monitor Transformation execution	
+unitApp.execute(monitor);
  
-`EObject result = (EObject) unitApp.getResultParameterValue("schema");`
-`System.out.println("Generated Rdb model.");`
-`//start analysis and open GUI`
-`monitor.showVisualizations();`
+EObject result = (EObject) unitApp.getResultParameterValue("schema");
+System.out.println("Generated Rdb model.");
+//start analysis and open GUI
+monitor.showVisualizations();
+```
+
 
 # Visualizations
 
