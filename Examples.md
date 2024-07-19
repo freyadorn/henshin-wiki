@@ -13,10 +13,10 @@ transformations.
 1.  [Bank Accounts](Getting_started "wikilink") (Tutorial):
     shows the basic concepts, the graphical editor and the interpreter
     wizard.
-2.  [Sierpinski Triangle](Examples/Sierpinski "wikilink"): A
+2.  [Sierpinski Triangle](Sierpinski "wikilink"): A
     simple example for benchmarking the interpreter.
 3.  [University
-    Courses](Examples/University_Courses "wikilink"): An example
+    Courses](University_Courses "wikilink"): An example
     showing the capabilities and usage of Units.
 
 ### Exogenous Transformations
@@ -26,9 +26,9 @@ translations between different DSLs. Please take also a look under
 *Higher-order (HO) Transformations* for examples of exogenous
 transformations.
 
-1.  [Ecore2RDB](Examples/Ecore2RDB "wikilink"): Classic class
+1.  [Ecore2RDB](Ecore2RDB "wikilink"): Classic class
     diagram to relational database example.
-2.  [Java2StateMachine](Examples/Java2StateMachine "wikilink"):
+2.  [Java2StateMachine](Java2StateMachine "wikilink"):
     Translating a Java model into a state machine. This is the
     Reengineering case of TTC\'11.
 
@@ -37,11 +37,11 @@ transformations.
 Higher-order transformations modify or translate transformation models,
 e.g. Henshin transformations.
 
-1.  [Ecore2GenModel](Examples/Ecore2GenModel "wikilink"):
+1.  [Ecore2GenModel](Ecore2GenModel "wikilink"):
     Translating an Ecore model into a GenModel. This was one of the
     challenges in the TTC\'10.
 2.  [Grid and Comb
-    Pattern](Examples/GridAndCombPattern "wikilink"):
+    Pattern](GridAndCombPattern "wikilink"):
     Construction of grid structures, a higher-order transformation for
     modifying a Henshin rule, and several benchmarks. This example was
     initially described in a technical report on benchmarks for graph
@@ -53,13 +53,13 @@ These are examples showing how to use the state space generation and
 analysis features of Henshin.
 
 1.  [Dining
-    Philosophers](Examples/DiningPhilosophers "wikilink"):
+    Philosophers](DiningPhilosophers "wikilink"):
     Simple state space generation example and benchmark for the
     classical dining philosophers problem.
-2.  [Gossiping Girls](Examples/GossipingGirls "wikilink"):
+2.  [Gossiping Girls](GossipingGirls "wikilink"):
     Solution of the gossiping girls problem in Henshin.
 3.  [Probabilistic
-    Broadcast](Examples/ProbabilisticBroadcast "wikilink"):
+    Broadcast](ProbabilisticBroadcast "wikilink"):
     Example of a probabilistic graph transformation system for analyzing
     message broadcasting in wireless sensor networks. This example is
     taken from an ICGT\'12 paper.
@@ -69,7 +69,7 @@ analysis features of Henshin.
 These are examples of uses of the Giraph code generator provided by
 Henshin.
 
-1.  [Movies](Examples/Movies "wikilink"): Simplified version of
+1.  [Movies](Movies "wikilink"): Simplified version of
     the example used in the paper *Implementing Graph Transformations in
     the Bulk Synchronous Parallel Model*.
 
@@ -78,7 +78,7 @@ Henshin.
 These are examples showing how to use the critical pair analysis feature
 of Henshin.
 
-1.  [Simple Refactoring](Examples/SimpleRefactoring "wikilink"):
+1.  [Simple Refactoring](SimpleRefactoring "wikilink"):
     Example of simple class modeling refactorings analysed for their
     conflicts and dependencies.
 

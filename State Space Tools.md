@@ -43,7 +43,7 @@ transformation.
 ## Transformation rules and initial state
 
 As a running example we consider the academic example of [dining
-philosophers](Examples/DiningPhilosophers "wikilink"). To make
+philosophers](DiningPhilosophers "wikilink"). To make
 it more interesting we include a rule for a dynamic reconfiguration,
 i.e. to allow to add a philosopher to the table during the execution.
 The rules can be specified using the either the graphical or tree-based
@@ -417,7 +417,7 @@ This is all information you need to specify. The state space tool will
 automatically generate a PRISM specification according to the semantics
 of probabilistic graph transformation systems. See also the
 [probabilistic
-broadcast](Examples/ProbabilisticBroadcast "wikilink").
+broadcast](ProbabilisticBroadcast "wikilink").
 
 # State space export
 

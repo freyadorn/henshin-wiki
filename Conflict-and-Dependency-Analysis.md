@@ -185,7 +185,7 @@ _Fig. 10: Representation of conflicts on attributes_
 The folder
 *[org.eclipse.emf.henshin.examples.cda](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/cda)*
 contains a usage example based on the [Simple
-Refactoring](Examples/SimpleRefactoring "wikilink") example.
+Refactoring](SimpleRefactoring "wikilink") example.
 
 -   The file *refactorings.henshin* contains 8 refactoring rules.
 -   The file *RunConflictDetectionOnRefactoring.java* contains the code

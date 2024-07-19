@@ -19,13 +19,13 @@ unit has been applied. There are four parameter kinds (*in*, *out*,
 _Feature comparison_
 
 Examples: [Bank Accounts](Getting_started "wikilink") (*in*,
-*var*), [Ecore2RDB](Examples/Ecore2RDB "wikilink") (*in*, *out*,
-*var*), [Ecore2GenModel](Examples/Ecore2GenModel "wikilink")
+*var*), [Ecore2RDB](Ecore2RDB "wikilink") (*in*, *out*,
+*var*), [Ecore2GenModel](Ecore2GenModel "wikilink")
 (*in*, *out*, *var*), [Grid and Comb
-Pattern](Examples/GridAndCombPattern "wikilink") (*in*, *inout*,
-*out*), [Gossiping Girls](Examples/GossipingGirls "wikilink")
+Pattern](GridAndCombPattern "wikilink") (*in*, *inout*,
+*out*), [Gossiping Girls](GossipingGirls "wikilink")
 (*out*), [Probabilistic
-Broadcast](Examples/ProbabilisticBroadcast "wikilink"), (*in*,
+Broadcast](ProbabilisticBroadcast "wikilink"), (*in*,
 *var*)
 
 ## Parameter mappings
@@ -54,11 +54,11 @@ and RHS elements, as exemplified in the *transferMoney* rule in the
 The legacy parameter kind *unknown* can be mapped arbitrarily depending
 on its usage.
 
-Examples: [Ecore2RDB](Examples/Ecore2RDB "wikilink") (*in*→*in*,
+Examples: [Ecore2RDB](Ecore2RDB "wikilink") (*in*→*in*,
 *out*→*out*),
-[Ecore2GenModel](Examples/Ecore2GenModel "wikilink") (*in*→*in*,
+[Ecore2GenModel](Ecore2GenModel "wikilink") (*in*→*in*,
 *out*→*out*), [Grid and Comb
-Pattern](Examples/GridAndCombPattern "wikilink") (*in*→*in*,
+Pattern](GridAndCombPattern "wikilink") (*in*→*in*,
 *out*→*out*, *in*→*inout*, *inout*→*in*, *inout*→*out*)
 
 ## Usage during definition
@@ -192,7 +192,7 @@ set parameter.
 
 For an additional usage illustration, consider the rule *extendColumn*
 in the section *Generation of a sparse grid* of the [Grid and Comb
-Pattern](Examples/GridAndCombPattern "wikilink") example.
+Pattern](GridAndCombPattern "wikilink") example.
 
 
 

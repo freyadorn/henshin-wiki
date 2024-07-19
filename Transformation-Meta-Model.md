@@ -87,20 +87,20 @@ the LHS. However, they are not part of the computed match. A match only
 contains mappings for LHS nodes. This is particularly important in
 scenarios where you want to apply a rule for each computed match
 (compare *rule-nesting*, described below). For an example, please refer
-to [Movies](Examples/Movies "wikilink").\
+to [Movies](Movies "wikilink").\
 Identity of nodes in different graphs, including LHS, PAC, and NAC
 graphs, can be specified using mappings. The graphical editor maintains
 these mappings implicitly: For each LHS node, it creates a mapped node
 inside the NAC or PAC.\
 *Examples:* [Bank Accounts](Getting_started "wikilink"),
-[Ecore2RDB](Examples/Ecore2RDB "wikilink"),
-[Java2StateMachine](Examples/Java2StateMachine "wikilink"),
-[Ecore2GenModel](Examples/Ecore2GenModel "wikilink"), [Grid and
-Comb Pattern](Examples/GridAndCombPattern "wikilink"),
-[Gossiping Girls](Examples/GossipingGirls "wikilink"),
+[Ecore2RDB](Ecore2RDB "wikilink"),
+[Java2StateMachine](Java2StateMachine "wikilink"),
+[Ecore2GenModel](Ecore2GenModel "wikilink"), [Grid and
+Comb Pattern](GridAndCombPattern "wikilink"),
+[Gossiping Girls](GossipingGirls "wikilink"),
 [Probabilistic
-Broadcast](Examples/ProbabilisticBroadcast "wikilink"),
-[Movies](Examples/Movies "wikilink")
+Broadcast](ProbabilisticBroadcast "wikilink"),
+[Movies](Movies "wikilink")
 
 **Rule-nesting** is a powerful concept providing a for-each operator for
 rules. In nested rules, the outer rule is referred to as *kernel rule*
@@ -114,11 +114,11 @@ indicated by a layered representation and an asterisk (\*). Multiple
 layers of rule-nesting are allowed. The graphical editor shows the path
 constituted by the nested rules in the title bar of the respective
 nodes. An extensive example for multiple-layer rule-nesting is found in
-[Ecore2RDB](Examples/Ecore2RDB "wikilink").\
+[Ecore2RDB](Ecore2RDB "wikilink").\
 *Examples:* [Bank Accounts](Getting_started "wikilink"),
-[Ecore2RDB](Examples/Ecore2RDB "wikilink"), [Gossiping
-Girls](Examples/GossipingGirls "wikilink"), [Probabilistic
-Broadcast](Examples/ProbabilisticBroadcast "wikilink")\
+[Ecore2RDB](Ecore2RDB "wikilink"), [Gossiping
+Girls](GossipingGirls "wikilink"), [Probabilistic
+Broadcast](ProbabilisticBroadcast "wikilink")\
 *Further Reading: Biermann, Ermel, Taentzer. \"Formal foundation of
 consistent EMF model transformations by algebraic graph
 transformation.\" Software & Systems Modeling 11.2 (2012): 227-250.

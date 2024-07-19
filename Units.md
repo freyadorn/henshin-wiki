@@ -59,8 +59,8 @@ possible](Henshin_Loop_Unit.png "Apply A as often as possible")
 -   **Control flow:** The sub-unit is executed as often as it is
     executable.
 -   **Examples:**
-    [Java2StateMachine](Examples/Java2StateMachine "wikilink"),
-    [Ecore2GenModel](Examples/Ecore2GenModel "wikilink")
+    [Java2StateMachine](Java2StateMachine "wikilink"),
+    [Ecore2GenModel](Ecore2GenModel "wikilink")
 
 ### Iterated Unit
 
@@ -83,7 +83,7 @@ possible](Henshin_Loop_Unit.png "Apply A as often as possible")
         be executed, the execution stops and previous executions are
         reverted.
 -   **Examples:** [Grid and Comb
-    Pattern](Examples/GridAndCombPattern "wikilink")
+    Pattern](GridAndCombPattern "wikilink")
 
 ## Conditional Unit
 
@@ -99,7 +99,7 @@ C](Henshin_Conditional_Unit.png "If A applicable then apply B, else apply C")
     *then* unit is executed. Otherwise, if present, the *else* unit is
     executed.
 -   **Examples:**
-    [Java2StateMachine](Examples/Java2StateMachine "wikilink")
+    [Java2StateMachine](Java2StateMachine "wikilink")
 
 ## Multi-Units
 
@@ -127,11 +127,11 @@ C](Henshin_Sequential_Unit.png "Apply A then B then C")
     -   **strict=true, rollback=true:** If one of the sub-units cannot
         be executed, the execution stops and previous executions are
         reverted.
--   **Examples:** [Ecore2RDB](Examples/Ecore2RDB "wikilink"),
-    [Java2StateMachine](Examples/Java2StateMachine "wikilink"),
-    [Ecore2GenModel](Examples/Ecore2GenModel "wikilink"), [Grid
-    and Comb Pattern](Examples/GridAndCombPattern "wikilink"),
-    [Movies](Examples/Movies "wikilink")
+-   **Examples:** [Ecore2RDB](Ecore2RDB "wikilink"),
+    [Java2StateMachine](Java2StateMachine "wikilink"),
+    [Ecore2GenModel](Ecore2GenModel "wikilink"), [Grid
+    and Comb Pattern](GridAndCombPattern "wikilink"),
+    [Movies](Movies "wikilink")
 
 ### Priority Unit
 
@@ -146,7 +146,7 @@ etc.](Henshin_Priority_Unit.png "Try to apply A. If A not applicable, try B etc.
     executability. The first sub-unit found to be executable is
     executed.
 -   **Examples:**
-    [Java2StateMachine](Examples/Java2StateMachine "wikilink")
+    [Java2StateMachine](Java2StateMachine "wikilink")
 
 ### Independent Unit
 
@@ -162,7 +162,7 @@ applicable\...](Henshin_Independent_Unit.png "Choose A, B or C in non-determinis
     order for executability. The first sub-unit found to be executable
     is executed.
 -   **Examples:**
-    [Ecore2GenModel](Examples/Ecore2GenModel "wikilink")
+    [Ecore2GenModel](Ecore2GenModel "wikilink")
 
 
 
