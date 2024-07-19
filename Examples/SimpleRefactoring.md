@@ -1,7 +1,7 @@
 
 The **Simple Class Modeling Refactoring example** illustrates Henshin\'s
 capabilities for [Conflict and Dependency
-Analysis](Conflict_and_Dependency_Analysis "wikilink"). It is
+Analysis](Conflict-and-Dependency-Analysis "wikilink"). It is
 described in the paper *Analyzing Conflicts and Dependencies of
 Rule-Based Transformations in Henshin* published at FASE 2015. We
 explain how to use the analysis (wizard and programmatically) to find
@@ -102,7 +102,7 @@ The CPA is called on a Henshin file in the Eclipse Package Explorer
 This brings up a wizard to specify the rule set to be analyzed and the
 kind of critical pairs that shall be analyzed.
 
-[[/images/henshin-ref-CPAWizard.png]]
+[[/images/Henshin-ref-CPAWizard.png]]
 
 After the CPA, a dedicated results view provides an overview on all
 conflicts and dependencies found. The resulting list of critical pairs
@@ -110,7 +110,7 @@ is ordered along conflicts and dependencies as well as rule pairs. For
 each pair, a set of conflicts (dependencies) is listed named by their
 kinds.
 
-[[/images/henshin-ref-CPAResultView.png]]
+[[/images/Henshin-ref-CPAResultView.png]]
 
 Here, three conflics are found. The conflicts of the first and the third
 rule pair in the results view present a *produce-forbid-conflict* and a
