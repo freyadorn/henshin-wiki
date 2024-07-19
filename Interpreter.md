@@ -1,6 +1,6 @@
 The **Henshin interpreter** is the default engine for executing model
 transformations defined in [Henshin](Home "wikilink"). The
-interpreter can be invoked either using a wizard or programmatically
+interpreter can be invoked either using a wizard (which then also allows **debugging**, as described below) or programmatically
 using an API.
 
 
@@ -44,7 +44,7 @@ simplify repeated application of transformation and enable debugging.
 
 [[/images/Henshin_debug_config.png]]
 
-_Henshin Debug Configuration Dialog _
+_Henshin Debug Configuration Dialog_
 
 To debug a rule application, first make sure you are in the *Debug*
 perspective so that all the necessary views / actions are available.
@@ -88,62 +88,11 @@ _State diagram for an example containing every possible step transition (paramet
 
   : the four debugging levels
 
-+-------------+-------------+-------------+-------------+-------------+
-| Deb         | *Variable*  | *Value /    | *Constraint | *Constraint |
-| ug Level →\ |             | Candidate*  | Type*       | Instance*   |
-| ↓           |             |             |             |             |
-| Step Action |             |             |             |             |
-+=============+=============+=============+=============+=============+
-| Step into   | Continues   | Continues   | Chec        | Identical   |
-|             | with the    | with        | ks/enforces | to step     |
-|             | first       | checkin     | the first   | over.       |
-|             | candidate   | g/enforcing | constraint  |             |
-|             | for the     | the first   | of the      |             |
-|             | variable.   | constraint  | current     |             |
-|             |             | type.       | type.       |             |
-+-------------+-------------+-------------+-------------+-------------+
-| Step over   | Tries all   | Executes    | Executes    | Chec        |
-|             | candidates  | all         | all         | ks/enforces |
-|             | including   | constraint  | constraint  | the next    |
-|             | all         | checks for  | checks of   | constraint  |
-|             | constraint  | the current | the current | of the      |
-|             | checks      | candidate.  | constraint  | current     |
-|             | until a     |             | type.       | type.       |
-|             | different   |             |             | Continues   |
-|             | variable is |             |             | with the    |
-|             | matched.    |             |             | next        |
-|             | Terminates  |             |             | constraint  |
-|             | if no       |             |             | type if     |
-|             | variable is |             |             | there is no |
-|             | left.       |             |             | further     |
-|             |             |             |             | constraint  |
-|             |             |             |             | of the      |
-|             |             |             |             | current     |
-|             |             |             |             | type.       |
-|             |             |             |             | Backtracks  |
-|             |             |             |             | to the next |
-|             |             |             |             | value if    |
-|             |             |             |             | the         |
-|             |             |             |             | constraint  |
-|             |             |             |             | is not met. |
-+-------------+-------------+-------------+-------------+-------------+
-| Step return | Identical   | Tries all   | Executes    | Executes    |
-|             | to step     | remaining   | constraint  | all         |
-|             | over.       | candidates  | checks for  | remaining   |
-|             |             | including   | all         | constraint  |
-|             |             | all         | remaining   | checks of   |
-|             |             | constraint  | constraint  | the current |
-|             |             | checks      | types.      | constraint  |
-|             |             | until the   |             | type.       |
-|             |             | next        |             |             |
-|             |             | variable is |             |             |
-|             |             | matched.    |             |             |
-|             |             | Terminates  |             |             |
-|             |             | if no       |             |             |
-|             |             | variable is |             |             |
-|             |             | left.       |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-
+| Debug Level → ↓ Step Action  |                                                             Variable                                                             |                                                             Value / Candidate                                                            |                          Constraint Type                         |                                                                                                   Constraint Instance                                                                                                  |
+|:----------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|           Step into          |  Continues with the first candidate for the variable.                                                                            |  Continues with checking/enforcing the first constraint type.                                                                            |  Checks/enforces the first constraint of the current type.       |  Identical to step over.                                                                                                                                                                                               |
+|           Step over          |  Tries all candidates including all constraint checks until a different variable is matched. Terminates if no variable is left.  |  Executes all constraint checks for the current candidate.                                                                               |  Executes all constraint checks of the current constraint type.  |  Checks/enforces the next constraint of the current type. Continues  with the next constraint type if there is no further constraint of the  current type. Backtracks to the next value if the constraint is not met.  |
+|          Step return         |  Identical to step over.                                                                                                         |  Tries all remaining candidates including all constraint checks  until the next variable is matched. Terminates if no variable is left.  |  Executes constraint checks for all remaining constraint types.  |  Executes all remaining constraint checks of the current constraint type.                                                                                                                                              |
 : semantics of the *step-\** actions
 
 [[/images/Henshin_debug_stack_and_variables.png]]
