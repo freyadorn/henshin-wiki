@@ -65,12 +65,10 @@ current configuration is displayed in the editor. The sanitizing view
 can be used to sanitize legacy transformations. Both views are opened
 from the *Windows -\> Show View -\> Other\...* menu in Eclipse.
 
-<div>
 
--   ![**Henshin VB
-    perspective**](Henshin_vb_perspective.png "Henshin VB perspective"){width="500"}
 
-</div>
+[[/images/Henshin_vb_perspective.png]]
+
 
 The variability view allows features in a rule to be created and
 deleted. To view and edit variants individually, the user configures the
@@ -82,7 +80,7 @@ variability model, *deprecate -\> wrapper* in this case. Invalid
 configurations and rules lead to error messages being displayed.
 
 To navigate variants efficiently, frequently used configurations can be
-saved as favorites using the
+saved as favorites using the 
 [[/images/star_grey.png]] button in the toolbar.
 The star appears in yellow if a favored configuration is currently
 active. Each configuration has a user-specified name. In the figure to
