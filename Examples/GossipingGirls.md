@@ -2,7 +2,7 @@
 to use [nested
 rules](Henshin_Transformation_Meta-Model#Advanced_concepts:_Application_conditions_and_rule_nesting "wikilink")
 to match subpatterns and how to generate and analyze [state
-spaces](Henshin_Statespace_Explorer "wikilink").
+spaces](State Space Tools "wikilink").
 
 The example is based on the *Gossiping Girls Problem*. The metamodel is
 very simple: it consists of a class *Girl* and a class *Secret*. Girls
@@ -47,9 +47,9 @@ To solve the gossiping girls problem, we generate the state space with
 Henshin and search for the shortest path leading to a state where all
 girls know all secrets. The state space generation can be done in the
 [State Space
-Explorer](http://wiki.eclipse.org/Henshin_Statespace_Explorer) or in
+Explorer](State Space Tools "wikilink") or in
 Java as done in the
-[GossipingGirls](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.henshin-org/eclipse/emf/henshin/henshin-GossipingGirls.java)
+[GossipingGirls](https://github.com/eclipse-henshin/henshin/blob/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/gossipinggirls/GossipingGirls.java)
 class. The figure below shows the state space for 4 girls generated in
 the state space explorer.
 
