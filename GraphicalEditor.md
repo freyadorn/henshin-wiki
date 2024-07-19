@@ -30,12 +30,14 @@ package, all its classes automatically appear in the palette on the
 right-hand side of the graphical editor.
 
 [[/images/Henshin-import-menu.png]]
+
 _Henshin Import Menu_
 
 
 ## Editing Transformation Rules
 
 [[/images/Henshin-gmf-example-rule.png]]
+
 _Example Transformation Rule_
 
 The graphical editor offers an intuitive way of representing rules. In
