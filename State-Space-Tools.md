@@ -62,9 +62,9 @@ state space. Therefore, we include negative application conditions
 many philosophers. Here we chose an upper limit of at most 5
 philosophers.
 
-[[/images/statespace-phil-left.png]]
-[[/images/statespace-phil-release.png]]
-[[/images/statespace-phil-create.png]]
+[[/images/Statespace-phil-left.png]]
+[[/images/Statespace-phil-release.png]]
+[[/images/Statespace-phil-create.png]]
 
 To generate a state space, we need to specify an initial configuration.
 We use dynamic EMF here, that means we do not generate model classes for
@@ -167,8 +167,8 @@ manager.resetStateSpace();
 
 ## Setting properties
 
-![Editing the state space
-properties](HenshinStateSpaceProperties.png "Editing the state space properties"){width="250"}
+[[/images/HenshinStateSpaceProperties.png]]
+
 You can influence the state space generation using properties associated
 to the state space. You can use an action in the control panel to change
 the options. Some common properties are the following: *checkLinkOrder*
@@ -197,8 +197,10 @@ higher.
 
 ## Parameterized actions
 
-![Parameterized
-actions](Statespace-with-rule-params.png "Parameterized actions"){width="250"}
+
+[[/images/Statespace-with-rule-params.png]]
+
+
 In the basic version, transitions are labeled just with rule names, e.g.
 *left* and *right* in our simple example. A more powerful approach is
 also supported, which allow to parameterize the transition labels with
@@ -212,7 +214,7 @@ regenerate the state space, you will see the parameters on the
 transition labels. These parameterized actions can be also very useful
 for model checking later (see the paragraph on [model checking with
 parametrized
-actions](#Model_checking_with_parametrized_actions "wikilink")).
+actions](#model-checking-with-parametrized-actions "wikilink")).
 
 # State space analysis
 
@@ -222,8 +224,9 @@ use the *Validation* menu in the control panel to analyze it.
 
 ## Structural invariants in OCL
 
-![OCL invariant checking in the state space
-explorer](Henshin-statespace-ocl-invariant.png "OCL invariant checking in the state space explorer"){width="250"}
+
+[[/images/Henshin-statespace-ocl-invariant.png]]
+
 You can specify OCL constraints in the validation tool in the explorer
 and check them for your state space. For example in the dining
 philosophers state space we can check the following constraint:
@@ -280,7 +283,7 @@ you have to put quotes around the action names.
 ### Model checking with parametrized actions
 
 State space with [parameterized
-actions](#Parameterized_actions "wikilink") can be also analyzed.
+actions](#parameterized-actions "wikilink") can be also analyzed.
 Currently, mCRL2 can be used for this. The type of the actions is
 induced by the parameter definitions for rules. In the following, we use
 the example with parameterized actions from above. We can use the
@@ -368,6 +371,7 @@ You can also use OCL to specify the target states, e.g.:
        self.philosophers->size() = self.forks->size()
     >>>
     P=? [ F "target" ]
+
 
 ![Plot generated from a PRISM
 experiment](Henshin_statespace_plot.png "Plot generated from a PRISM experiment"){width="250"}
