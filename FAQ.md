@@ -107,6 +107,3 @@ The [Critical Pair Analysis](Critical_Pair_Analysis "wikilink")
 allows to uncover conflicts and dependencies in a rule set, which can be
 used for many purposes, including validation and testing.
 
-[Category:FAQ](Category:FAQ "wikilink")
-
-
