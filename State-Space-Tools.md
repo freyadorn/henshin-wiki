@@ -5,8 +5,7 @@ executed in a stepwise fashion and can be, thus, analyzed, e.g. to make
 sure that all intermediate states are correct fulfill some invariants.
 
 The state space tools in Henshin currently support the following
-features: ![Henshin State Space
-Explorer](Statespace-explorer-phil-win32.png "Henshin State Space Explorer"){width="320"}
+features: 
 
 -   Efficient (multi-threaded), resumable generation of explicit state
     spaces
@@ -28,12 +27,13 @@ Explorer](Statespace-explorer-phil-win32.png "Henshin State Space Explorer"){wid
     -   PRISM (\*.sm, \*.nm, \*.tra etc.)
 
 All these functionalities are integrated in a graphical state space
-explorer, shown on the right. They can be also invoked from the context
+explorer, shown below. They can be also invoked from the context
 menu for state space files or programmatically. For model checking, the
 state space explorer provides a uniform front-end to the above mentioned
 analysis tools.
 
 
+[[/images/Statespace-explorer-phil-win32.png]]
 
 # State space generation
 
@@ -62,12 +62,9 @@ state space. Therefore, we include negative application conditions
 many philosophers. Here we chose an upper limit of at most 5
 philosophers.
 
-![Rule *left*](statespace-phil-left.png "Rule left"){width="200"
-height="100"} ![Rule
-*release*](statespace-phil-release.png "Rule release"){width="200"
-height="100"} ![Rule
-*create*](statespace-phil-create.png "Rule create"){width="240"
-height="120"}
+[[/images/statespace-phil-left.png]]
+[[/images/statespace-phil-release.png]]
+[[/images/statespace-phil-create.png]]
 
 To generate a state space, we need to specify an initial configuration.
 We use dynamic EMF here, that means we do not generate model classes for
@@ -98,8 +95,8 @@ In our dining philosophers example, we import the rules *left*, *right*,
 
 ## Building up the state space
 
-![State space of reconfigurable dining
-philosophers](Statespace-explorer-phil-win32.png "State space of reconfigurable dining philosophers"){width="300"}
+[[/images/Statespace-explorer-phil-win32.png]]
+
 The initial state appears as a green node in the state space explorer.
 You can click on *Start layouter* in the Tasks menu on the right-hand
 side of the explorer to enable automatic layouting. By double clicking
@@ -125,8 +122,8 @@ the right. Here we used graph equality without extra options.
 
 ## Offline state space generation
 
-![Offline state space
-generation](Henshin-offline-statespace-generation.png "Offline state space generation"){width="300"}
+[[/images/Henshin-offline-statespace-generation.png]]
+
 State space can be also generated outside of the graphical explorer,
 which is, of course, much more efficient. The offline state space
 generation can be invoked by clicking on *Explore State Space* in the
