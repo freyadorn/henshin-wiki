@@ -7,8 +7,8 @@ using an API.
 
 ## Interpreter Wizard
 
-![Henshin Interpreter
-Wizard](Henshin-interpreter-wizard.png "Henshin Interpreter Wizard"){width="320"}
+[[/images/Henshin-interpreter-wizard.png]]
+
 The interpreter wizard can be invoked by a right-click on a \*.henshin
 file in the Package Explorer and selecting *Henshin→Apply
 Transformation*.
@@ -42,8 +42,10 @@ single rule applications, as well as Run/Debug Configurations.
 Henshin now provides the usual Eclipse Run and Debug Configurations that
 simplify repeated application of transformation and enable debugging.
 
-![Henshin Debug Configuration
-Dialog](Henshin_debug_config.png "Henshin Debug Configuration Dialog"){width="320"}
+[[/images/Henshin_debug_config.png]]
+
+_Henshin Debug Configuration Dialog _
+
 To debug a rule application, first make sure you are in the *Debug*
 perspective so that all the necessary views / actions are available.
 Next, create a new **debug configuration** of the type **Henshin Rule
@@ -73,16 +75,16 @@ depends on the current debug level, but generally speaking, step into
 moves the debugging state one level \"down\", step over stays on the
 same level, and step return moves the state one level \"up\".
 
-![ State diagram for an example containing every possible step
-transition (parameter amount is too
-high)](Henshin-debug-example.png " State diagram for an example containing every possible step transition (parameter amount is too high)"){width="320"}
+[[/images/Henshin-debug-example.png]]
 
-  Debug Level         Represents                                                    Examples
-  ------------------- ------------------------------------------------------------- --------------------------
-  *Variable i*        the *i*-th variable of the search plan                        Bank, Client, Account
-  *Value*             a specific candidate from the current variable\'s domain      Client Alice, Account 3
-  *Constraint Type*   one possible kind of constraint                               Attribute, Reference
-  *Constraint n*      the *n*-th individual constraint of a given constraint type   (Attribute) Constraint 2
+_State diagram for an example containing every possible step transition (parameter amount is too high_
+
+| Debug Level       | Represents                                                  | Examples                 |
+|-------------------|-------------------------------------------------------------|--------------------------|
+| *Variable i*      | the *i*-th variable of the search plan                      | Bank, Client, Account    |
+| *Value*           | a specific candidate from the current variable\'s domain    | Client Alice, Account 3  |
+| *Constraint Type* | one possible kind of constraint                             | Attribute, Reference     |
+| *Constraint n*    | the *n*-th individual constraint of a given constraint type | (Attribute) Constraint 2 |
 
   : the four debugging levels
 
@@ -144,8 +146,10 @@ high)](Henshin-debug-example.png " State diagram for an example containing every
 
 : semantics of the *step-\** actions
 
-![The *Debug* view (left) and *Variables* view (right) while
-debugging](Henshin_debug_stack_and_variables.png "The Debug view (left) and Variables view (right) while debugging"){width="320"}
+[[/images/Henshin_debug_stack_and_variables.png]]
+
+_The Debug view (left) and Variables view (right) while debugging_
+
 These four levels make up the call stack in the henshin debugger, where
 the elements are ordered bottom to top (i.e., the *variable* level is at
 the bottom). When a match for a node was found, the corresponding
@@ -165,8 +169,11 @@ used to further inspect the state of the match finding process in a tree
 view. It shows different information depending on the currently selected
 stack frame. `EObjects` `ELists` are expandable / collapsible.
 
-![A successful
-match](Henshin-debug-successful-match.png "A successful match"){width="320"}If
+[[/images/Henshin-debug-successful-match.png]]
+
+_A successful match_
+
+If
 all variables are matched successfully, the debugging session terminates
 and the match is displayed (currently only textually in the call stack
 view). If the option was activated in the debug configuration, the
