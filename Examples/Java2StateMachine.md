@@ -15,7 +15,7 @@ in Theoretical Computer Science (EPTCS), 2011, Volume 74*.
 The whole transformation is depicted in the following screenshot. The
 models, transformation, source code and example input / output models
 can be found
-[here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/java2statemachine).
+[here](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/java2statemachine).
 
 [[/images/henshin-java2statemachine.png]]
 

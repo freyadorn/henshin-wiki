@@ -24,7 +24,7 @@ The state space can be either generated in the [state space
 explorer](Henshin_Statespace_Explorer "wikilink") (slow), or by
 right-clicking on a statespace file and selecting *State Space -\>
 Explore State Space*, or programmatically as done the
-[DiningPhilsBenchmark](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/diningphils/DiningPhilsBenchmark.java)
+[DiningPhilsBenchmark](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/diningphils/DiningPhilsBenchmark.java)
 class. The screenshot below shows the state space for 3 philosophers as
 visualized in the state space explorer. Note that we do not make use of
 graph isomorphy checking for making the state space smaller, because we
@@ -34,7 +34,7 @@ want to be able to identify each philosopher individually (by its ID).
 
 We conducted a benchmark to measure the speed of the state space
 generator. The models and the source code for the example can be found
-[here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/diningphils).
+[here](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/diningphils).
 The following benchmark was conducted on a Intel(R) Xeon(R) CPU @
 2.50GHz with 8GB of main memory using Henshin 0.9.2. We measured the
 time to generate the full state space.

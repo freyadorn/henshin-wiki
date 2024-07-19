@@ -1,7 +1,7 @@
 
 This page lists documented **examples** of [Henshin](Home "wikilink")
 transformations. All examples can be found in the [Henshin examples
-plug-in](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples).
+plug-in](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples).
 
 ### Endogenous Transformations
 

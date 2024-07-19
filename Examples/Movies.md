@@ -25,7 +25,7 @@ To generate the Giraph code, right-click on the sequential unit and
 select *Generate Giraph Code*. This will generate two classes: one
 general utility class and one class for this particular transformation.
 You can find the generated classes in the
-[giraph/movies](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/movies)
+[giraph/movies](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/movies)
 folder in the *examples* plugin.
 
 *contributed by Christian Krause and Matthias Tichy*

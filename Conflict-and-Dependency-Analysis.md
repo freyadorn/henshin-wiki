@@ -183,7 +183,7 @@ _Fig. 10: Representation of conflicts on attributes_
 ### Usage via API
 
 The folder
-*[org.eclipse.emf.henshin.examples.cda](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/cda)*
+*[org.eclipse.emf.henshin.examples.cda](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/cda)*
 contains a usage example based on the [Simple
 Refactoring](Examples/SimpleRefactoring "wikilink") example.
 

@@ -11,7 +11,7 @@ shown below (images taken from the TR).
 [[/images/henshin-structures.png]]
 
 The transformation and the source code can be found
-[here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/combpattern).
+[here](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/combpattern).
 All benchmarks were run on a Intel(R) Xeon(R) CPU @ 2.50GHz with 8GB of
 main memory using Henshin 0.9.2.
 

@@ -8,7 +8,7 @@ explain how to use the analysis (wizard and programmatically) to find
 all potential conflicts and dependencies in a set of rules.
 
 The transformation model and source code can be found
-[here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/simpleclassmodelingrefactoring).
+[here](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/simpleclassmodelingrefactoring).
 
 ### Metamodel
 

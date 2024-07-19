@@ -17,7 +17,7 @@ The transformation consists of two parts: the generation of the GenModel
 and a customization which removes trace links using a higher-order (HO)
 transformation. The models, transformation, source code and example
 input / output models can be found
-[here](https://git.eclipse.org/c/henshin/org.eclipse.emft.henshin.git/tree/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/ecore2genmodel).
+[here](https://github.com/eclipse-henshin/henshin/tree/master/plugins/org.eclipse.emf.henshin.examples/src/org/eclipse/emf/henshin/examples/ecore2genmodel).
 
 ### Generating the GenModel
 
