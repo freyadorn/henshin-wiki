@@ -7,25 +7,24 @@
 * Native support for endogenous transformations; support of exogenous transformations via [traces](Trace-Model "wikilink")
 * Efficient in-place execution of transformations using a dedicated [interpreter](Interpreter "wikilink") with debugging support
 
-Analysis
+**Analysis**
 
 * A [performance profiler](Performance_Profiler "wikilink") to identify slow spots
 * Support for [conflict and dependency analysis](Conflict-and-Dependency-Analysis "wikilink")
 * [State space analysis](State-Space-Tools "wikilink") for verification
 
-
-Advanced rule definition
+**Advanced rule definition**
 
 * Support for [rule variants](Variant-Management "wikilink")
 * Support for [automated rule generation](Rule-Generation "wikilink")
 * Support for [generating application conditions from OCL constraints](OCL2AC "wikilink")
 
-Integration with other tools
+**Integration with other tools**
 
 * Integration with [Xtext](Xtext-Adapter "wikilink")
 * Support for [massive parallel rule execution](Code-Generator-for-Giraph "wikilink") using Apache Giraph
 
-Resources
+**Resources**
 
 * [Official website](http://www.eclipse.org/modeling/emft/henshin)
 * [Installation instructions](Installation-instructions "wikilink")
