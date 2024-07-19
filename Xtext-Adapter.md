@@ -1,6 +1,6 @@
 **Henshin Xtext adapter** is a plugin that allows
 [Henshin](Home "wikilink") modules, rules, nodes etc to be referenced
-directly from any [Xtext](Xtext "wikilink")-based language.
+directly from any [Xtext](https://eclipse.dev/Xtext/)-based language.
 
 ### Intended use
 
@@ -58,13 +58,13 @@ can be correctly used in the context of an Xtext-generated editor.
     \"<platform:/resource/org.eclipse.emf.henshin.model/model/henshin.genmodel>\"</span>
     to the *StandardLanguage* block in your .mwe2 file.
 -   Add <span style="background:#dddddd">import
-    \"http://www.eclipse.org/emf/2011/Henshin\" as
+    \"http://www.eclipse.org/emf/2011/Henshin" as
     henshin</span> to your .xtext file.
 -   Use
     *\[henshin::Module\]*,
     *\[henshin::Rule\]*
     etc. in your grammar to reference [Henshin
-    meta-classes](Transformation_Meta-Model "wikilink").
+    meta-classes](Transformation-Meta-Model "wikilink").
 
 By default, links have no name in Henshin. To allow them to be
 referenced nonetheless, the plugins generate names following the grammar
