@@ -58,11 +58,6 @@ analysis features of Henshin.
     classical dining philosophers problem.
 2.  [Gossiping Girls](GossipingGirls "wikilink"):
     Solution of the gossiping girls problem in Henshin.
-3.  [Probabilistic
-    Broadcast](ProbabilisticBroadcast "wikilink"):
-    Example of a probabilistic graph transformation system for analyzing
-    message broadcasting in wireless sensor networks. This example is
-    taken from an ICGT\'12 paper.
 
 ### Giraph Code Generation
 
