@@ -1,4 +1,4 @@
-**Henshin** is an in-place model transformation language for the [Eclipse Modeling Framework](https://wiki.eclipse.org/Eclipse_Modeling_Framework) (EMF). It supports direct transformations of EMF model instances (endogenous transformations), as well as generating instances of a target language from given instances of a source language (exogenous transformations). Its main features are:
+**Henshin** is an in-place model transformation language for the [Eclipse Modeling Framework](https://eclipse.dev/modeling/emf/) (EMF). It supports direct transformations of EMF model instances (endogenous transformations), as well as generating instances of a target language from given instances of a source language (exogenous transformations). Its main features are:
 
 **Basic transformation definition and execution**
 
