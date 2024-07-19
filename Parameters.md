@@ -64,7 +64,7 @@ Pattern](GridAndCombPattern "wikilink") (*in*→*in*,
 ## Usage during definition
 
 Parameters can be created using the tree-based or the
-[graphical](Graphical_Editor "wikilink") editor. They can be
+[graphical](GraphicalEditor "wikilink") editor. They can be
 edited using the latter or the *Properties* view.
 
 Declared parameters are used inside the unit by referencing them by
@@ -159,7 +159,7 @@ the sequential unit to which the according units are sub-units. If you
 do not intend to use the value outside the unit, you should use the
 parameter kind *var*.
 
-[[/images/Henshin_Parameter_Usage_Example.png]]
+[[/images/Henshin_Parameters_Usage_Example.png]]
 
 In the example unit *getFatherCreateChild* the parameter *temp* stores
 the intermediate result mapped from *getNode*\'s *out* parameter. The
