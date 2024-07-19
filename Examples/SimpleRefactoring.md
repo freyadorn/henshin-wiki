@@ -74,10 +74,7 @@ observe the following:
 
 ### Applying the Critical Pair Analysis
 
-**As per release 1.6, the**
-**Critical Pair Analysis has been superseded by Henshin\'s new [Conflict and Dependency**
-**Analysis](Conflict-and-Dependency-Analysis "wikilink") - see the**
-**illustrations there.**
+**As per release 1.6, the Critical Pair Analysis has been superseded by Henshin\'s new [Conflict and Dependency Analysis](Conflict-and-Dependency-Analysis "wikilink") - see the illustrations there.**
 
 The CPA in Henshin can be used in two different ways: Its application
 programming interface (API) can be used to integrate the CPA into other
@@ -87,10 +84,7 @@ providing the CPA interactively.
 
 #### Execution using the CPA Wizard
 
-**As per release 1.6, the**
-**Critical Pair Analysis has been superseded by Henshin\'s new [Conflict and Dependency**
-**Analysis](Conflict-and-Dependency-Analysis "wikilink") - see the**
-**illustrations there.**
+**As per release 1.6, the Critical Pair Analysis has been superseded by Henshin\'s new [Conflict and Dependency Analysis](Conflict-and-Dependency-Analysis "wikilink") - see the illustrations there.**
 
 The CPA is called on a Henshin file in the Eclipse Package Explorer
 (Right click → Henshin → Calculate Critical Pairs).
