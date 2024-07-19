@@ -1,7 +1,7 @@
 [Henshin](Home "wikilink")\'s **Java2StateMachine** example is an
 exogenous transformation solving the Reengineering case of the
 [Transformation Tool Contest (TTC)
-2011](http://planet-research20.org/ttc2011/). This example primarily
+2011](https://www.transformation-tool-contest.eu/). This example primarily
 shows the use of transformation unit and parameter passing. Some of the
 details could be modeled differently and more efficiently using nested
 rules.
