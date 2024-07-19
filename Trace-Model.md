@@ -13,7 +13,7 @@ any EMF object. This is also the reason why we say that the trace model
 is generic. In addition to the source and target references, traces can
 be named and can contain subtraces.
 
-![Henshin Trace Model](Henshin-trace-model.png "Henshin Trace Model")
+[[/images/Henshin-trace-model.png]]
 
 ## Importing the Trace Model
 
@@ -24,7 +24,7 @@ menu entry *Import Packages\... -\> From Registry* in one of the Henshin
 editors and choose this URI:
 <http://www.eclipse.org/emf/2011/Henshin/Trace>.
 
-![Henshin Import Menu](Henshin-import-menu.png "Henshin Import Menu")
+[[/images/Henshin-import-menu.png]]
 
 ## Using the Trace Model
 
@@ -32,8 +32,7 @@ Suppose you want to translate EClasses to GenClasses and all their
 EAttributes to GenFeatures. Then you could use the following to
 transformation rules:
 
-![Henshin Trace Example
-Rules](Henshin-trace-example.png "Henshin Trace Example Rules")
+[[/images/Henshin-trace-example.png ]]
 
 Here, the trace element between EClass and GenClass is used to find out
 in which GenClass the new GenFeature should be contained in.
