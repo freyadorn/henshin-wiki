@@ -36,18 +36,18 @@ The following table shows the run time of the Henshin interpreter for
 different sizes of the sparse grid, where we used the same values for
 the width and the height.
 
-   Size     Nodes     Generation time 
-  -------- --------- -------------------
-  20       400       163ms
-  40       1.600     328ms
-  60       3.600     382ms
-  80       6.400     532ms
-  100      10.000    935ms
-  120      14.400    1.723ms
-  140      19.600    2.838ms
-  160      25.600    4.882ms
-  180      32.400    7.113ms
-  200      40.000    12.118ms
+| Size | Nodes  | Generation time |
+|------|--------|-----------------|
+| 20   | 400    | 163ms           |
+| 40   | 1.600  | 328ms           |
+| 60   | 3.600  | 382ms           |
+| 80   | 6.400  | 532ms           |
+| 100  | 10.000 | 935ms           |
+| 120  | 14.400 | 1.723ms         |
+| 140  | 19.600 | 2.838ms         |
+| 160  | 25.600 | 4.882ms         |
+| 180  | 32.400 | 7.113ms         |
+| 200  | 40.000 | 12.118ms        |
 
 ### Generation of a full grid
 
@@ -71,18 +71,18 @@ no node parameters are passed and negative application conditions are
 used to ensure that the correct position in the grid is used. This more
 involved matching process takes more time.
 
-   Size     Nodes     Generation time 
-  -------- --------- -------------------
-  10       100       54ms
-  20       400       208ms
-  30       900       217ms
-  40       1.600     437ms
-  50       2.500     877ms
-  60       3.600     1.561ms
-  70       4.900     2.615ms
-  80       6.400     4.162ms
-  90       8.100     6.278ms
-  100      10.000    9.238ms
+| Size | Nodes  | Generation time |
+|------|--------|-----------------|
+| 10   | 100    | 54ms            |
+| 20   | 400    | 208ms           |
+| 30   | 900    | 217ms           |
+| 40   | 1.600  | 437ms           |
+| 50   | 2.500  | 877ms           |
+| 60   | 3.600  | 1.561ms         |
+| 70   | 4.900  | 2.615ms         |
+| 80   | 6.400  | 4.162ms         |
+| 90   | 8.100  | 6.278ms         |
+| 100  | 10.000 | 9.238ms         |
 
 ### Generating and matching the comb pattern
 
@@ -104,33 +104,33 @@ sparse and the full grid.
 
 **Matching in the sparse grid (no matches)**
 
-   Grid size     Pattern width     Matching time 
-  ------------- ----------------- -----------------
-  200           20                49ms
-  200           40                49ms
-  200           60                52ms
-  200           80                53ms
-  200           100               55ms
-  200           120               58ms
-  200           140               60ms
-  200           160               65ms
-  200           180               68ms
-  200           200               71ms
+| Grid size | Pattern width | Matching time |
+|-----------|---------------|---------------|
+| 200       | 20            | 49ms          |
+| 200       | 40            | 49ms          |
+| 200       | 60            | 52ms          |
+| 200       | 80            | 53ms          |
+| 200       | 100           | 55ms          |
+| 200       | 120           | 58ms          |
+| 200       | 140           | 60ms          |
+| 200       | 160           | 65ms          |
+| 200       | 180           | 68ms          |
+| 200       | 200           | 71ms          |
 
 **Matching in the full grid**
 
-   Grid size     Pattern width     Matches     Matching time 
-  ------------- ----------------- ----------- -----------------
-  100           10                9.009       620ms
-  100           20                8.019       759ms
-  100           30                7.029       538ms
-  100           40                6.039       673ms
-  100           50                5.049       777ms
-  100           60                4.059       837ms
-  100           70                3.069       863ms
-  100           80                2.079       909ms
-  100           90                1.089       855ms
-  100           100               99          806ms
+| Grid size | Pattern width | Matches | Matching time |
+|-----------|---------------|---------|---------------|
+| 100       | 10            | 9.009   | 620ms         |
+| 100       | 20            | 8.019   | 759ms         |
+| 100       | 30            | 7.029   | 538ms         |
+| 100       | 40            | 6.039   | 673ms         |
+| 100       | 50            | 5.049   | 777ms         |
+| 100       | 60            | 4.059   | 837ms         |
+| 100       | 70            | 3.069   | 863ms         |
+| 100       | 80            | 2.079   | 909ms         |
+| 100       | 90            | 1.089   | 855ms         |
+| 100       | 100           | 99      | 806ms         |
 
 *contributed by Dmitry Zakharov and Christian Krause*
 
