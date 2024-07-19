@@ -10,7 +10,7 @@ Presence conditions are propositional formulas, based on the connectives
 `& | !` (e.g., `(A & B) | (C & !D)`). We also support the `xor`
 connective in a prefix notation (e.g, `xor(A,B,C)`). Since it\'s
 cumbersome to edit presence conditions by hand, we provide dedicated
-[editing support](#editorsupport "wikilink") to reduce that effort.
+[editing support](#integration-with-graphical-editor "wikilink") to reduce that effort.
 
 We also provide an extension of the
 [interpreter](Interpreter "wikilink") that can deal with such
@@ -22,7 +22,7 @@ them in *batch mode*).
 
 *This example is available as an Eclipse project with rules, an example
 model, and execution code:
-[henshin-refactoring-variants-example](https://wiki.eclipse.org/images/4/49/Henshin-refactoring-variants-example.zip)*
+[henshin-refactoring-variants-example](https://github.com/eclipse-henshin/henshin/wiki/files/henshin-refactoring-variants-example.zip)*
 
 Consider a family of three refactoring rules for refactoring a class
 diagram. The rules, shown below, express variants of the *move method*
@@ -135,11 +135,11 @@ match the current configuration).
 Applying a rule with variability is supported via an extension of the
 interpreter engine. A minimal self-contained usage example is available
 from the [example
-project](https://wiki.eclipse.org/images/4/49/Henshin-refactoring-variants-example.zip).
+project](https://github.com/eclipse-henshin/henshin/wiki/files/henshin-refactoring-variants-example.zip).
 Loading the relevant resources and setting up the components of the
 transformation (EGraph, Engine etc.) etc. works the same as for standard
 rules (see the [Interpreter API
-description](Interpreter#Interpreter_API "wikilink")).
+description](Interpreter#interpreter-api "wikilink")).
 
 Instead of using a standard *RuleApplicationImpl*, rules with
 variability are applied by using a class *VarRuleApplicationImpl*, which
