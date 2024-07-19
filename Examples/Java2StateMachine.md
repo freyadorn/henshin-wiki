@@ -29,11 +29,11 @@ correctness of the transformation was automatically checked by comparing
 the generated result with the reference model provided by the TTC
 organizers.
 
-   Input model               Number of objects     Transformation time 
-  ------------------------- --------------------- -----------------------
-  1-java-model-small.xmi    6.117                 1372ms
-  2-java-model-medium.xmi   6.400                 1418ms
-  3-java-model-big.xmi      737.102               1729ms
+| Input model             | Number of objects | Transformation time |
+|-------------------------|-------------------|---------------------|
+| 1-java-model-small.xmi  | 6.117             | 1372ms              |
+| 2-java-model-medium.xmi | 6.400             | 1418ms              |
+| 3-java-model-big.xmi    | 737.102           | 1729ms              |
 
 *contributed by Stefan Jurack, Johannes Tietje and Christian Krause*
 
