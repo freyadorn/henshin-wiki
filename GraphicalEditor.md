@@ -1,6 +1,6 @@
 The **graphical Henshin editor** allows to specify transformation rules
 and transformation units as defined by the [transformation
-meta-model](Transformation_Meta-Model "wikilink") in an
+meta-model](Transformation-Meta-Model "wikilink") in an
 intuitive and compact way. This article describes the basic usage of the
 graphical editor.
 
