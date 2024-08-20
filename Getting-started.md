@@ -35,9 +35,11 @@ editor](GraphicalEditor "wikilink") and the
 
 ## Metamodel and Instance Model
 
-[[/images/henshin-bank.png]] The metamodel is defined in the
+[[/images/henshin-bank.png]]
+
+The metamodel is defined in the
 file *bank.ecore*. We used the Ecore Tools to draw a diagram (depicted
-on the right). The diagram is stored in the file *bank.aird*.
+above). The diagram is stored in the file *bank.aird*.
 
 The class *Bank* serves as a root container for all other classes. Every
 bank owns a number of accounts, each with a unique ID and the current
@@ -48,8 +50,10 @@ of accounts in the bank. Note that the references between *Account* and
 for example not only possible to obtain all accounts of a given client,
 but also to find out to which client a given account belongs to.
 
-[[/images/henshin-example-bank.png]] An example
-instance model is depicted on the right using the Sample Reflective
+[[/images/henshin-example-bank.png]]
+
+An example
+instance model is depicted above using the Sample Reflective
 Ecore Model editor. It contains one manager, three clients and four
 accounts. Note that we did not generate code from the metamodel. Thus,
 we use dynamic EMF here, i.e. the instance model is typed over a dynamic
@@ -173,25 +177,24 @@ changes.
 
 [[/images/henshin-apply-create-account.png]]
 
-An application of the rule *createAccount(client)* is shown on the
-right. As parameters we specified *client=Alice* with type *String*, and
+An application of the rule *createAccount(client)* is shown above. As parameters we specified *client=Alice* with type *String*, and
 *accountId=5* with type *Int*. The preview window on the right shows the
 result of applying the rule with these parameters.
 
 [[/images/henshin-apply-transfer-money.png]]
 
-An application of the rule *transferMoney* is shown on the right. We
+An application of the rule *transferMoney* is shown above. We
 have specified the parameters *client*, *fromId*, *toid* and *amount*.
 The other parameters are automatically matched by the transformation
 engine. Note also that is important to specify the correct parameter
 types, because otherwise the rule cannot be matched. The preview window
-on the right shows the result of applying the rule with these
+above shows the result of applying the rule with these
 parameters.
 
 [[/images/henshin-apply-delete-all-accounts.png]]
 
 An application of the ruleThe rule *deleteAllAccounts(client)* is shown
-on the right. As parameter we specified *client=Charles* with type
+above. As parameter we specified *client=Charles* with type
 *String*. The preview window on the right shows the result of applying
 the rule with these parameters.
 
